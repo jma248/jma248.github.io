@@ -33,16 +33,6 @@ menuButton.addEventListener('click', () => {
   navigation.classList.toggle('is-collapsed', isOpen);
 });
 
-navigation.addEventListener('click', (event) => {
-  const link = event.target.closest('a');
-  if (!link || !mobileScreen.matches) return;
-  closeMenu();
-  // Put keyboard focus at the destination, outside the collapsed menu.
-  const section = document.querySelector(link.getAttribute('href'));
-  section.setAttribute('tabindex', '-1');
-  section.focus({ preventScroll: true });
-});
-
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && mobileScreen.matches && menuButton.getAttribute('aria-expanded') === 'true') {
     closeMenu();
@@ -69,3 +59,52 @@ if ('IntersectionObserver' in window) {
     revealObserver.observe(element);
   });
 }
+
+// Show one section at a time while keeping shareable URLs and browser history.
+const sections = Array.from(document.querySelectorAll('main > section'));
+const sectionLinks = document.querySelectorAll('a[href^="#"]');
+const originalTitle = document.title;
+
+function sectionFromHash() {
+  return sections.find((section) => '#' + section.id === window.location.hash) || sections[0];
+}
+
+function showSection(section, moveFocus = false) {
+  sections.forEach((item) => {
+    item.hidden = item !== section;
+  });
+  navigation.querySelectorAll('a').forEach((link) => {
+    if (link.getAttribute('href') === '#' + section.id) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+  const currentLink = navigation.querySelector('[aria-current="page"]');
+  document.title = section.id === 'home' ? originalTitle : currentLink.textContent.trim() + ' — Jana Abo Shoueeb';
+  if (mobileScreen.matches) closeMenu();
+  if (moveFocus) {
+    section.setAttribute('tabindex', '-1');
+    section.focus({ preventScroll: true });
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }
+}
+
+sectionLinks.forEach((link) => {
+  link.addEventListener('click', (event) => {
+    const section = sections.find((item) => '#' + item.id === link.getAttribute('href'));
+    // Keep skip links and modified clicks (such as open in new tab) native.
+    if (!section || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
+    event.preventDefault();
+    if (window.location.hash !== '#' + section.id) {
+      window.history.pushState(null, '', '#' + section.id);
+    }
+    showSection(section, true);
+  });
+});
+
+window.addEventListener('popstate', () => showSection(sectionFromHash(), true));
+window.addEventListener('hashchange', () => showSection(sectionFromHash(), true));
+document.body.classList.add('section-navigation');
+document.querySelector('.ticker').hidden = true;
+showSection(sectionFromHash());
