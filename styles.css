@@ -21,7 +21,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--blue); outline-
 [hidden] { display: none !important; }
 .section-shell, .site-header { padding-inline: max(6vw, calc((100vw - 1320px) / 2)); }
 .section-space { padding-block: 120px; }
-.section-label, .hero-topline, .hero-bottom, .timeline-label, .photo-caption, .art-label { font-size: 10px; line-height: 1.7; letter-spacing: 1.8px; }
+.section-label, .hero-topline, .hero-bottom, .timeline-label, .art-label { font-size: 10px; line-height: 1.7; letter-spacing: 1.8px; }
 .section-label { color: var(--blue); margin-bottom: 34px; }
 h1, h2, h3, p { margin-top: 0; }
 h2 { font: 400 clamp(48px, 5.5vw, 84px)/1.02 var(--serif); letter-spacing: -3px; margin-bottom: 32px; }
@@ -58,11 +58,11 @@ h1 em { display: block; font: 400 1.02em/.95 var(--script); color: var(--blue); 
 .button-blue { background: var(--blue); color: var(--black); }
 .button-blue:hover { background: var(--cream); }
 .button-outline { background: #0b0b0b80; border: 1px solid var(--mocha); }
-.hero-art { position: absolute; right: -7%; top: 50px; bottom: 75px; width: 58%; border-radius: 48% 48% 4px 4px; border: 1px solid var(--mocha); transform: rotate(5deg); overflow: hidden; background: var(--brown); }
-.hero-art img { width: 100%; height: 100%; object-fit: cover; object-position: 50% center; filter: brightness(.65) saturate(.65); transform: scale(1.08) rotate(-5deg); }
+.hero-art { position: absolute; right: -7%; top: 50px; bottom: 75px; width: 58%; border-radius: 48% 48% 4px 4px; border: 1px solid var(--mocha); transform: rotate(5deg); overflow: hidden; background: radial-gradient(ellipse at 80% 20%, #8A695255, transparent 60%), var(--brown); }
+/* Nested arches replace the photograph with a lightweight CSS motif. */
+.hero-art:before { content: ''; position: absolute; inset: 35px; border: 1px solid var(--line); border-radius: inherit; box-shadow: inset 0 0 0 30px #0b0b0b20; }
 .hero-art:after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, #0b0b0bc0, transparent 50%); pointer-events: none; }
 .tiny-spark { position: absolute; top: 14%; right: 16%; font-size: 60px; color: var(--blue); z-index: 1; }
-.photo-caption { position: absolute; left: 32px; bottom: 30px; z-index: 1; font-size: 8px; }
 .art-label { position: absolute; bottom: 100px; right: 30px; z-index: 1; text-align: right; }
 .hero-bottom { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); padding-block: 22px; }
 .hero-bottom a { padding: 6px 0; }
@@ -198,9 +198,7 @@ h1 em { display: block; font: 400 1.02em/.95 var(--script); color: var(--blue); 
   .hero-actions { gap: 10px; }
   .button { padding: 15px 19px; gap: 20px; }
   .hero-art { position: relative; top: auto; bottom: auto; right: auto; width: 90%; height: 350px; margin: 50px 0 30px 7%; transform: rotate(3deg); }
-  .hero-art img { transform: scale(1.08) rotate(-3deg); }
   .tiny-spark { font-size: 42px; }
-  .photo-caption { font-size: 7px; left: 20px; bottom: 20px; }
   .hero-bottom { font-size: 7px; gap: 20px; }
   .hero-bottom > span { max-width: 125px; }
   .hero-bottom a span { margin-left: 8px; }
