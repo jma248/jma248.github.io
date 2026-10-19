@@ -269,3 +269,101 @@ h1 em { display: block; font: 400 1.02em/.95 var(--script); color: var(--gold); 
 }
 
 .hero #hero-title { color: var(--gold); }
+
+/* Luxury editorial finish: warm paper, espresso, and restrained gold. */
+:root {
+  --dark: #261C18;
+  --brown: #463329;
+  --gold: #D9B76F;
+  --cream: #F6EBDD;
+  --serif: 'Bodoni 72', Didot, 'Times New Roman', serif;
+}
+body { background: var(--dark); }
+.section-shell, .site-header { padding-inline: max(7vw, calc((100vw - 1280px) / 2)); }
+.site-header { min-height: 104px; padding-block: 28px; border-bottom: 1px solid var(--line); }
+.wordmark { font: 400 34px/1 var(--serif); letter-spacing: 2px; }
+.wordmark span { margin: 0 5px; font-size: 27px; }
+nav { gap: 32px; }
+nav a { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+nav a:hover, nav a[aria-current] { color: var(--gold); }
+nav a:after { height: 1px; bottom: 3px; }
+.nav-contact { padding: 12px 0; margin-left: 14px; }
+.hero { background: var(--dark); }
+.hero #hero-title { font-size: clamp(52px, 7.7vw, 116px); font-weight: 400; line-height: 1.15; letter-spacing: -.035em; color: var(--cream); text-wrap: balance; }
+.hero #hero-title:after { content: ''; display: block; width: 54px; height: 1px; background: var(--gold); margin: 34px auto 0; }
+.section-space { padding-block: 110px; }
+.section-label { font-size: 9px; letter-spacing: 2.6px; margin-bottom: 40px; }
+h2 { font-weight: 400; line-height: 1.08; letter-spacing: -2px; }
+h2 em { font-family: var(--serif); font-style: italic; font-size: 1em; line-height: inherit; }
+p { line-height: 2; }
+.about, .projects {
+  --gold: #7C5A23;
+  --muted: #685245;
+  --line: rgba(70,51,41,.22);
+  background: var(--cream);
+  color: var(--brown);
+}
+.about:before { display: none; }
+.about-grid { gap: 11%; }
+.about-note { border: 1px solid #9b786066; background: #ede0cf; border-radius: 0; min-height: 440px; }
+.about-note:after { border-radius: 0; border-color: #9b786044; inset: 18px; }
+.note-index { color: #46332916; }
+.note-star { font-size: 48px; }
+.about-note p { font-size: 33px; }
+.about-note em { font: italic 1em var(--serif); }
+.about-note > span:last-child { font-size: 8px; letter-spacing: 1.8px; }
+.text-link { font-size: 10px; letter-spacing: 1.3px; padding-bottom: 15px; }
+.section-heading { margin-bottom: 55px; }
+.skill-card { padding-block: 38px; }
+.skill-card h3 { font-weight: 400; }
+.skill-icon { font-size: 30px; }
+.tags span { border-radius: 0; letter-spacing: .5px; padding: 6px 9px; }
+.project-grid { gap: 6%; }
+.project-visual { border-radius: 0; border-color: #9b786066; }
+.visual-gold { background: #deca9f; }
+.visual-mocha { background: var(--brown); color: var(--cream); --gold: #D9B76F; --line: rgba(246,235,221,.25); border-radius: 0; }
+.project-status { border-radius: 0; font-size: 7px; letter-spacing: 1.6px; padding: 8px 12px; }
+.project-caption { padding-top: 23px; }
+.project-caption h3 { font-size: 28px; }
+.browser-art { border-radius: 0; box-shadow: 12px 15px 0 #46332915; }
+.browser-content em { font-family: var(--serif); font-style: italic; }
+.data-art span { border-radius: 0; }
+.data-art i { font: italic 23px var(--serif); }
+.timeline-label { font-size: 8px; letter-spacing: 2px; }
+.timeline-item { padding-bottom: 50px; }
+.timeline-item:before { width: 5px; height: 5px; left: -3px; top: 7px; border-radius: 0; }
+.contact { background: var(--brown); padding-block: 85px; border-top: 1px solid var(--line); }
+.contact .handwritten { font: italic 24px/1.5 var(--serif); }
+.contact h2 { font-size: clamp(65px, 9vw, 130px); letter-spacing: -4px; }
+.contact h2 em { margin-left: 0; }
+.contact-spark { display: none; }
+.contact-placeholder { border-radius: 0; padding: 18px 22px; font-size: 11px; letter-spacing: .8px; }
+.contact .contact-hint { letter-spacing: .5px; }
+.site-footer { padding-block: 27px; border-top: 1px solid var(--line); }
+.site-footer > span { font-size: 9px; letter-spacing: .8px; }
+.site-footer > a:last-child { font-size: 8px; letter-spacing: 1.8px; }
+.menu-toggle { border-radius: 0; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; }
+@media (max-width: 1000px) {
+  nav { gap: 20px; }
+  nav a { font-size: 9px; letter-spacing: 1px; }
+  .nav-contact { margin-left: 0; }
+  .section-space { padding-block: 85px; }
+}
+@media (max-width: 650px) {
+  .site-header { min-height: 88px; padding-block: 22px; }
+  nav { gap: 5px 24px; padding-top: 22px; }
+  nav a { font-size: 10px; }
+  .hero #hero-title { font-size: clamp(48px, 12vw, 76px); line-height: 1.15; letter-spacing: -.025em; }
+  .hero #hero-title:after { margin-top: 28px; width: 40px; }
+  .section-space { padding-block: 60px; }
+  .section-label { font-size: 8px; letter-spacing: 2px; margin-bottom: 28px; }
+  h2 { font-size: clamp(40px, 10vw, 58px); letter-spacing: -1.5px; }
+  .about-note { min-height: 380px; }
+  .section-heading { margin-bottom: 35px; }
+  .skill-card { padding-block: 28px; }
+  .skill-icon { font-size: 24px; }
+  .project-grid { gap: 40px; }
+  .contact { padding-block: 60px; }
+  .contact .handwritten { font-size: 21px; }
+  .contact h2 { font-size: clamp(52px, 12vw, 78px); letter-spacing: -2px; }
+}
