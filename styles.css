@@ -367,3 +367,62 @@ p { line-height: 2; }
   .contact .handwritten { font-size: 21px; }
   .contact h2 { font-size: clamp(52px, 12vw, 78px); letter-spacing: -2px; }
 }
+
+/* Reference-inspired colors; the existing template and typography stay intact. */
+:root {
+  color-scheme: dark;
+  --surface: #0B0B0B;
+  --surface-alt: #17130F;
+  --surface-note: #241C16;
+  --text: #F2E6DB;
+  --gold: #B9D9FF;
+  --muted: #CBB9AC;
+  --line: rgba(173,137,102,.48);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --surface: #F2E6DB;
+  --surface-alt: #E8D8C8;
+  --surface-note: #DECCB9;
+  --text: #3B281D;
+  --gold: #315D80;
+  --muted: #685245;
+  --line: rgba(112,80,51,.35);
+}
+body { color: var(--text); background: var(--surface); }
+.hero, .skills, .experience, .site-header, .site-footer { background: var(--surface); }
+.about, .projects, .contact {
+  --gold: inherit;
+  --muted: inherit;
+  --line: inherit;
+  color: var(--text);
+  background: var(--surface-alt);
+}
+.hero #hero-title { color: var(--text); }
+.about-note { background: var(--surface-note); border-color: var(--line); }
+.about-note:after, .project-visual { border-color: var(--line); }
+.note-index { color: var(--text); opacity: .09; }
+.menu-toggle, .button-outline { color: var(--text); background: transparent; border-color: var(--line); }
+.hero-description strong { color: var(--text); }
+.header-controls { display: flex; align-items: center; gap: 10px; order: 3; }
+.theme-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 10px 14px; color: var(--text); background: transparent; border: 1px solid var(--line); font-size: 10px; letter-spacing: 1px; cursor: pointer; }
+.theme-toggle > span:first-child { color: var(--gold); font-size: 18px; }
+.theme-toggle:hover { background: var(--surface-alt); }
+.site-header { gap: 20px; }
+/* Project illustrations retain their own readable, intentional palettes. */
+.visual-gold { color: #463329; }
+.visual-mocha { --gold: #D9B76F; --line: rgba(246,235,221,.25); color: #F6EBDD; background: #463329; }
+.browser-art { color: #463329; }
+.visual-mocha { --gold: #B9D9FF; }
+@media (min-width: 651px) and (max-width: 1100px) {
+  .site-header { gap: 14px; }
+  nav { gap: 14px; }
+  nav a { font-size: 9px; letter-spacing: .5px; }
+  .nav-contact span { margin-left: 5px; }
+  .theme-toggle { padding-inline: 10px; }
+}
+@media (max-width: 650px) {
+  .header-controls { order: 0; margin-left: auto; }
+  #navigation { order: 2; }
+  .theme-toggle { font-size: 9px; padding-inline: 10px; }
+}
