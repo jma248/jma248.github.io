@@ -14,6 +14,54 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 /* A simple home page, with the name centered in the available space. */
+.about-subheading { font-size: 25px; margin: 25px 0 12px; }
+.about { padding-top: 60px; }
+.about .about-grid { grid-template-columns: 1.1fr .9fr; gap: 9%; align-items: center; }
+.about .about-copy { max-width: 530px; }
+.about .about-copy h2 { margin-bottom: 35px; }
+.about .about-copy > p:not(.eyebrow) { font-size: 14px; line-height: 2; }
+.about .about-copy .button { margin-top: 12px; }
+.about-origin {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 35px;
+  border: 1px solid var(--line);
+  border-radius: 120px 120px 16px 16px;
+  background: var(--surface-alt);
+  text-align: center;
+}
+.about-origin::before { content: ''; position: absolute; inset: 0; z-index: -1; background: url('assets/burgundy-lilies.jpg') 70% center / cover; opacity: .08; }
+.about-origin > .eyebrow { margin-top: 24px; }
+.origin-award { display: block; font: 400 110px/.95 var(--serif); color: var(--accent); margin: 25px 0; }
+.origin-award > span { font: italic 35px var(--serif); vertical-align: super; margin-left: 3px; }
+.about-origin h3 { font-size: 39px; line-height: 1.05; margin-bottom: 20px; }
+.about-origin h3 em { color: var(--accent); font-weight: 400; }
+.about-origin > p:not(.eyebrow) { font-size: 12px; color: var(--muted); max-width: 250px; margin-inline: auto; }
+.origin-path { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; padding-top: 20px; margin-top: 22px; border-top: 1px solid var(--line); font-size: 9px; color: var(--muted); line-height: 1.8; }
+.about > .about-education { display: grid; grid-template-columns: 1fr 1fr; gap: 35px; align-items: center; padding: 32px 0; margin-top: 50px; border-block: 1px solid var(--line); }
+.about-education h3 { font-size: 32px; margin: 10px 0 0; }
+.about-education .eyebrow { margin-bottom: 12px; }
+.education-label { font-size: 9px; letter-spacing: 1.8px; color: var(--accent); margin-bottom: 10px; }
+.education-major { font: 400 27px/1.2 var(--serif); margin-bottom: 12px; }
+.about-education .education-detail { font-size: 12px; color: var(--muted); margin-bottom: 0; }
+.about .section-rule { border: 0; margin-top: 32px; padding-top: 0; }
+.about .interest-grid article { text-align: left; padding: 25px; background: transparent; }
+.about .interest-grid article > span { font-size: 24px; margin-bottom: 25px; color: var(--accent); }
+.about .interest-grid h4 { font: 400 24px/1.2 var(--serif); }
+.about .interest-grid article p { max-width: none; }
+@media (max-width: 650px) {
+  .about { padding-top: 40px; }
+  .about .about-grid { grid-template-columns: 1fr; gap: 35px; }
+  .about-origin { padding: 30px 24px; border-radius: 100px 100px 16px 16px; }
+  .about > .about-education { grid-template-columns: 1fr; gap: 24px; margin-top: 35px; }
+  .about .interest-grid article { padding: 20px 16px; }
+  .about .interest-grid h4 { font-size: 22px; }
+}
+.about-education { border-top: 1px solid var(--line); padding-top: 4px; margin-top: 24px; }
+.about-copy .education-school { color: var(--text); margin-bottom: 4px; }
+.about-education p:last-child { font-size: 12px; }
+.interest-grid article p { font-size: 11px; color: var(--muted); line-height: 1.8; margin: 12px auto 0; max-width: 220px; }
 .monogram {
   position: relative;
   display: block;
@@ -108,6 +156,7 @@
 .home-intro { position: relative; text-align: center; }
 .home-disciplines { margin: 28px 0 20px; font-size: 9px; letter-spacing: 3px; color: var(--accent); }
 .home-disciplines span { margin-inline: 8px; }
+.home-bio { max-width: 480px; margin: 0 auto 18px; font-size: 13px; line-height: 1.9; color: #f3e7d7; text-wrap: pretty; text-shadow: 0 2px 18px #120307; }
 .home-work-link { display: inline-flex; align-items: center; gap: 24px; min-height: 44px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 11px; letter-spacing: 1px; color: var(--text); }
 .home-work-link span { transition: transform .2s; }
 .home-work-link:hover span { transform: translate(3px,-3px); }
