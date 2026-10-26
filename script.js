@@ -46,6 +46,17 @@ document.querySelector('#year').textContent = new Date().getFullYear();
 
 // Animate each section once as it enters view. Nothing is hidden beforehand.
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const homeMotionButton = document.querySelector('.home-motion-toggle');
+if (homeMotionButton) {
+  const syncMotionControl = () => { homeMotionButton.hidden = reducedMotion.matches; };
+  syncMotionControl();
+  reducedMotion.addEventListener('change', syncMotionControl);
+  homeMotionButton.addEventListener('click', () => {
+    const paused = document.querySelector('#home').classList.toggle('home-motion-paused');
+    homeMotionButton.setAttribute('aria-pressed', String(paused));
+    homeMotionButton.textContent = paused ? 'Resume motion' : 'Pause motion';
+  });
+}
 if ('IntersectionObserver' in window) {
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -106,5 +117,21 @@ sectionLinks.forEach((link) => {
 window.addEventListener('popstate', () => showSection(sectionFromHash(), true));
 window.addEventListener('hashchange', () => showSection(sectionFromHash(), true));
 document.body.classList.add('section-navigation');
-document.querySelector('.ticker').hidden = true;
 showSection(sectionFromHash());
+
+// Filter the illustrative project placeholders without changing page navigation.
+const projectCards = Array.from(document.querySelectorAll('.project-card[data-category]'));
+document.querySelectorAll('[data-filter]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach((item) => {
+      item.setAttribute('aria-pressed', String(item === button));
+    });
+    let count = 0;
+    projectCards.forEach((card) => {
+      card.hidden = filter !== 'all' && card.dataset.category !== filter;
+      if (!card.hidden) count += 1;
+    });
+    document.querySelector('#project-count').textContent = count + ' project placeholder' + (count === 1 ? '' : 's') + ' shown';
+  });
+});

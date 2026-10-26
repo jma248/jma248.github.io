@@ -1,7 +1,6 @@
 // Apply before the stylesheet loads to prevent a flash of the wrong theme.
 (() => {
   const key = 'jana-theme';
-  const system = window.matchMedia('(prefers-color-scheme: dark)');
   const valid = value => value === 'light' || value === 'dark';
   let preference = null;
   try {
@@ -10,10 +9,10 @@
   } catch (_) { /* Themes still work when browser storage is unavailable. */ }
 
   function apply() {
-    const theme = preference || (system.matches ? 'dark' : 'light');
+    const theme = preference || 'dark';
     document.documentElement.dataset.theme = theme;
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = theme === 'dark' ? '#0B0B0B' : '#F2E6DB';
+    if (meta) meta.content = theme === 'dark' ? '#35060F' : '#F3E7D7';
     const button = document.querySelector('.theme-toggle');
     if (button) {
       button.hidden = false;
@@ -32,7 +31,6 @@
       apply();
     });
   });
-  system.addEventListener('change', () => { if (!preference) apply(); });
   window.addEventListener('storage', event => {
     if (event.key === key || event.key === null) {
       preference = valid(event.newValue) ? event.newValue : null;
