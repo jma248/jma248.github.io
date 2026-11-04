@@ -58,6 +58,38 @@
   .about .interest-grid article { padding: 20px 16px; }
   .about .interest-grid h4 { font-size: 22px; }
 }
+.curiosity { margin-top: 36px; padding: 28px 32px 22px; border: 1px solid #e4cfb83d; border-radius: 18px; background: radial-gradient(ellipse at 50% 58%, #581326, #35060f 75%); color: #f5ddc9; overflow: hidden; }
+.curiosity-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.curiosity .eyebrow { color: #d8b5a6; margin-bottom: 10px; font-size: 9px; }
+.curiosity h3 { font: 400 clamp(27px, 3vw, 38px)/1.15 var(--serif); margin: 0; }
+.curiosity h3 em { font-weight: 400; }
+.eye-stage { display: block; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; cursor: crosshair; border-radius: 12px; }
+.eye-stage canvas { display: block; width: 100%; height: auto; aspect-ratio: 1100 / 430; }
+.eye-stage:focus-visible, .eye-pause:focus-visible { outline: 2px solid #f5ddc9; outline-offset: 5px; }
+.eye-pause { flex-shrink: 0; min-height: 44px; padding: 10px 15px; border: 1px solid #e4cfb855; border-radius: 24px; background: transparent; color: #f5ddc9; font: inherit; font-size: 10px; cursor: pointer; }
+.eye-pause:hover { background: #f5ddc912; }
+.eye-hint { margin: 0; text-align: center; font-size: 10px; line-height: 1.8; color: #d8b5a6; }
+.eye-hint span { display: inline-block; margin-left: 8px; }
+@media (max-width: 650px) { .curiosity { padding: 22px 12px 18px; } .curiosity-heading { padding-inline: 8px; gap: 10px; } .eye-hint { padding-inline: 8px; } .eye-hint span { display: block; margin-left: 0; } }
+.create-collection { margin-top: 20px; }
+.create-scene { position: relative; display: grid; place-items: center; min-height: 300px; overflow: hidden; border: 1px solid var(--frame); border-radius: 18px; background: radial-gradient(ellipse at center, #4f1022, #26060e 75%); cursor: pointer; list-style: none; color: #f1d8c5; }
+.create-scene::-webkit-details-marker { display: none; }
+.create-scene:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.create-hands { position: absolute; width: 100%; height: auto; left: 0; top: 50%; transform: translateY(-50%); pointer-events: none; }
+.hands-motion-control { display: flex; justify-content: flex-end; align-items: center; gap: 8px; min-height: 44px; font-size: 11px; color: var(--muted); cursor: pointer; }
+.hands-pause { accent-color: var(--accent); width: 16px; height: 16px; }
+.create-folder { position: relative; display: flex; flex-direction: column; align-items: center; gap: 12px; padding-top: 20px; }
+.folder-icon { position: relative; display: block; width: 82px; height: 58px; border-radius: 5px 8px 8px 8px; background: #8e334e; border: 1px solid #d291a0; box-shadow: 0 12px 30px #11010866; }
+.folder-icon::before { content: ''; position: absolute; width: 35px; height: 11px; top: -9px; left: -1px; border: 1px solid #d291a0; border-bottom: 0; border-radius: 5px 12px 0 0; background: #8e334e; }
+.folder-icon::after { content: ''; position: absolute; inset: 7px -1px -1px; border: 1px solid #e4a2b0; border-radius: 5px 7px 8px 8px; background: linear-gradient(145deg, #bd6b80, #8b324d); transform-origin: bottom; transition: transform .3s; }
+.create-scene:hover .folder-icon::after, .create-collection[open] .folder-icon::after { transform: skewX(-7deg) scaleY(.88); }
+.folder-name { font: 600 15px/1.2 Manrope, sans-serif; letter-spacing: 1px; }
+.folder-action { font-size: 9px; letter-spacing: .5px; color: #d9b5aa; }
+.create-collection[open] .folder-action { font-size: 0; }
+.create-collection[open] .folder-action::after { content: 'Close collection ↗'; font-size: 9px; }
+.create-caption { text-align: center; margin: 15px 0 28px; font: italic 21px/1.4 var(--serif); color: var(--muted); }
+.collection-content { padding-top: 8px; }
+@media (max-width: 650px) { .create-scene { min-height: 225px; } .create-hands { width: 145%; max-width: none; left: -22.5%; } .folder-icon { width: 62px; height: 45px; } .create-caption { font-size: 18px; } }
 .about-education { border-top: 1px solid var(--line); padding-top: 4px; margin-top: 24px; }
 .about-copy .education-school { color: var(--text); margin-bottom: 4px; }
 .about-education p:last-child { font-size: 12px; }
