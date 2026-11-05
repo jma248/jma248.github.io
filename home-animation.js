@@ -78,6 +78,21 @@
       const alpha=.12+random(i+14000)*.35;
       ctx.fillStyle=`rgba(237,205,188,${alpha})`;ctx.beginPath();ctx.arc(x,y,random(i+15000)>.94?1.5:.65,0,Math.PI*2);ctx.fill();
     }
+    // Scattered code stays behind after the vortex becomes solid lettering.
+    const marks=['{ }','</>','01','=>','[ ]','++',';','&&','!=','()','*','let'];
+    const markFade=.25+.75*ease((t-4.8)/2.3);
+    ctx.textAlign='center';ctx.textBaseline='middle';
+    for(let i=0;i<(width<650?60:125);i++) {
+      let x=random(i+21000)*width,y=random(i+24000)*height;
+      if(!reduce.matches){x+=Math.sin(t*.11+i)*9;y+=Math.cos(t*.13+i)*7;}
+      if(pointer.active&&animate){x+=(pointer.x-cx)*.014;y+=(pointer.y-cy)*.014;}
+      // Keep a quieter pocket around the name, description, and primary link.
+      const central=Math.hypot((x-cx)/(width*.34),(y-height*.5)/(height*.34))<1;
+      const alpha=(central?.16:.38+random(i+27000)*.22)*markFade;
+      ctx.font=`${9+random(i+28000)*5}px "Courier New",monospace`;
+      ctx.fillStyle=`rgba(225,174,187,${alpha})`;
+      ctx.fillText(marks[i%marks.length],x,y);
+    }
     // Crossfade the two versions of the name together, with no position change.
     const particleFade=1-reveal;
     ctx.textAlign='center';ctx.textBaseline='middle';
