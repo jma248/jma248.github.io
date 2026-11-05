@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#35060F"><title>Jana Abo Shoueeb — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Italianno&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=e9445349b4bc"><script src="script.js?v=321c54e9942a" defer></script>
+  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=b97cd0a3d6d3"><script src="script.js?v=321c54e9942a" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -28,10 +28,9 @@
   <button class="home-motion-toggle" type="button" aria-pressed="false" hidden>Pause motion</button>
   <button class="home-skip" type="button" hidden>Skip intro ↗</button>
 </section>
-<section class="page-section about about-comparison" id="about" aria-labelledby="about-title">
-  <div class="about-preview-toolbar"><p>ABOUT / TRY TWO DIRECTIONS</p><div role="group" aria-label="Choose an About layout to preview"><button type="button" data-about-choice="1" aria-pressed="true" aria-controls="about-option-1 about-option-2">01 · Minimal</button><button type="button" data-about-choice="2" aria-pressed="false" aria-controls="about-option-1 about-option-2">02 · Visual collage</button></div></div>
+<section class="page-section about about-simple" id="about" aria-labelledby="about-title">
   <p class="eyebrow">01 / A CREATIVE PERSPECTIVE</p><h2 id="about-title">About <em>Me.</em></h2>
-  <div id="about-option-1" class="about-option about-minimal">
+  <div class="about-minimal">
     <div class="about-minimal-intro"><h3>Design catches my eye.<br><em>Computers keep me curious.</em></h3><p>I love design and computers. I’m learning to bring them together through graphics, code, and interactive projects.</p><a class="about-simple-link" href="#projects">See what I’m creating <span aria-hidden="true">↗</span></a></div>
   <aside class="curiosity" aria-labelledby="curiosity-title">
     <div class="curiosity-heading"><div><p class="eyebrow">A LITTLE CURIOSITY</p><h3 id="curiosity-title">Always looking <em>closer.</em></h3></div><button class="eye-pause" type="button" aria-pressed="false" hidden>Pause eye</button></div>
@@ -41,23 +40,6 @@
     <p class="eye-hint">A curious eye, made of characters. <span>Move around. Click to blink.</span></p>
   </aside>
 
-  </div>
-  <div id="about-option-2" class="about-option about-collage-preview" hidden>
-    <div class="about-collage-intro"><h3>A little design.<br><em>A little code.</em></h3><p>I like making things that look interesting—and figuring out how they work.</p></div>
-    <div class="creative-board">
-      <figure class="board-poster"><img src="assets/canva-donut-poster.jpeg" alt="My cream and chocolate donut poster created in Canva" width="1170" height="1444" loading="lazy"><figcaption>01 / DESIGN IN CANVA</figcaption></figure>
-      <div class="board-code"><p class="board-caption">02 / THINKING IN CODE</p><pre><code><span>const</span> creative = {
-  curiosity: <em>true</em>,
-  tools: [
-    'design',
-    'code',
-    'imagination'
-  ]
-};</code></pre><span class="board-code-mark" aria-hidden="true">&lt;/&gt;</span></div>
-      <div class="board-type"><span class="board-caption">03 / ALWAYS EXPLORING</span><p>Imagine.<br>Make.<br><em>Repeat.</em></p><div class="board-colors" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
-      <a class="board-project-link" href="#projects">A collection<br>of things I’m<br><em>creating.</em><span aria-hidden="true">↗</span></a>
-    </div>
-<div class="botanical-scene"><canvas class="botanical-art" aria-hidden="true"></canvas><label class="botanical-pause"><input type="checkbox"> Pause animation</label></div>
   </div>
 </section>
 <section class="page-section skills" id="skills" aria-labelledby="skills-title">
@@ -69,7 +51,7 @@
     <article class="skill-card"><span class="skill-icon" aria-hidden="true">⌁</span><div><h3>Robotics &amp; simulation</h3><p>Exploring robotic workspaces and pick-and-place tasks through Viam 101 personal training.</p><div class="tags"><span>Viam</span><span>Palletizer simulation</span></div></div></article>
     <article class="skill-card"><span class="skill-icon" aria-hidden="true">✧</span><div><h3>Visual design &amp; CAD</h3><p>Creating layouts and graphics in Canva, and exploring 3D design with Onshape.</p><div class="tags"><span>Canva</span><span>Typography</span><span>Onshape</span></div></div></article>
   </div>
-<div class="botanical-scene"><canvas class="botanical-art" aria-hidden="true"></canvas><label class="botanical-pause"><input type="checkbox"> Pause animation</label></div>
+<div class="computer-scene"><canvas class="computer-art" aria-hidden="true"></canvas><label class="computer-pause"><input type="checkbox"> Pause animation</label></div>
 </section>
 <section class="page-section projects" id="projects" aria-labelledby="projects-title"><p class="eyebrow">03 / IDEAS INTO THINGS</p><div class="section-heading"><h2 id="projects-title">Projects <span aria-hidden="true">✦</span></h2><p>Experiments in robotics, software, and design.<br>A look at what I’m learning and building.</p></div><label class="hands-motion-control"><input class="hands-pause" type="checkbox"> Pause hands</label>
 <details class="create-collection">
@@ -158,13 +140,13 @@ function createTogether() {
     <a class="connection-node" href="https://www.linkedin.com/in/jana-shoueeb/" target="_blank" rel="noopener" aria-label="Visit Jana’s LinkedIn"><circle cx="215" cy="400" r="34"/><text x="215" y="408" font-size="25">in</text><text class="node-label" x="215" y="454">LINKEDIN</text></a>
   </svg>
   <label class="contact-motion-control"><input type="checkbox"> Pause animation</label>
-</aside></div></section>
+</aside></div><aside class="earth-scene" aria-label="Animated ASCII Earth"><canvas class="earth-canvas" role="img" aria-label="A slowly rotating Earth made from code characters"></canvas><button class="earth-pause" type="button" data-earth="pause" aria-pressed="false">Pause Earth</button></aside></section>
 </main>
 <canvas id="flying-butterflies" aria-hidden="true"></canvas>
 <footer class="site-footer"><span>© <span id="year">2026</span> Jana Abo Shoueeb</span><button type="button" class="butterfly-toggle" aria-pressed="false" hidden>Pause butterflies</button><a href="#home">BACK TO HOME ↗</a></footer>
 <script src="eye.js?v=d7a7c8437ae5" defer></script>
 <script src="hands.js?v=8d89990138eb" defer></script>
-<script src="home-animation.js?v=3ea89c5496e0" defer></script>
+<script src="home-animation.js?v=c21fe56798d7" defer></script>
 <dialog class="project-demo" id="palletizer-demo" aria-labelledby="demo-title" aria-describedby="demo-note">
   <div class="demo-heading"><div><p class="eyebrow">VIAM 101 / PALLETIZER</p><h2 id="demo-title">Pick. Lift. <em>Place.</em></h2></div><button class="demo-close" type="button" aria-label="Close demo">✕</button></div>
   <p id="demo-note">Illustrated workflow based on my training project. This is an animation, not a recording from Viam.</p>
@@ -187,7 +169,7 @@ function createTogether() {
 </dialog>
 <script src="project-demo.js?v=5f137d10d88c" defer></script>
 <script src="journey.js?v=9c84a4b22f50" defer></script>
-<script src="about-preview.js?v=4cc49033ad86" defer></script>
-<script src="botanical-ascii.js?v=54689ffd1bcd" defer></script>
+<script src="computer-ascii.js?v=47075a765df4" defer></script>
 <script src="flying-butterflies.js?v=231280bca63b" defer></script>
+<script src="ascii-earth.js?v=e9066014cb2f" defer></script>
 </body></html>
