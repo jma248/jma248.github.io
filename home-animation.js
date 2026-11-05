@@ -25,7 +25,6 @@
     const mask=document.createElement('canvas');mask.width=Math.ceil(width);mask.height=Math.ceil(height);
     const ink=mask.getContext('2d');if(!ink)return;
     ink.fillStyle='#fff';ink.textBaseline='middle';
-    const introShift=(1-Number(home.style.getPropertyValue('--name-reveal')||0))*14;
     // Sample the same size, position, and letter spacing as the visible HTML title.
     for(const line of home.querySelectorAll('.hero-name > span, .hero-name > em')) {
       const box=line.getBoundingClientRect(),style=getComputedStyle(line);
@@ -35,7 +34,7 @@
       const spacing=parseFloat(style.letterSpacing)||0;
       const lengths=[...text].map(character=>ink.measureText(character).width);
       let x=box.left-bounds.left+(box.width-lengths.reduce((a,b)=>a+b,0)-spacing*(text.length-1))/2;
-      const y=box.top-bounds.top+box.height/2-fontSize*.035-introShift;
+      const y=box.top-bounds.top+box.height/2-fontSize*.035;
       [...text].forEach((character,i)=>{ink.fillText(character,x,y);x+=lengths[i]+spacing;});
     }
     const image=ink.getImageData(0,0,mask.width,mask.height);
@@ -59,11 +58,13 @@
     if(animate&&now-lastDraw<32){frame=requestAnimationFrame(draw);return;}
     lastDraw=now;
     const t=reduce.matches?10:elapsed/1000;
-    const revealStart=6.2;
-    const reveal=ease((t-revealStart)/1.5);
+    const revealStart=6.5;
+    const reveal=ease((t-revealStart)/2.5);
     home.style.setProperty('--name-reveal',reveal.toFixed(3));
-    intro.style.pointerEvents=reveal>.8?'auto':'none';
-    skip.hidden=false;skip.textContent=t>revealStart+1.6?'Replay intro ↻':'Skip intro ↗';
+    const details=ease((t-7.2)/2);
+    home.style.setProperty('--detail-reveal',details.toFixed(3));
+    intro.style.pointerEvents=details>.8?'auto':'none';
+    skip.hidden=false;skip.textContent=t>9.2?'Replay intro ↻':'Skip intro ↗';
     ctx.clearRect(0,0,width,height);
     const cx=width/2,cy=height*.44;
     const aura=ctx.createRadialGradient(cx,cy,0,cx,cy,Math.max(width,height)*.65);
@@ -77,7 +78,8 @@
       const alpha=.12+random(i+14000)*.35;
       ctx.fillStyle=`rgba(237,205,188,${alpha})`;ctx.beginPath();ctx.arc(x,y,random(i+15000)>.94?1.5:.65,0,Math.PI*2);ctx.fill();
     }
-    const particleFade=1-ease((t-7.1)/2);
+    // Crossfade the two versions of the name together, with no position change.
+    const particleFade=1-reveal;
     ctx.textAlign='center';ctx.textBaseline='middle';
     for(let i=0;i<particles.length;i++) {
       const p=particles[i];
@@ -109,9 +111,9 @@
   }
   function sync(){cancelAnimationFrame(frame);previous=null;lastDraw=-Infinity;draw(performance.now());}
   function resize(){prepare();sync();}
-  function skipOrReplay(){elapsed=elapsed>(6.2+1.6)*1000?0:9000;if(!elapsed)particles.forEach(p=>{p.x=width/2;p.y=height*.44;});sync();}
+  function skipOrReplay(){elapsed=elapsed>9200?0:11000;if(!elapsed)particles.forEach(p=>{p.x=width/2;p.y=height*.44;});sync();}
   skip.addEventListener('click',skipOrReplay);
-  intro.addEventListener('focusin',()=>{if(elapsed<(6.2+1.6)*1000){elapsed=9000;sync();}});
+  intro.addEventListener('focusin',()=>{if(elapsed<9200){elapsed=11000;sync();}});
   home.addEventListener('pointermove',event=>{if(event.pointerType==='touch')return;const bounds=home.getBoundingClientRect();pointer.active=true;pointer.x=event.clientX-bounds.left;pointer.y=event.clientY-bounds.top;},{passive:true});
   home.addEventListener('pointerleave',()=>{pointer.active=false;});
   reduce.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);
