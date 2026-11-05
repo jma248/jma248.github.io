@@ -5,8 +5,8 @@
   <meta name="description" content="Jana Abo Shoueeb — Software Data Engineering Technology student at NJIT. Software, data, design, and a creative mind.">
   <meta name="theme-color" content="#35060F"><title>Jana Abo Shoueeb — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Italianno&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=b3ea8c573737"><script src="script.js?v=321c54e9942a" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Italianno&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=e9445349b4bc"><script src="script.js?v=321c54e9942a" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -22,7 +22,7 @@
   <div class="home-intro">
     <h1 id="hero-title" class="hero-name"><span>Jana</span> <em>Abo Shoueeb</em></h1>
     <p class="home-disciplines">SOFTWARE <span aria-hidden="true">·</span> DATA <span aria-hidden="true">·</span> DESIGN</p>
-    <p class="home-bio">Design, code, and curiosity.</p>
+    <p class="home-bio">Studying Software Data Engineering Technology and exploring design and coding.</p>
     <a class="home-work-link" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
   </div>
   <button class="home-motion-toggle" type="button" aria-pressed="false" hidden>Pause motion</button>
@@ -57,6 +57,7 @@
       <div class="board-type"><span class="board-caption">03 / ALWAYS EXPLORING</span><p>Imagine.<br>Make.<br><em>Repeat.</em></p><div class="board-colors" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
       <a class="board-project-link" href="#projects">A collection<br>of things I’m<br><em>creating.</em><span aria-hidden="true">↗</span></a>
     </div>
+<div class="botanical-scene"><canvas class="botanical-art" aria-hidden="true"></canvas><label class="botanical-pause"><input type="checkbox"> Pause animation</label></div>
   </div>
 </section>
 <section class="page-section skills" id="skills" aria-labelledby="skills-title">
@@ -68,6 +69,7 @@
     <article class="skill-card"><span class="skill-icon" aria-hidden="true">⌁</span><div><h3>Robotics &amp; simulation</h3><p>Exploring robotic workspaces and pick-and-place tasks through Viam 101 personal training.</p><div class="tags"><span>Viam</span><span>Palletizer simulation</span></div></div></article>
     <article class="skill-card"><span class="skill-icon" aria-hidden="true">✧</span><div><h3>Visual design &amp; CAD</h3><p>Creating layouts and graphics in Canva, and exploring 3D design with Onshape.</p><div class="tags"><span>Canva</span><span>Typography</span><span>Onshape</span></div></div></article>
   </div>
+<div class="botanical-scene"><canvas class="botanical-art" aria-hidden="true"></canvas><label class="botanical-pause"><input type="checkbox"> Pause animation</label></div>
 </section>
 <section class="page-section projects" id="projects" aria-labelledby="projects-title"><p class="eyebrow">03 / IDEAS INTO THINGS</p><div class="section-heading"><h2 id="projects-title">Projects <span aria-hidden="true">✦</span></h2><p>Experiments in robotics, software, and design.<br>A look at what I’m learning and building.</p></div><label class="hands-motion-control"><input class="hands-pause" type="checkbox"> Pause hands</label>
 <details class="create-collection">
@@ -158,7 +160,8 @@ function createTogether() {
   <label class="contact-motion-control"><input type="checkbox"> Pause animation</label>
 </aside></div></section>
 </main>
-<footer class="site-footer"><span>© <span id="year">2026</span> Jana Abo Shoueeb</span><a href="#home">BACK TO HOME ↗</a></footer>
+<canvas id="flying-butterflies" aria-hidden="true"></canvas>
+<footer class="site-footer"><span>© <span id="year">2026</span> Jana Abo Shoueeb</span><button type="button" class="butterfly-toggle" aria-pressed="false" hidden>Pause butterflies</button><a href="#home">BACK TO HOME ↗</a></footer>
 <script src="eye.js?v=d7a7c8437ae5" defer></script>
 <script src="hands.js?v=8d89990138eb" defer></script>
 <script src="home-animation.js?v=60ddd0c7f86a" defer></script>
@@ -185,4 +188,6 @@ function createTogether() {
 <script src="project-demo.js?v=5f137d10d88c" defer></script>
 <script src="journey.js?v=9c84a4b22f50" defer></script>
 <script src="about-preview.js?v=4cc49033ad86" defer></script>
+<script src="botanical-ascii.js?v=54689ffd1bcd" defer></script>
+<script src="flying-butterflies.js?v=231280bca63b" defer></script>
 </body></html>
