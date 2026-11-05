@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#35060F"><title>Jana Abo Shoueeb — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Italianno&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=99f5340312df"><script src="script.js?v=3e0b6aaa3e96" defer></script>
+  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=6d82f5982431"><script src="script.js?v=321c54e9942a" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -17,37 +17,22 @@
 </header>
 <main id="main" tabindex="-1">
 <section class="hero home-minimal" id="home" aria-labelledby="hero-title">
+  <canvas id="home-code-canvas" aria-hidden="true"></canvas>
   <div class="home-frame" aria-hidden="true"></div>
   <div class="home-intro">
     <h1 id="hero-title" class="hero-name"><span>Jana</span> <em>Abo Shoueeb</em></h1>
     <p class="home-disciplines">SOFTWARE <span aria-hidden="true">·</span> DATA <span aria-hidden="true">·</span> DESIGN</p>
-    <p class="home-bio">Majoring in Software Data Engineering Technology at NJIT, with an interest in coding and design.</p>
+    <p class="home-bio">Design, code, and curiosity.</p>
     <a class="home-work-link" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
   </div>
   <button class="home-motion-toggle" type="button" aria-pressed="false" hidden>Pause motion</button>
+  <button class="home-skip" type="button" hidden>Skip intro ↗</button>
 </section>
-<section class="page-section about" id="about" aria-labelledby="about-title">
-  <div class="about-grid">
-    <div class="about-copy">
-      <p class="eyebrow">01 / THE PERSON BEHIND THE CODE</p>
-      <h2 id="about-title">About <em>Me.</em></h2>
-      <h3 class="about-subheading">A little background</h3>
-      <p>My interest in design began with a gas station model I created that won second place. That experience led me to explore digital design through Canva and inspired me to learn how to build something of my own.</p>
-      <p>Watching my mom write code and debug problems also sparked my interest in programming. Today, I’m exploring how software and design can bring my ideas to life.</p>
-      <a class="button button-primary" href="#experience">My journey <span aria-hidden="true">↗</span></a>
-    </div>
-    <aside class="about-origin" aria-labelledby="origin-title">
-      <p class="eyebrow">WHERE IT STARTED</p>
-      <span class="origin-award">2<span>nd</span></span>
-      <h3 id="origin-title">One model.<br>A new <em>direction.</em></h3>
-      <p>A second-place gas station model sparked my interest in design.</p>
-      <div class="origin-path"><span>Model making</span><span aria-hidden="true">→</span><span>Canva</span><span aria-hidden="true">→</span><span>Creating my own</span></div>
-    </aside>
-  </div>
-  <div class="about-education">
-    <div><p class="eyebrow">EDUCATION / CURRENT</p><h3>New Jersey Institute<br>of Technology</h3></div>
-    <div><p class="education-label">MY MAJOR</p><p class="education-major">Software Data Engineering Technology</p><p class="education-detail">Bringing my interest in technology and creativity into my studies.</p></div>
-  </div>
+<section class="page-section about about-comparison" id="about" aria-labelledby="about-title">
+  <div class="about-preview-toolbar"><p>ABOUT / TRY TWO DIRECTIONS</p><div role="group" aria-label="Choose an About layout to preview"><button type="button" data-about-choice="1" aria-pressed="true" aria-controls="about-option-1 about-option-2">01 · Minimal</button><button type="button" data-about-choice="2" aria-pressed="false" aria-controls="about-option-1 about-option-2">02 · Visual collage</button></div></div>
+  <p class="eyebrow">01 / A CREATIVE PERSPECTIVE</p><h2 id="about-title">About <em>Me.</em></h2>
+  <div id="about-option-1" class="about-option about-minimal">
+    <div class="about-minimal-intro"><h3>Design catches my eye.<br><em>Computers keep me curious.</em></h3><p>I love design and computers. I’m learning to bring them together through graphics, code, and interactive projects.</p><a class="about-simple-link" href="#projects">See what I’m creating <span aria-hidden="true">↗</span></a></div>
   <aside class="curiosity" aria-labelledby="curiosity-title">
     <div class="curiosity-heading"><div><p class="eyebrow">A LITTLE CURIOSITY</p><h3 id="curiosity-title">Always looking <em>closer.</em></h3></div><button class="eye-pause" type="button" aria-pressed="false" hidden>Pause eye</button></div>
     <button class="eye-stage" type="button" aria-label="Make the ASCII eye blink. You can also press Enter or Space.">
@@ -55,16 +40,36 @@
     </button>
     <p class="eye-hint">A curious eye, made of characters. <span>Move around. Click to blink.</span></p>
   </aside>
-  <div class="section-rule"><h3>My Interests</h3><span aria-hidden="true">✦</span></div>
-  <div class="interest-grid">
-    <article><span aria-hidden="true">&lt;/&gt;</span><h4>Software & coding</h4><p>Exploring how code turns ideas into digital experiences.</p></article>
-    <article><span aria-hidden="true">◌</span><h4>Graphic design</h4><p>Expressing ideas through thoughtful visuals and layouts.</p></article>
-    <article><span aria-hidden="true">▥</span><h4>Data & logic</h4><p>Understanding information and finding ways to put it to use.</p></article>
-    <article><span aria-hidden="true">✧</span><h4>Creative projects</h4><p>Bringing technical thinking and a creative perspective together.</p></article>
+
+  </div>
+  <div id="about-option-2" class="about-option about-collage-preview" hidden>
+    <div class="about-collage-intro"><h3>A little design.<br><em>A little code.</em></h3><p>I like making things that look interesting—and figuring out how they work.</p></div>
+    <div class="creative-board">
+      <figure class="board-poster"><img src="assets/canva-donut-poster.jpeg" alt="My cream and chocolate donut poster created in Canva" width="1170" height="1444" loading="lazy"><figcaption>01 / DESIGN IN CANVA</figcaption></figure>
+      <div class="board-code"><p class="board-caption">02 / THINKING IN CODE</p><pre><code><span>const</span> creative = {
+  curiosity: <em>true</em>,
+  tools: [
+    'design',
+    'code',
+    'imagination'
+  ]
+};</code></pre><span class="board-code-mark" aria-hidden="true">&lt;/&gt;</span></div>
+      <div class="board-type"><span class="board-caption">03 / ALWAYS EXPLORING</span><p>Imagine.<br>Make.<br><em>Repeat.</em></p><div class="board-colors" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+      <a class="board-project-link" href="#projects">A collection<br>of things I’m<br><em>creating.</em><span aria-hidden="true">↗</span></a>
+    </div>
   </div>
 </section>
-<section class="page-section skills" id="skills" aria-labelledby="skills-title"><p class="eyebrow">02 / THE TOOLKIT</p><div class="section-heading"><h2 id="skills-title">My <em>Skills.</em></h2><p>A learning journey, one concept at a time.<br>Topics to personalize as I grow.</p></div><div class="skills-layout"><div class="skills-list"><article class="skill-card"><span class="skill-icon" aria-hidden="true">&lt;/&gt;</span><div><h3>Software & web</h3><p>Building a foundation for thoughtful digital experiences.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article><article class="skill-card"><span class="skill-icon" aria-hidden="true">▥</span><div><h3>Data & logic</h3><p>Exploring how information is organized and put to work.</p><div class="tags"><span>Data concepts</span><span>Problem solving</span></div></div></article><article class="skill-card"><span class="skill-icon" aria-hidden="true">✧</span><div><h3>Process & practice</h3><p>Making room for experimentation and steady progress.</p><div class="tags"><span>Documentation</span><span>Iteration</span></div></div></article></div><aside class="inspiration"><img src="assets/nova-flower.jpg" alt="Blue floral inspiration" loading="lazy"><p>Better ideas.<br>Brighter<br><em>tomorrows.</em></p></aside></div></section>
-<section class="page-section projects" id="projects" aria-labelledby="projects-title"><p class="eyebrow">03 / IDEAS INTO THINGS</p><div class="section-heading"><h2 id="projects-title">Projects <span aria-hidden="true">✦</span></h2><p>A space for future coursework and personal projects.<br>These are placeholders for the work to come.</p></div><label class="hands-motion-control"><input class="hands-pause" type="checkbox"> Pause hands</label>
+<section class="page-section skills" id="skills" aria-labelledby="skills-title">
+  <p class="eyebrow">02 / THE TOOLKIT</p>
+  <div class="section-heading"><h2 id="skills-title">My <em>Skills.</em></h2><p>Tools I’m learning through coursework,<br>personal projects, and hands-on practice.</p></div>
+  <div class="skills-card-grid">
+    <article class="skill-card"><span class="skill-icon" aria-hidden="true">&lt;/&gt;</span><div><h3>Web development</h3><p>Building this portfolio with responsive layouts, interactive elements, and character-based animations.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+    <article class="skill-card"><span class="skill-icon" aria-hidden="true">{ }</span><div><h3>Python &amp; data</h3><p>Practicing lists, dictionaries, loops, data processing, and matrices, with introductory API and SQLite exercises.</p><div class="tags"><span>Python</span><span>APIs</span><span>SQLite</span></div></div></article>
+    <article class="skill-card"><span class="skill-icon" aria-hidden="true">⌁</span><div><h3>Robotics &amp; simulation</h3><p>Exploring robotic workspaces and pick-and-place tasks through Viam 101 personal training.</p><div class="tags"><span>Viam</span><span>Palletizer simulation</span></div></div></article>
+    <article class="skill-card"><span class="skill-icon" aria-hidden="true">✧</span><div><h3>Visual design &amp; CAD</h3><p>Creating layouts and graphics in Canva, and exploring 3D design with Onshape.</p><div class="tags"><span>Canva</span><span>Typography</span><span>Onshape</span></div></div></article>
+  </div>
+</section>
+<section class="page-section projects" id="projects" aria-labelledby="projects-title"><p class="eyebrow">03 / IDEAS INTO THINGS</p><div class="section-heading"><h2 id="projects-title">Projects <span aria-hidden="true">✦</span></h2><p>Experiments in robotics, software, and design.<br>A look at what I’m learning and building.</p></div><label class="hands-motion-control"><input class="hands-pause" type="checkbox"> Pause hands</label>
 <details class="create-collection">
 <summary class="create-scene" aria-label="Open or close my project collection">
   <canvas id="code-hands" class="create-hands" width="2000" height="640" aria-hidden="true"></canvas>
@@ -72,11 +77,112 @@
 </summary>
 <p class="create-caption">An idea becomes something when you reach for it.</p>
 <div class="collection-content">
-<div class="project-filters" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="web" aria-pressed="false">Web</button><button type="button" data-filter="data" aria-pressed="false">Data</button><button type="button" data-filter="design" aria-pressed="false">Design</button></div><p id="project-count" class="sr-only" aria-live="polite">3 project placeholders shown</p><div class="project-grid"><article class="project-card" data-category="web"><div class="project-photo"><img src="assets/nova-code.jpg" alt="Laptop and workspace, an illustrative project mood image" loading="lazy"><span>COMING SOON</span></div><div class="project-caption"><h3>A future web project</h3><p>A home for a digital idea and the story behind it.</p><span class="tag">Web development</span></div></article><article class="project-card" data-category="data"><div class="project-photo"><img src="assets/nova-data.jpg" alt="Charts on a laptop, an illustrative project mood image" loading="lazy"><span>COMING SOON</span></div><div class="project-caption"><h3>A future data exploration</h3><p>A question, a process, and what I discover.</p><span class="tag">Data</span></div></article><article class="project-card" data-category="design"><div class="project-photo"><img src="assets/nova-design.jpg" alt="A tote bag and phone, an illustrative design mood image" loading="lazy"><span>COMING SOON</span></div><div class="project-caption"><h3>A future creative concept</h3><p>A space to explore the visual side of ideas.</p><span class="tag">Design</span></div></article></div></div></details></section>
-<section class="page-section experience" id="experience" aria-labelledby="experience-title"><p class="eyebrow">04 / THE JOURNEY SO FAR</p><div class="experience-layout"><div><h2 id="experience-title">Learning.<br>Building.<br><em>Becoming.</em></h2><img class="journey-photo" src="assets/homepage-desk.jpg" alt="Books and coffee in a study space" loading="lazy"></div><div class="timeline"><article class="timeline-item"><span class="eyebrow">EDUCATION / CURRENT</span><h3>New Jersey Institute of Technology</h3><p>Studying Software Data Engineering Technology</p><p class="muted">Growing a foundation in software and data through my studies.</p></article><article class="timeline-item"><span class="eyebrow">EXPERIENCE / SPACE TO GROW</span><h3>The story continues</h3><p class="muted">A place for future experience, campus involvement, and coursework as my journey unfolds.</p></article><blockquote>Good ideas<br>take <em>time.</em></blockquote></div></div></section>
-<section class="page-section contact" id="contact" aria-labelledby="contact-title"><div class="contact-grid"><div class="contact-copy"><p class="eyebrow">05 / SAY HELLO</p><h2 id="contact-title">Let’s<br><em>Connect.</em></h2><p>Have an idea, a question, or just want to say hello?</p><p>I’m always happy to make a connection around software, data, and design.</p><div class="contact-placeholder">Contact details coming soon <span aria-hidden="true">↗</span></div><p class="contact-hint">I’ll add my email and social links here.</p></div><div class="contact-photo"><img src="assets/nova-architecture.jpg" alt="A city skyline framed by warm stone arches" loading="lazy"><span>good people.<br>better<br><em>possibilities.</em></span></div></div></section>
+<div class="project-filters" role="group" aria-label="Filter projects by category">
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="web" aria-pressed="false">Web Design</button>
+  <button type="button" data-filter="coding" aria-pressed="false">Coding Projects</button>
+  <button type="button" data-filter="design" aria-pressed="false">Designs</button>
+</div>
+<p id="project-count" class="sr-only" aria-live="polite">3 projects shown</p>
+<p class="project-empty" hidden>No projects in this category yet. More work coming soon.</p>
+<div class="project-grid project-grid-featured">
+  <article class="project-card project-featured" data-category="coding" aria-labelledby="palletizer-title">
+    <div class="project-photo"><img src="assets/viam-palletizer.png" alt="Palletizer simulation in Viam, showing an orange robotic arm beside a roller conveyor and a wooden pallet" width="1420" height="892" loading="lazy"><span>ROBOTICS / SIMULATION</span></div>
+    <div class="project-caption">
+      <p class="project-context">VIAM101 · PERSONAL TRAINING</p>
+      <h3 id="palletizer-title">Palletizer</h3>
+      <p>A robot simulation I created during Viam 101 personal training. The task is to lift a box from a roller conveyor and place it on a pallet.</p>
+      <div class="tags"><span>Viam</span><span>Robotics</span><span>Simulation</span></div>
+      <button class="button button-primary demo-open" type="button" aria-haspopup="dialog" aria-controls="palletizer-demo" hidden>Watch demo <span aria-hidden="true">▷</span></button>
+      <a class="project-image-link" href="assets/viam-palletizer.png" target="_blank" rel="noopener">View simulation image <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+  <article class="project-card project-featured" data-category="coding" aria-labelledby="python-project-title">
+    <div class="notebook-art" aria-hidden="true"><div class="notebook-window"><div class="notebook-bar"><span>● ● ●</span><span>python_practice.ipynb</span></div><pre><code><span class="code-comment"># Small problems. Clear logic.</span>
+<span class="code-keyword">for</span> item <span class="code-keyword">in</span> inventory:
+    total += item['quantity'] * item['price']
+
+<span class="code-output">Total inventory value: $94.50</span>
+
+<span class="code-comment"># Lists → logic → useful results</span></code></pre><div class="notebook-footer">08 EXERCISES <span>PYTHON + SQLITE</span></div></div></div>
+    <div class="project-caption"><p class="project-context">PYTHON / COURSEWORK</p><h3 id="python-project-title">Python Fundamentals &amp; Data Practice</h3><p>Eight exercises exploring data processing, lists, dictionaries, and matrices, plus API requests and a SQLite news-storage exercise.</p><p>The news API exercise is a draft that requires an API key.</p><div class="tags"><span>Python</span><span>Data processing</span><span>APIs</span><span>SQLite</span></div><a class="project-image-link" href="projects/python-practice.html">Try interactive exercises <span aria-hidden="true">↗</span></a></div>
+  </article>
+  <article class="project-card project-featured project-poster" data-category="design" aria-labelledby="donut-project-title">
+    <a class="poster-preview" href="assets/canva-donut-poster.jpeg" target="_blank" rel="noopener" aria-label="View the full Canva donut poster"><img src="assets/canva-donut-poster.jpeg" alt="Canva donut poster with a cream satin background, layered DONUTS lettering, chocolate-glazed donuts, and the words soft, sweet and tasty" width="1170" height="1444" loading="lazy"></a>
+    <div class="project-caption"><p class="project-context">CANVA / GRAPHIC DESIGN</p><h3 id="donut-project-title">Donut Poster</h3><p>A promotional-style poster I designed in Canva, combining a cream satin background, layered typography, and chocolate-glazed donut imagery.</p><p>The layout uses warm colors, a circular photo frame, and overlapping elements to draw attention to the product.</p><div class="tags"><span>Canva</span><span>Poster design</span><span>Typography</span><span>Layout</span></div><a class="project-image-link" href="assets/canva-donut-poster.jpeg" target="_blank" rel="noopener">View full design <span aria-hidden="true">↗</span></a></div>
+  </article>
+</div>
+</div></details></section>
+<section class="page-section experience" id="experience" aria-labelledby="experience-title"><p class="eyebrow">04 / THE JOURNEY SO FAR</p><div class="experience-layout"><div><h2 id="experience-title">Learning.<br>Building.<br><em>Becoming.</em></h2><div class="journey-console">
+  <div class="journey-console-bar"><span aria-hidden="true">● ● ●</span><span>my_journey.log</span></div>
+  <p class="journey-instruction">Select a stop to explore.</p>
+  <div class="journey-stops" role="group" aria-label="Explore my experience">
+    <div class="journey-track" aria-hidden="true"><span></span></div>
+    <button type="button" class="journey-stop" data-journey="njit" aria-pressed="true" aria-controls="journey-readout"><span aria-hidden="true">01</span>NJIT</button>
+    <button type="button" class="journey-stop" data-journey="viam" aria-pressed="false" aria-controls="journey-readout"><span aria-hidden="true">02</span>Viam</button>
+    <button type="button" class="journey-stop" data-journey="kyndryl" aria-pressed="false" aria-controls="journey-readout"><span aria-hidden="true">03</span>Kyndryl</button>
+  </div>
+  <div class="journey-readout" id="journey-readout" role="status" aria-live="polite" aria-atomic="true"><p class="journey-command"><span aria-hidden="true">&gt; </span><span class="journey-command-text">explore("education")</span><span class="journey-cursor" aria-hidden="true">▍</span></p><h3 class="journey-readout-title">Building my foundation.</h3><p class="journey-readout-copy">Studying Software Data Engineering Technology at NJIT, bringing my interests in software, data, and design together.</p><p class="journey-readout-tags">SOFTWARE · DATA · DESIGN</p></div>
+  <label class="journey-motion"><input type="checkbox"> Pause motion</label>
+</div></div><div class="timeline"><article class="timeline-item" data-experience="njit"><span class="eyebrow">EDUCATION / CURRENT</span><h3>New Jersey Institute of Technology</h3><p>Studying Software Data Engineering Technology</p><p class="muted">Growing a foundation in software and data through my studies.</p></article><article class="timeline-item" data-experience="viam"><span class="eyebrow">ROBOTICS / PERSONAL TRAINING</span><h3>Viam 101</h3><p>Hands-on robotics training</p><p class="muted">Created a palletizer simulation in Viam, designed to lift a box from a conveyor and place it on a pallet. Explored how a robotic arm and its workspace come together in a pick-and-place task.</p><a class="experience-project-link" href="#projects">Explore my Palletizer project <span aria-hidden="true">↗</span></a></article>
+<article class="timeline-item" data-experience="kyndryl"><span class="eyebrow">AI / COLLABORATION</span><h3>Kyndryl</h3><p>AI Collaboration</p><p class="muted">Gained exposure to the technology industry and learned how professionals work together to solve real-world problems. Developed a better understanding of technology careers, teamwork, and professional communication.</p></article><blockquote>Good ideas<br>take <em>time.</em></blockquote></div></div></section>
+<section class="page-section contact" id="contact" aria-labelledby="contact-title"><div class="contact-grid"><div class="contact-copy"><p class="eyebrow">05 / SAY HELLO</p><h2 id="contact-title">Let’s<br><em>Connect.</em></h2><p>Interested in my work? I’d love to connect about projects, internships, and opportunities in software, data, and design.</p>
+<div class="contact-links" aria-label="Contact and professional links">
+  <a class="contact-link" href="mailto:jma248@njit.edu"><span><small>EMAIL</small><strong>jma248@njit.edu</strong></span><span aria-hidden="true">↗</span></a>
+  <a class="contact-link" href="https://github.com/jma248" target="_blank" rel="noopener"><span><small>GITHUB</small><strong>@jma248</strong></span><span aria-hidden="true">↗</span></a>
+  <a class="contact-link" href="https://www.linkedin.com/in/jana-shoueeb/" target="_blank" rel="noopener"><span><small>LINKEDIN</small><strong>Jana Abo Shoueeb</strong></span><span aria-hidden="true">↗</span></a>
+</div>
+<a class="button button-primary contact-resume" href="assets/jana-abo-shoueeb-resume.pdf" download="Jana-Abo-Shoueeb-Resume.pdf">Download my résumé <span aria-hidden="true">↓</span></a></div><aside class="contact-visual" aria-label="Interactive connection graphic">
+  <div class="contact-code-flow" aria-hidden="true"><pre>const hello = connect();
+01 10 01 { ideas } 01 10
+function createTogether() {
+  return possibility;
+}
+&lt;software / data / design&gt;
+const hello = connect();
+01 10 01 { ideas } 01 10
+function createTogether() {
+  return possibility;
+}
+&lt;software / data / design&gt;</pre></div>
+  <svg class="contact-network" viewBox="0 0 500 510" role="group" aria-label="Connect by email, GitHub, or LinkedIn">
+    <g class="connection-orbits" fill="none" stroke="#e4cfb8" stroke-opacity=".15"><ellipse cx="250" cy="245" rx="184" ry="130" transform="rotate(-32 250 245)"/><ellipse cx="250" cy="245" rx="175" ry="157" transform="rotate(32 250 245)"/><circle cx="250" cy="245" r="101"/></g>
+    <g class="connection-stream" fill="none" stroke="#ddb3bc" stroke-width="1.5" stroke-dasharray="3 11"><path d="M250 245Q120 240 100 140"/><path d="M250 245Q350 155 400 190"/><path d="M250 245Q320 325 215 400"/></g>
+    <g class="connection-sparks" fill="#f1d8c5" aria-hidden="true"><circle cx="167" cy="98" r="2"/><circle cx="425" cy="307" r="2"/><circle cx="90" cy="310" r="2.5"/><circle cx="345" cy="393" r="2"/><circle cx="306" cy="84" r="1.5"/><circle cx="144" cy="435" r="1.5"/></g>
+    <circle class="connection-heart" cx="250" cy="245" r="84" fill="#470b17" stroke="#e4cfb844"/>
+    <g fill="#f3e7d7" text-anchor="middle" font-family="Georgia,serif" font-size="29" aria-hidden="true"><text x="250" y="224">Good ideas</text><text x="250" y="258">start with</text><text x="250" y="294" font-style="italic" fill="#e4cfb8">hello.</text></g>
+    <a class="connection-node" href="mailto:jma248@njit.edu" aria-label="Email Jana at jma248@njit.edu"><circle cx="100" cy="140" r="34"/><text x="100" y="149" font-size="29">@</text><text class="node-label" x="100" y="194">EMAIL</text></a>
+    <a class="connection-node" href="https://github.com/jma248" target="_blank" rel="noopener" aria-label="Visit Jana’s GitHub"><circle cx="400" cy="190" r="34"/><text x="400" y="197" font-size="22">&lt;/&gt;</text><text class="node-label" x="400" y="244">GITHUB</text></a>
+    <a class="connection-node" href="https://www.linkedin.com/in/jana-shoueeb/" target="_blank" rel="noopener" aria-label="Visit Jana’s LinkedIn"><circle cx="215" cy="400" r="34"/><text x="215" y="408" font-size="25">in</text><text class="node-label" x="215" y="454">LINKEDIN</text></a>
+  </svg>
+  <label class="contact-motion-control"><input type="checkbox"> Pause animation</label>
+</aside></div></section>
 </main>
 <footer class="site-footer"><span>© <span id="year">2026</span> Jana Abo Shoueeb</span><a href="#home">BACK TO HOME ↗</a></footer>
 <script src="eye.js?v=d7a7c8437ae5" defer></script>
 <script src="hands.js?v=8d89990138eb" defer></script>
+<script src="home-animation.js?v=063ce6cf6a4c" defer></script>
+<dialog class="project-demo" id="palletizer-demo" aria-labelledby="demo-title" aria-describedby="demo-note">
+  <div class="demo-heading"><div><p class="eyebrow">VIAM 101 / PALLETIZER</p><h2 id="demo-title">Pick. Lift. <em>Place.</em></h2></div><button class="demo-close" type="button" aria-label="Close demo">✕</button></div>
+  <p id="demo-note">Illustrated workflow based on my training project. This is an animation, not a recording from Viam.</p>
+  <svg class="demo-scene" viewBox="0 0 850 390" role="img" aria-labelledby="demo-svg-title demo-svg-desc">
+    <title id="demo-svg-title">Palletizer pick-and-place workflow</title><desc id="demo-svg-desc">A robot arm lifts a box from the conveyor on the left, carries it across, and lowers it onto the pallet on the right.</desc>
+    <defs><pattern id="demo-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#e4cfb8" stroke-opacity=".08"/></pattern></defs>
+    <rect width="850" height="390" fill="#290811"/><rect width="850" height="390" fill="url(#demo-grid)"/>
+    <g fill="#bba99b" stroke="#e4cfb8" stroke-width="2"><rect x="105" y="270" width="155" height="16" rx="5"/><path d="M120 286V329 M245 286V329" stroke-width="8"/><path d="M125 273V283 M145 273V283 M165 273V283 M185 273V283 M205 273V283 M225 273V283 M245 273V283" stroke="#544147" stroke-width="4"/></g>
+    <g fill="#bc9569" stroke="#e8c698" stroke-width="2"><rect x="585" y="300" width="132" height="18" rx="2"/><path d="M596 306H705 M610 301V317 M640 301V317 M670 301V317 M700 301V317"/></g>
+    <path d="M377 325H423L415 298H385Z" fill="#bba99b"/><rect x="368" y="325" width="64" height="11" rx="4" fill="#806d65"/>
+    <path class="demo-arm-shadow" fill="none" stroke="#1b040b" stroke-width="26" stroke-linecap="round"/>
+    <path class="demo-arm" fill="none" stroke="#cf8054" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="demo-arm-highlight" fill="none" stroke="#efb58a" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+    <g class="demo-joints" fill="#d4c6b7" stroke="#775c52" stroke-width="3"><circle cx="400" cy="300" r="15"/><circle class="demo-elbow" r="13"/><circle class="demo-wrist" r="9"/></g>
+    <path class="demo-gripper" fill="none" stroke="#d4c6b7" stroke-width="4" stroke-linejoin="round"/>
+    <g class="demo-box"><rect x="-19" y="16" width="38" height="34" rx="2" fill="#d8b37c" stroke="#f0d8ad" stroke-width="1.5"/><path d="M0 16V50 M-18 25H18" stroke="#f2d9ad" stroke-width="3"/></g>
+    <g fill="#e4cfb8" font-family="monospace" font-size="11" text-anchor="middle"><text x="182" y="360">01 / CONVEYOR</text><text x="400" y="360">02 / ROBOT ARM</text><text x="650" y="360">03 / PALLET</text></g>
+  </svg>
+  <div class="demo-controls"><p class="demo-step" role="status" aria-live="polite"></p><button class="demo-play" type="button" aria-pressed="false">Pause demo</button></div>
+</dialog>
+<script src="project-demo.js?v=5f137d10d88c" defer></script>
+<script src="journey.js?v=9c84a4b22f50" defer></script>
+<script src="about-preview.js?v=4cc49033ad86" defer></script>
 </body></html>

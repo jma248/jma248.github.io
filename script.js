@@ -119,7 +119,7 @@ window.addEventListener('hashchange', () => showSection(sectionFromHash(), true)
 document.body.classList.add('section-navigation');
 showSection(sectionFromHash());
 
-// Filter the illustrative project placeholders without changing page navigation.
+// Filter portfolio projects without changing page navigation.
 const projectCards = Array.from(document.querySelectorAll('.project-card[data-category]'));
 document.querySelectorAll('[data-filter]').forEach((button) => {
   button.addEventListener('click', () => {
@@ -132,6 +132,11 @@ document.querySelectorAll('[data-filter]').forEach((button) => {
       card.hidden = filter !== 'all' && card.dataset.category !== filter;
       if (!card.hidden) count += 1;
     });
-    document.querySelector('#project-count').textContent = count + ' project placeholder' + (count === 1 ? '' : 's') + ' shown';
+    document.querySelector('#project-count').textContent = count + ' project' + (count === 1 ? '' : 's') + ' shown';
+    const empty = document.querySelector('.project-empty');
+    if (empty) {
+      empty.hidden = count !== 0;
+      empty.textContent = 'No projects added under “' + button.textContent.trim() + '” yet. More work coming soon.';
+    }
   });
 });

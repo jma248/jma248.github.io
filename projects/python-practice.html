@@ -1,0 +1,248 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Python Fundamentals & Data Practice — Jana Abo Shoueeb</title><meta name="description" content="Eight Python coursework exercises exploring data processing, APIs, and SQLite."><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#35060f;color:#f3e7d7;font:15px/1.8 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:40px 24px 80px}a{color:#e4cfb8;text-underline-offset:5px}a:focus-visible,summary:focus-visible{outline:2px solid #e4cfb8;outline-offset:5px}.eyebrow{font-size:11px;letter-spacing:2px;margin-top:40px;color:#d5c2b5}h1{font:400 clamp(36px,6vw,64px)/1.1 Georgia,serif;max-width:800px}h2{font:400 28px/1.3 Georgia,serif}h3,summary{font-size:12px;letter-spacing:1px}summary{cursor:pointer;min-height:44px;padding-block:10px}section{margin-top:40px;border-top:1px solid #e4cfb84d;padding-top:24px}pre{overflow:auto;background:#24060c;border:1px solid #e4cfb830;border-radius:12px;padding:20px;line-height:1.7;font-size:13px;tab-size:4}code{font-family:ui-monospace,Menlo,monospace}.output{background:#470b17;color:#dce4bf}.note{border-left:2px solid #d6aa7b;padding:10px 16px;color:#dfc9ba;background:#470b17}.links{display:flex;gap:24px;flex-wrap:wrap}header>p{max-width:760px;color:#d5c2b5}
+</style><link rel="stylesheet" href="python-playground.css?v=d6bac8025016"></head><body><main><header><a href="../index.html#projects">← Back to projects</a><p class="eyebrow">PYTHON / COURSEWORK / 8 EXERCISES</p><h1>Python Fundamentals &amp; Data Practice</h1><p>My assignment notebook exploring temperature analysis, student grades, inventory management, lists, text processing, matrix addition, API requests, and SQLite storage.</p><p>Try the first six exercises below with your own inputs. These browser demos recreate the notebook logic in JavaScript; the original Python code and saved outputs are included for reference.</p><div class="links"><a href="python-practice.ipynb" download>Download original notebook ↓</a><a href="#exercise-1">Try the interactive exercises ↗</a><a href="#exercise-8">API &amp; SQLite code</a></div></header><section id="exercise-1"><h2>QUESTION 1 - Temperature Analysis</h2><details><summary>Python code</summary><pre><code>temperatures = [18, 22, 19, 25, 17, 21, 23, 20, 26, 24,
+                19, 22, 27, 21, 23, 18, 24, 25, 19, 20,
+                22, 26, 23, 21, 19, 24, 22, 20, 18, 23]
+
+hot_days = 0
+
+for temp in temperatures:
+    if temp &gt; 24:
+        hot_days += 1
+
+print(&quot;Number of hot days (above 24°C):&quot;, hot_days)
+print(&quot;Highest temperature:&quot;, max(temperatures), &quot;°C&quot;)
+print(&quot;Lowest temperature:&quot;, min(temperatures), &quot;°C&quot;)</code></pre></details><h3>Saved output</h3><pre class="output"><code>Number of hot days (above 24°C): 5
+Highest temperature: 27 °C
+Lowest temperature: 17 °C
+</code></pre></section><section id="exercise-2"><h2>QUESTION 2- Student Grades Processing</h2><details><summary>Python code</summary><pre><code>scores = [88, 76, 90, 85, 92, 67, 73, 81, 95, 78]
+
+average = sum(scores) / len(scores)
+print(&quot;Average score:&quot;, average)
+
+passed = 0
+failed = 0
+
+for score in scores:
+    if score &gt;= 70:
+        passed += 1
+    else:
+        failed += 1
+
+print(&quot;Number of students who passed:&quot;, passed)
+print(&quot;Number of students who failed:&quot;, failed)
+
+for i in range(len(scores)):
+    if scores[i] &gt;= 70:
+        print(&quot;Student&quot;, i + 1, &quot;: Pass&quot;)
+    else:
+        print(&quot;Student&quot;, i + 1, &quot;: Fail&quot;)</code></pre></details><h3>Saved output</h3><pre class="output"><code>Average score: 82.5
+Number of students who passed: 9
+Number of students who failed: 1
+Student 1 : Pass
+Student 2 : Pass
+Student 3 : Pass
+Student 4 : Pass
+Student 5 : Pass
+Student 6 : Fail
+Student 7 : Pass
+Student 8 : Pass
+Student 9 : Pass
+Student 10 : Pass
+</code></pre></section><section id="exercise-3"><h2>QUESTION 3- Inventory Management</h2><details><summary>Python code</summary><pre><code>inventory = [
+    {&#x27;item&#x27;: &#x27;Apple&#x27;, &#x27;quantity&#x27;: 50, &#x27;price&#x27;: 0.5},
+    {&#x27;item&#x27;: &#x27;Banana&#x27;, &#x27;quantity&#x27;: 20, &#x27;price&#x27;: 0.3},
+    {&#x27;item&#x27;: &#x27;Orange&#x27;, &#x27;quantity&#x27;: 30, &#x27;price&#x27;: 0.7},
+    {&#x27;item&#x27;: &#x27;Grapes&#x27;, &#x27;quantity&#x27;: 15, &#x27;price&#x27;: 1.5},
+    {&#x27;item&#x27;: &#x27;Mango&#x27;, &#x27;quantity&#x27;: 10, &#x27;price&#x27;: 2.0},
+]
+
+# Part A: Find items that need restocking
+restock = []
+
+for item in inventory:
+    if item[&#x27;quantity&#x27;] &lt;= 20:
+        restock.append(item[&#x27;item&#x27;])
+
+print(&quot;Items to restock:&quot;, &quot;, &quot;.join(restock))
+
+# Part B: Calculate total inventory value
+total = 0
+
+for item in inventory:
+    total += item[&#x27;quantity&#x27;] * item[&#x27;price&#x27;]
+
+print(&quot;Total inventory value: $&quot;, format(total, &quot;.2f&quot;), sep=&quot;&quot;)
+
+# Part C: Increase prices by 10%
+print(&quot;Updated Inventory Prices:&quot;)
+
+for item in inventory:
+    if item[&#x27;quantity&#x27;] &lt;= 15:
+        item[&#x27;price&#x27;] = item[&#x27;price&#x27;] * 1.10
+        print(item[&#x27;item&#x27;] + &quot;: $&quot; + format(item[&#x27;price&#x27;], &quot;.2f&quot;))</code></pre></details><h3>Saved output</h3><pre class="output"><code>Items to restock: Banana, Grapes, Mango
+Total inventory value: $94.50
+Updated Inventory Prices:
+Grapes: $1.65
+Mango: $2.20
+</code></pre></section><section id="exercise-4"><h2>QUESTION 4-  List Operations</h2><details><summary>Python code</summary><pre><code>odd_numbers = [1, 3, 5, 7, 9]
+even_numbers = [2, 4, 6, 8, 10]
+
+# Part A: Combine the two lists
+numbers = odd_numbers + even_numbers
+
+# Part B: Sort in descending order
+numbers.sort(reverse=True)
+
+# Part C: Remove the number 5
+numbers.remove(5)
+
+# Part D: Print the final list
+print(&quot;Final numbers list:&quot;, numbers)</code></pre></details><h3>Saved output</h3><pre class="output"><code>Final numbers list: [10, 9, 8, 7, 6, 4, 3, 2, 1]
+</code></pre></section><section id="exercise-5"><h2>QUESTION 5: Text Processing</h2><details><summary>Python code</summary><pre><code>words = [&#x27;python&#x27;, &#x27;data&#x27;, &#x27;science&#x27;, &#x27;machine&#x27;, &#x27;learning&#x27;, &#x27;artificial&#x27;, &#x27;intelligence&#x27;]
+
+# Part A: Find the length of each word
+lengths = []
+
+for word in words:
+    lengths.append(len(word))
+
+print(&quot;Lengths of words:&quot;, lengths)
+
+# Part B: Find the longest word
+longest_word = max(words, key=len)
+
+print(&quot;Longest word:&quot;, repr(longest_word))
+
+# Part C: Find words starting with &#x27;a&#x27;
+a_words = []
+
+for word in words:
+    if word.startswith(&#x27;a&#x27;):
+        a_words.append(word)
+
+print(&quot;Words starting with &#x27;a&#x27;:&quot;, a_words)</code></pre></details><h3>Saved output</h3><pre class="output"><code>Lengths of words: [6, 4, 7, 7, 8, 10, 12]
+Longest word: &#x27;intelligence&#x27;
+Words starting with &#x27;a&#x27;: [&#x27;artificial&#x27;]
+</code></pre></section><section id="exercise-6"><h2>QUESTION 6: Matrix Addition</h2><details><summary>Python code</summary><pre><code>matrix_a = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+matrix_b = [
+    [9, 8, 7],
+    [6, 5, 4],
+    [3, 2, 1]
+]
+
+# Part A: Add the two matrices
+result = []
+
+for i in range(3):
+    row = []
+    for j in range(3):
+        row.append(matrix_a[i][j] + matrix_b[i][j])
+    result.append(row)
+
+# Part B: Print the resulting matrix
+print(&quot;Resulting Matrix:&quot;)
+
+for row in result:
+    print(row)</code></pre></details><h3>Saved output</h3><pre class="output"><code>Resulting Matrix:
+[10, 10, 10]
+[10, 10, 10]
+[10, 10, 10]
+</code></pre></section><section id="exercise-7"><h2>QUESTION 7: Fetching Random Jokes</h2><p class="note">The output below was saved in the submitted notebook. This preview does not make a live API request.</p><details><summary>Python code</summary><pre><code>import requests
+
+# Part A: Fetch a random joke
+url = &quot;https://official-joke-api.appspot.com/random_joke&quot;
+
+response = requests.get(url)
+joke = response.json()
+
+# Part B: Print the joke and punchline
+setup = joke[&quot;setup&quot;]
+punchline = joke[&quot;punchline&quot;]
+
+print(&quot;Joke:&quot;, setup)
+print(&quot;Punchline:&quot;, punchline)
+
+# Part C: Save the joke to a text file
+with open(&quot;jokes.txt&quot;, &quot;w&quot;) as file:
+    file.write(&quot;Joke: &quot; + setup + &quot;\n&quot;)
+    file.write(&quot;Punchline: &quot; + punchline)</code></pre></details><h3>Saved output</h3><pre class="output"><code>Joke: What is the tallest building in the world?
+Punchline: The library, it’s got the most stories!
+</code></pre></section><section id="exercise-8"><h2>QUESTION 8: Advanced - News Aggregator with Database Storage</h2><p class="note">API exercise draft: this cell contains a YOUR_API_KEY placeholder and no saved output. It needs a valid NewsAPI key and network access to run.</p><details><summary>Python code</summary><pre><code>import requests
+import sqlite3
+
+# Part A: Ask the user for a news topic
+topic = input(&quot;Enter news topic: &quot;)
+
+# Connect to the database
+conn = sqlite3.connect(&quot;news.db&quot;)
+cursor = conn.cursor()
+
+# Create a table for news
+cursor.execute(&quot;&quot;&quot;
+CREATE TABLE IF NOT EXISTS news (
+    title TEXT UNIQUE,
+    description TEXT,
+    published_at TEXT
+)
+&quot;&quot;&quot;)
+
+# Part B: Get the top 5 news headlines
+api_key = &quot;YOUR_API_KEY&quot;
+
+url = &quot;https://newsapi.org/v2/everything&quot;
+
+params = {
+    &quot;q&quot;: topic,
+    &quot;apiKey&quot;: api_key,
+    &quot;pageSize&quot;: 5,
+    &quot;sortBy&quot;: &quot;publishedAt&quot;
+}
+
+response = requests.get(url, params=params)
+data = response.json()
+
+if response.status_code == 200:
+    articles = data[&quot;articles&quot;]
+
+    # Part C and E: Save news and avoid duplicates
+    for article in articles:
+        title = article[&quot;title&quot;]
+        description = article[&quot;description&quot;]
+        published_at = article[&quot;publishedAt&quot;]
+
+        cursor.execute(&quot;&quot;&quot;
+        INSERT OR IGNORE INTO news
+        VALUES (?, ?, ?)
+        &quot;&quot;&quot;, (title, description, published_at))
+
+    conn.commit()
+
+    # Part D: Read and display news
+    cursor.execute(&quot;&quot;&quot;
+    SELECT title, description, published_at
+    FROM news
+    ORDER BY published_at DESC
+    LIMIT 5
+    &quot;&quot;&quot;)
+
+    news = cursor.fetchall()
+
+    print(&quot;\nTop Headlines:&quot;)
+
+    for i, article in enumerate(news, 1):
+        print(&quot;\n&quot;, i, &quot;. Title: &quot;, article[0], sep=&quot;&quot;)
+        print(&quot;Description:&quot;, article[1])
+        print(&quot;Published At:&quot;, article[2][:10])
+
+    print(&quot;\nData has been saved to the database.&quot;)
+
+else:
+    print(&quot;Error:&quot;, data.get(&quot;message&quot;, &quot;Unable to fetch news&quot;))
+
+conn.close()</code></pre></details></section></main><script src="python-playground.js?v=35f2148499bf" defer></script></body></html>
