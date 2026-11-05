@@ -351,6 +351,13 @@ body:has(#home:not([hidden])) .site-footer { border-color: transparent; }
 .hero.home-minimal:has(#home-code-canvas) .home-work-link { color: #ead0bf; }
 .hero.home-minimal:has(#home-code-canvas) .home-motion-toggle { z-index: 2; background: #35060f; color: #ead0bf; border-color: #ead0bf55; }
 .hero.home-minimal:has(#home-code-canvas) .home-frame { z-index: 2; }
+.home-preview-picker { position: absolute; top: 22px; left: 24px; right: 24px; z-index: 3; display: grid; justify-items: center; gap: 12px; }
+.home-preview-picker > span { font: 8px/1.5 monospace; letter-spacing: 2px; color: #d5b5b7; }
+.home-preview-picker > div { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; }
+.home-preview-picker button { min-height: 40px; padding: 9px 14px; border: 1px solid #e4cfb844; border-radius: 24px; background: #35060fbb; color: #e4cfb8; font-size: 10px; backdrop-filter: blur(8px); }
+.home-preview-picker button[aria-pressed=true] { background: #e4cfb8; color: #35060f; }
+.hero.home-minimal:has(.home-preview-picker) { padding-top: 130px; }
+@media (max-width: 650px) { .home-preview-picker { left: 16px; right: 16px; top: 18px; } .home-preview-picker button { font-size: 9px; padding-inline: 11px; } .hero.home-minimal:has(.home-preview-picker) { padding-top: 165px; } }
 /* Fine, softly curved framing for both palettes. */
 :root { --frame: rgba(228,207,184,.34); --frame-soft: rgba(228,207,184,.15); }
 :root[data-theme="light"] { --frame: rgba(112,13,37,.34); --frame-soft: rgba(112,13,37,.15); }

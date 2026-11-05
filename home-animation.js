@@ -7,6 +7,10 @@
   const intro = home.querySelector('.home-intro');
   const skip = home.querySelector('.home-skip');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+  const optionButtons=home.querySelectorAll('[data-intro-option]');
+  const requested=new URLSearchParams(location.search).get('intro');
+  let mode=['chrome','silk','blueprint','typography'].includes(requested)?requested:'vortex';
+  const revealAt=()=>mode==='vortex'?6.2:mode==='typography'?4:3.2;
   const glyphs = '01{}[]<>/+=:;*';
   const palette = [[244,221,192],[221,166,182],[178,83,118],[250,236,216]];
   const random = n => { const value = Math.sin(n*127.1+311.7)*43758.5453; return value-Math.floor(value); };
@@ -59,11 +63,17 @@
     if(animate&&now-lastDraw<32){frame=requestAnimationFrame(draw);return;}
     lastDraw=now;
     const t=reduce.matches?10:elapsed/1000;
-    const reveal=ease((t-6.2)/1.5);
+    const revealStart=revealAt();
+    const reveal=ease((t-revealStart)/1.5);
     home.style.setProperty('--name-reveal',reveal.toFixed(3));
     intro.style.pointerEvents=reveal>.8?'auto':'none';
-    skip.hidden=false;skip.textContent=t>7.8?'Replay intro ↻':'Skip intro ↗';
+    skip.hidden=false;skip.textContent=t>revealStart+1.6?'Replay intro ↻':'Skip intro ↗';
     ctx.clearRect(0,0,width,height);
+    if(mode!=='vortex'&&window.portfolioIntroVariants?.[mode]) {
+      window.portfolioIntroVariants[mode](ctx,{width,height,t,pointer,reveal,particles,animate});
+      if(animate)frame=requestAnimationFrame(draw);
+      return;
+    }
     const cx=width/2,cy=height*.44;
     const aura=ctx.createRadialGradient(cx,cy,0,cx,cy,Math.max(width,height)*.65);
     aura.addColorStop(0,`rgba(147,37,78,${.2+(1-reveal)*.15})`);aura.addColorStop(.5,'rgba(75,12,35,.12)');aura.addColorStop(1,'rgba(53,6,15,0)');
@@ -108,11 +118,18 @@
   }
   function sync(){cancelAnimationFrame(frame);previous=null;lastDraw=-Infinity;draw(performance.now());}
   function resize(){prepare();sync();}
-  function skipOrReplay(){elapsed=elapsed>7800?0:9000;if(!elapsed)particles.forEach(p=>{p.x=width/2;p.y=height*.44;});sync();}
+  function skipOrReplay(){elapsed=elapsed>(revealAt()+1.6)*1000?0:9000;if(!elapsed)particles.forEach(p=>{p.x=width/2;p.y=height*.44;});sync();}
   skip.addEventListener('click',skipOrReplay);
-  intro.addEventListener('focusin',()=>{if(elapsed<7800){elapsed=9000;sync();}});
+  intro.addEventListener('focusin',()=>{if(elapsed<(revealAt()+1.6)*1000){elapsed=9000;sync();}});
   home.addEventListener('pointermove',event=>{if(event.pointerType==='touch')return;const bounds=home.getBoundingClientRect();pointer.active=true;pointer.x=event.clientX-bounds.left;pointer.y=event.clientY-bounds.top;},{passive:true});
   home.addEventListener('pointerleave',()=>{pointer.active=false;});
+  function selectMode(value) {
+    mode=value;elapsed=0;pointer.active=false;
+    optionButtons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.introOption===mode)));
+    particles.forEach(p=>{p.x=width/2;p.y=height*.44;});sync();
+  }
+  optionButtons.forEach(button=>button.addEventListener('click',()=>selectMode(button.dataset.introOption)));
+  optionButtons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.introOption===mode)));
   reduce.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);
   new MutationObserver(sync).observe(home,{attributes:true,attributeFilter:['class','hidden']});
   home.dataset.cinema='ready';
