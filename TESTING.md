@@ -105,7 +105,7 @@ For shared navigation cases, test every listed destination independently from th
 | T30 | Project filters — second JavaScript feature | Open Projects and expand the create folder. Activate All, Coding Projects, Designs, Web Design, then All again. Repeat with Tab and Enter. | All shows 3 cards; Coding Projects shows Palletizer and Python Practice; Designs shows Donut Poster; Web Design shows the empty message. Selected aria-pressed and the live project count match the result. | Pass — Pointer and Enter verified: All 3 → Coding 2 → Designs 1 → Web 0/empty → All 3; counts and aria-pressed correct. |
 | T31 | Palletizer Watch demo | In the Projects collection, activate Watch demo. Observe the box moving from conveyor to pallet. Pause, resume, close with the close button, reopen, then press Escape. | Dialog opens; simulated pick/lift/place sequence runs; pause/resume works; both close methods work; focus returns to Watch demo. This is the website simulation, not a live Viam connection. | Pass — Observed stages: 01 / Grip the box, 02 / Lift from the conveyor, 03 / Move above the pallet, 04 / Lower onto the pallet, 05 / Release the box, 06 / Return for the next box; pause froze box, resume/close/Escape and focus return verified. |
 | T32 | Project destinations and downloads | From Projects, open View simulation image, the Donut Poster image, View full design, and Try interactive exercises. On Python Practice, activate Download original notebook. | Images open without a 404; both poster links show the correct design; the Python page opens and its notebook downloads. New-tab links leave the portfolio available. | Pass — assets/viam-palletizer.png HTTP 200 and new-tab destination verified; assets/canva-donut-poster.jpeg HTTP 200 and new-tab destination verified; assets/canva-donut-poster.jpeg HTTP 200 and new-tab destination verified; Python link opened correct page; notebook downloaded and parsed as JSON. |
-| T33 | Contact links, orbit icons, and résumé | Open Contact. Activate both email links, both GitHub links, and both LinkedIn links (text list and Earth icons). Download my résumé. Do not send an email. | Email opens a compose action addressed to jma248@njit.edu; GitHub opens https://github.com/jma248; LinkedIn opens https://www.linkedin.com/in/jana-shoueeb/; résumé downloads as Jana-Abo-Shoueeb-Resume.pdf. No broken destinations. | Not Tested — destinations and résumé download were verified earlier; this continuation activated the GitHub/LinkedIn links with the keyboard at phone/laptop widths. Opened tabs included jma248 · GitHub and Jana AboShoueeb’s LinkedIn profile; one LinkedIn tab redirected to its sign-in wall. Native email-compose behavior and consistent signed-in profile viewing remain manual checks. |
+| T33 | Contact email links | Open Contact and activate the text-list and graphic email links. Confirm the compose window addresses jma248@njit.edu; do not send a message. | Both links open the intended email-compose action without sending a message. | Not Tested — owner explicitly reports Email links: Not Tested. Earlier href checks do not verify the native compose action. |
 | T34 | Other internal project links | Activate Home’s Explore my work, About’s See my projects, and Experience’s See my Palletizer project. Return to the source section before each activation. | Each link opens Projects and updates the URL hash; page focus moves to the destination section. | Pass — All three project links reached Projects and moved focus there; Home tested after the four-second intro. |
 | T35 | Python interactive exercises | Open Python Practice. In exercise 1 enter 20, 25, 30 with threshold 24 and choose Run example. Use Reset inputs. In each of exercises 2–6 change valid inputs, run, reset, then try empty/invalid inputs. | Exercise 1 counts 2 days above 24; all six demos update their own result; reset restores defaults; invalid inputs produce validation feedback. Exercises 7–8 remain documented examples, with no live API calls expected. | Pass — Exercises 1–6: valid calculations matched independent values, resets restored original fields, empty fields blocked, invalid data produced errors. Exercises 7–8 remain static examples (deployed source inspected). |
 | T36 | Light/burgundy theme toggle | On each of the six main sections, switch themes with the header toggle. Reload and navigate between sections. | Existing light and burgundy palettes switch correctly; the choice persists when browser storage is available; text and controls remain legible and focused controls remain visible. | Pass — Both themes switched and persisted after reload in all six sections; screenshot review at phone/laptop widths confirmed legible text and controls. Focus styling checked separately; Contact icons use a custom visible circle stroke. |
@@ -162,6 +162,9 @@ Use the local preview base URL for these paths. Run each case independently and 
 | T80 | `previews/fonts.html`: laptop layout | Open `previews/fonts.html` locally at 1440 × 900 CSS pixels. Scroll the full page and exercise every available option. | Artwork, labels, and controls remain aligned and readable without unwanted clipping or overlap. | Not Tested |
 | T81 | `previews/fonts.html`: Tab and Enter navigation | Open `previews/fonts.html` locally. Tab and Shift+Tab through every anchor and available button/input. Activate links/buttons with Enter and checkboxes with Space. | Visible focus follows a logical order; every interactive control works with the keyboard; no focus trap. A static artwork sample does not need to receive focus. | Not Tested |
 | T82 | `previews/fonts.html`: Lighthouse Accessibility ≥90 | Open `previews/fonts.html` through the local HTTP preview. Run Lighthouse Mobile Accessibility, verify the report URL and screenshot, and save a report named for this HTML file. | Accessibility is at least 90/100 for this individual HTML document. The saved homepage reports cannot verify this page. | Not Tested |
+| T83 | Contact GitHub links | Open Contact and activate the GitHub links in the text list and connection graphic. | Links open Jana’s GitHub profile at https://github.com/jma248. | Pass — owner-reported manual result: GitHub links Pass. Report received 2026-11-06 (America/New_York); test browser, viewport and execution time were not supplied. |
+| T84 | Contact LinkedIn links | Open Contact and activate the LinkedIn links in the text list and connection graphic. | Links open Jana’s LinkedIn profile at https://www.linkedin.com/in/jana-shoueeb/. | Pass — owner-reported manual result: LinkedIn links Pass. Report received 2026-11-06 (America/New_York); test browser, viewport and execution time were not supplied. |
+| T85 | Contact résumé download | Open Contact and activate Download my résumé. Verify the downloaded file. | Jana-Abo-Shoueeb-Resume.pdf downloads and is a valid PDF. | Pass — preserved prior browser evidence from the former combined T33: the résumé downloaded with the expected filename and PDF signature; keyboard download was also verified at phone/laptop widths. This is not a newly performed manual test. |
 
 ## Executed live browser session
 
@@ -407,7 +410,7 @@ Lighthouse’s `label-content-name-mismatch` audit failed on the main portfolio 
 
 Python Practice has no failed numerical Accessibility audit in its saved report. No markup or design was changed to address the findings. Manual checks listed by Lighthouse remain separate from these automated scores.
 
-### Latest original-case totals
+### Original-case totals before the Contact split (historical)
 
 | Status | Count |
 | --- | ---: |
@@ -419,3 +422,27 @@ Python Practice has no failed numerical Accessibility audit in its saved report.
 The 45 passes consist of 35 completed browser cases and 10 Lighthouse-result cases (four historical homepage cases plus these six new audits). “Fail: 0” refers to the original test-case criteria; the unweighted accessible-name findings above remain unresolved. The remaining 37 Not Tested cases are the two incomplete Contact cases (T27, T33) and 35 cases for the seven untracked local prototype files (T48–T82). All other case results are unchanged. No fresh Performance, Best Practices or SEO scores are asserted by these Accessibility-only reports.
 
 **Recorded (UTC):** 2026-11-06T05:00:04.704674+00:00. Only TESTING.md and the six new report JSON files were changed in this task. Nothing was committed or pushed.
+
+## Manual Contact results and split cases
+
+The owner reported these manual results on **2026-11-06 (America/New_York)**: GitHub links **Pass**, LinkedIn links **Pass**, Email links **Not Tested**. Browser, viewport and actual execution time were not provided, so none is inferred. These are owner-reported results; no new browser test was performed for this update.
+
+The former T33 combined email, GitHub, LinkedIn and résumé behavior. It is now split into independently recorded cases: T33 covers email, T83 covers GitHub, T84 covers LinkedIn, and T85 preserves the already verified résumé download. Earlier combined-case observations and totals above remain historical evidence. Every other existing case result is unchanged, including T27: a general manual link result does not establish completion of that full keyboard test.
+
+| Case | Contact check | Result | Evidence source |
+| --- | --- | --- | --- |
+| `T33` | Email links | Not Tested | Owner explicitly left this untested; prior URL checks remain partial evidence |
+| `T83` | GitHub links | Pass | Owner-reported manual result |
+| `T84` | LinkedIn links | Pass | Owner-reported manual result |
+| `T85` | Résumé download | Pass | Existing verified browser result preserved from the combined case |
+
+### Current totals after splitting Contact links
+
+| Status | Count |
+| --- | ---: |
+| Pass | 48 |
+| Fail | 0 |
+| Not Tested | 37 |
+| Total | 85 |
+
+Replacing one combined case with four separate cases increases the total from 82 to 85. Passes increase by three: the two owner-confirmed link results and the previously verified résumé sub-result now counted as its own case. The Email case replaces the former combined Not Tested case, so the Not Tested count remains 37. All earlier results outside T33 are unchanged. Website code and design were not changed, and nothing was committed or pushed.
