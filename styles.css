@@ -386,3 +386,20 @@ body:has(#home:not([hidden])) .site-footer { border-color: var(--frame-soft); }
   .hero.home-minimal h1.hero-name { font-size: clamp(54px, 14vw, 88px); }
   :root:not([data-theme="light"]) .hero.home-minimal { min-height: calc(100svh - 210px); }
 }
+
+/* Match the enhanced layout before deferred navigation initializes. */
+html[data-initial-section] body { min-height: 100svh; display: flex; flex-direction: column; }
+html[data-initial-section] main { flex: 1; }
+html[data-initial-section] main > section { min-height: calc(100svh - 180px); }
+html[data-initial-section="home"] main > section:not(#home),
+html[data-initial-section="about"] main > section:not(#about),
+html[data-initial-section="skills"] main > section:not(#skills),
+html[data-initial-section="projects"] main > section:not(#projects),
+html[data-initial-section="experience"] main > section:not(#experience),
+html[data-initial-section="contact"] main > section:not(#contact) { display: none; }
+/* Reserve the controls' existing space until their event handlers are ready. */
+html[data-theme] .theme-toggle[hidden] { display: inline-block !important; visibility: hidden; }
+@media (max-width: 650px) {
+  html[data-initial-section] #navigation { display: none; }
+  html[data-initial-section] .menu-toggle[hidden] { display: inline-block !important; visibility: hidden; }
+}

@@ -118,6 +118,8 @@ window.addEventListener('popstate', () => showSection(sectionFromHash(), true));
 window.addEventListener('hashchange', () => showSection(sectionFromHash(), true));
 document.body.classList.add('section-navigation');
 showSection(sectionFromHash());
+// The regular navigation now owns the state established before first paint.
+delete document.documentElement.dataset.initialSection;
 
 // Filter portfolio projects without changing page navigation.
 const projectCards = Array.from(document.querySelectorAll('.project-card[data-category]'));
