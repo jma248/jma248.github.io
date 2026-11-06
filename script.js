@@ -101,10 +101,21 @@ function showSection(section, moveFocus = false) {
   }
 }
 
+// Skip within the visible section without triggering hash-based navigation.
+document.querySelector('.skip-link').addEventListener('click', (event) => {
+  if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
+  const section = sections.find((item) => !item.hidden);
+  if (!section) return;
+  event.preventDefault();
+  section.setAttribute('tabindex', '-1');
+  section.focus({ preventScroll: true });
+  section.scrollIntoView({ behavior: 'instant', block: 'start' });
+});
+
 sectionLinks.forEach((link) => {
   link.addEventListener('click', (event) => {
     const section = sections.find((item) => '#' + item.id === link.getAttribute('href'));
-    // Keep skip links and modified clicks (such as open in new tab) native.
+    // Keep non-section anchors and modified clicks (such as open in new tab) native.
     if (!section || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
     event.preventDefault();
     if (window.location.hash !== '#' + section.id) {
