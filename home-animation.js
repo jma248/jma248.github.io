@@ -11,7 +11,7 @@
   const palette = [[244,221,192],[221,166,182],[178,83,118],[250,236,216]];
   const random = n => { const value = Math.sin(n*127.1+311.7)*43758.5453; return value-Math.floor(value); };
   const ease = value => { const x = Math.max(0,Math.min(1,value)); return x*x*(3-2*x); };
-  let width=1,height=1,particles=[],frame=0,elapsed=0,previous=null,lastDraw=-Infinity;
+  let width=1,height=1,particles=[],frame=0,elapsed=window.portfolioState?.get('homeElapsed',0)??0,previous=null,lastDraw=-Infinity;
   const pointer={active:false,x:0,y:0};
   const moving=()=>!home.hidden&&!document.hidden&&!reduce.matches&&!home.classList.contains('home-motion-paused');
 
@@ -141,6 +141,7 @@
   home.addEventListener('pointerleave',()=>{pointer.active=false;});
   reduce.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);
   new MutationObserver(sync).observe(home,{attributes:true,attributeFilter:['class','hidden']});
+  window.portfolioState?.onSave(()=>window.portfolioState.set('homeElapsed',elapsed));
   home.dataset.cinema='ready';
   if('ResizeObserver'in window)new ResizeObserver(resize).observe(home);else window.addEventListener('resize',resize);
   resize();if(document.fonts?.ready)document.fonts.ready.then(resize);

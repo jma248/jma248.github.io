@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jana Abo Shoueeb’s coding, robotics, and design projects, including Viam Palletizer, Python Practice, and a Canva donut poster.">
+  <meta name="theme-color" content="#35060F"><title>Projects — Jana Abo Shoueeb</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSvfedN4.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="navigation-init.js?v=85101777e735"></script>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Italianno&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="theme.js?v=6ce445b615d2"></script><link rel="stylesheet" href="styles.css?v=16a06502b46a"><script src="page-state.js?v=f5a1cb057710" defer></script><script src="script.js?v=4e3768e47855" defer></script>
+  <link rel="stylesheet" href="typography.css?v=d575d1999ec2">
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any">
+</head>
+<body class="section-navigation" data-page="projects">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="monogram" href="index.html" aria-label="Jana Abo Shoueeb, home"><span aria-hidden="true">J</span><span aria-hidden="true">A</span></a>
+  <div class="header-controls"><button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">☰</span></button><button class="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false" hidden><span aria-hidden="true">◐</span> <span class="theme-label">Dark</span></button></div>
+  <nav id="navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html" aria-current="page">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></nav>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-section projects" id="projects" aria-labelledby="projects-title"><p class="eyebrow">03 / PROJECTS</p><div class="section-heading"><h2 id="projects-title">Projects <span aria-hidden="true">✦</span></h2><p>A few projects I’ve made<br>for classes and on my own.</p></div><label class="hands-motion-control"><input class="hands-pause" type="checkbox"> Pause hands</label>
+<details class="create-collection">
+<summary class="create-scene" aria-label="Open or close my project collection">
+  <canvas id="code-hands" class="create-hands" width="2000" height="640" aria-hidden="true"></canvas>
+  <span class="create-folder"><span class="folder-icon" aria-hidden="true"></span><span class="folder-name">create</span><span class="folder-action">Open collection ↗</span></span>
+</summary>
+
+<div class="collection-content">
+<div class="project-filters" role="group" aria-label="Filter projects by category">
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="web" aria-pressed="false">Web Design</button>
+  <button type="button" data-filter="coding" aria-pressed="false">Coding Projects</button>
+  <button type="button" data-filter="design" aria-pressed="false">Designs</button>
+</div>
+<p id="project-count" class="sr-only" aria-live="polite">3 projects shown</p>
+<p class="project-empty" hidden>No projects in this category yet.</p>
+<div class="project-grid project-grid-featured">
+  <article class="project-card project-featured" data-category="coding" aria-labelledby="palletizer-title">
+    <div class="project-photo"><img src="assets/viam-palletizer.png" alt="Palletizer simulation in Viam, showing an orange robotic arm beside a roller conveyor and a wooden pallet" width="1420" height="892" loading="lazy"><span>ROBOTICS / SIMULATION</span></div>
+    <div class="project-caption">
+      <p class="project-context">VIAM101 · PERSONAL TRAINING</p>
+      <h3 id="palletizer-title">Palletizer</h3>
+      <p>I made this robot simulation during Viam 101 training. It’s meant to lift a box from a conveyor and place it on a pallet.</p>
+      <div class="tags"><span>Viam</span><span>Robotics</span><span>Simulation</span></div>
+      <button class="button button-primary demo-open" type="button" aria-haspopup="dialog" aria-controls="palletizer-demo" hidden>Watch demo <span aria-hidden="true">▷</span></button>
+      <a class="project-image-link" href="assets/viam-palletizer.png" target="_blank" rel="noopener">View simulation image <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+  <article class="project-card project-featured" data-category="coding" aria-labelledby="python-project-title">
+    <div class="notebook-art" aria-hidden="true"><div class="notebook-window"><div class="notebook-bar"><span>● ● ●</span><span>python_practice.ipynb</span></div><pre><code><span class="code-comment"># Inventory exercise</span>
+<span class="code-keyword">for</span> item <span class="code-keyword">in</span> inventory:
+    total += item['quantity'] * item['price']
+
+<span class="code-output">Total inventory value: $94.50</span>
+
+<span class="code-comment"># Python class assignment</span></code></pre><div class="notebook-footer">08 EXERCISES <span>PYTHON + SQLITE</span></div></div></div>
+    <div class="project-caption"><p class="project-context">PYTHON / COURSEWORK</p><h3 id="python-project-title">Python Practice</h3><p>A Python assignment with eight exercises on lists, grades, inventory, matrices, APIs, and SQLite.</p><p>The news exercise needs an API key to run.</p><div class="tags"><span>Python</span><span>Data processing</span><span>APIs</span><span>SQLite</span></div><a class="project-image-link" href="projects/python-practice.html">Try interactive exercises <span aria-hidden="true">↗</span></a></div>
+  </article>
+  <article class="project-card project-featured project-poster" data-category="design" aria-labelledby="donut-project-title">
+    <a class="poster-preview" href="assets/canva-donut-poster.jpeg" target="_blank" rel="noopener" aria-label="View the full Canva donut poster"><img src="assets/canva-donut-poster.jpeg" alt="Canva donut poster with a cream satin background, layered DONUTS lettering, chocolate-glazed donuts, and the words soft, sweet and tasty" width="1170" height="1444" loading="lazy"></a>
+    <div class="project-caption"><p class="project-context">CANVA / GRAPHIC DESIGN</p><h3 id="donut-project-title">Donut Poster</h3><p>I made this donut poster in Canva using a cream background, chocolate-glazed donuts, and layered text.</p><p>I used a round photo frame and repeated lettering to keep the donuts at the center of the design.</p><div class="tags"><span>Canva</span><span>Poster design</span><span>Typography</span><span>Layout</span></div><a class="project-image-link" href="assets/canva-donut-poster.jpeg" target="_blank" rel="noopener">View full design <span aria-hidden="true">↗</span></a></div>
+  </article>
+</div>
+</div></details></section>
+</main>
+<canvas id="flying-butterflies" aria-hidden="true"></canvas>
+<footer class="site-footer"><span>© <span id="year">2026</span> Jana Abo Shoueeb</span><button type="button" class="butterfly-toggle" aria-pressed="false" hidden>Pause butterflies</button><a href="index.html">BACK TO HOME ↗</a></footer>
+<dialog class="project-demo" id="palletizer-demo" aria-labelledby="demo-title" aria-describedby="demo-note">
+  <div class="demo-heading"><div><p class="eyebrow">VIAM 101 / PALLETIZER</p><h2 id="demo-title">Pick. Lift. <em>Place.</em></h2></div><button class="demo-close" type="button" aria-label="Close demo">✕</button></div>
+  <p id="demo-note">This animation shows the task. It isn’t a recording from Viam.</p>
+  <svg class="demo-scene" viewBox="0 0 850 390" role="img" aria-labelledby="demo-svg-title demo-svg-desc">
+    <title id="demo-svg-title">Palletizer pick-and-place workflow</title><desc id="demo-svg-desc">A robot arm lifts a box from the conveyor on the left, carries it across, and lowers it onto the pallet on the right.</desc>
+    <defs><pattern id="demo-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#e4cfb8" stroke-opacity=".08"/></pattern></defs>
+    <rect width="850" height="390" fill="#290811"/><rect width="850" height="390" fill="url(#demo-grid)"/>
+    <g fill="#bba99b" stroke="#e4cfb8" stroke-width="2"><rect x="105" y="270" width="155" height="16" rx="5"/><path d="M120 286V329 M245 286V329" stroke-width="8"/><path d="M125 273V283 M145 273V283 M165 273V283 M185 273V283 M205 273V283 M225 273V283 M245 273V283" stroke="#544147" stroke-width="4"/></g>
+    <g fill="#bc9569" stroke="#e8c698" stroke-width="2"><rect x="585" y="300" width="132" height="18" rx="2"/><path d="M596 306H705 M610 301V317 M640 301V317 M670 301V317 M700 301V317"/></g>
+    <path d="M377 325H423L415 298H385Z" fill="#bba99b"/><rect x="368" y="325" width="64" height="11" rx="4" fill="#806d65"/>
+    <path class="demo-arm-shadow" fill="none" stroke="#1b040b" stroke-width="26" stroke-linecap="round"/>
+    <path class="demo-arm" fill="none" stroke="#cf8054" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="demo-arm-highlight" fill="none" stroke="#efb58a" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+    <g class="demo-joints" fill="#d4c6b7" stroke="#775c52" stroke-width="3"><circle cx="400" cy="300" r="15"/><circle class="demo-elbow" r="13"/><circle class="demo-wrist" r="9"/></g>
+    <path class="demo-gripper" fill="none" stroke="#d4c6b7" stroke-width="4" stroke-linejoin="round"/>
+    <g class="demo-box"><rect x="-19" y="16" width="38" height="34" rx="2" fill="#d8b37c" stroke="#f0d8ad" stroke-width="1.5"/><path d="M0 16V50 M-18 25H18" stroke="#f2d9ad" stroke-width="3"/></g>
+    <g fill="#e4cfb8" font-family="monospace" font-size="11" text-anchor="middle"><text x="182" y="360">01 / CONVEYOR</text><text x="400" y="360">02 / ROBOT ARM</text><text x="650" y="360">03 / PALLET</text></g>
+  </svg>
+  <div class="demo-controls"><p class="demo-step" role="status" aria-live="polite"></p><button class="demo-play" type="button" aria-pressed="false">Pause demo</button></div>
+</dialog>
+<script src="hands.js?v=d09967539661" defer></script>
+<script src="project-demo.js?v=5f137d10d88c" defer></script>
+<script src="flying-butterflies.js?v=ee8808d0c260" defer></script>
+</body></html>

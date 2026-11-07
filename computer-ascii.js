@@ -19,7 +19,8 @@
       points.push({x,y,alpha:keyboard?.5:stand?.5:edge?.75:.4,seed:Math.abs(Math.floor(x*7+y*11))});
     }
   }
-  let width=1,height=340,frame=0,previous=null,elapsed=0,lastDraw=-Infinity,visible=false;
+  let width=1,height=340,frame=0,previous=null,elapsed=window.portfolioState?.get('computerElapsed',0)??0,lastDraw=-Infinity,visible=false;
+  window.portfolioState?.onSave(()=>window.portfolioState.set('computerElapsed',elapsed));
   const running=()=>visible&&!section.hidden&&!document.hidden&&!pause.checked&&!reduce.matches;
   function draw(now){
     frame=0;const moving=running();if(moving&&previous!==null)elapsed+=Math.min(now-previous,80);previous=moving?now:null;

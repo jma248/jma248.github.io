@@ -387,6 +387,20 @@ body:has(#home:not([hidden])) .site-footer { border-color: var(--frame-soft); }
   :root:not([data-theme="light"]) .hero.home-minimal { min-height: calc(100svh - 210px); }
 }
 
+.contact-grid > .earth-scene { width: 100%; min-width: 0; margin: 0; }
+.earth-orbit-stage { position: relative; width: 100%; max-width: 500px; aspect-ratio: 1; margin: 0 auto; }
+.earth-orbit-stage::before { content: ''; position: absolute; inset: 12%; border-radius: 50%; background: radial-gradient(ellipse, var(--frame-soft), transparent 72%); filter: blur(18px); pointer-events: none; }
+.earth-orbit-stage .earth-canvas { position: absolute; inset: 0; height: 100%; }
+.earth-orbit-lines { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: var(--accent); stroke-width: .8; opacity: .28; pointer-events: none; }
+.earth-orbit-link { position: absolute; z-index: 1; left: var(--orbit-x); top: var(--orbit-y); transform: translate(-50%, -24px); display: grid; justify-items: center; gap: 6px; color: var(--accent); }
+.earth-orbit-link > span { display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid var(--frame); border-radius: 50%; background: var(--surface); font: 20px/1 var(--font-code,monospace); box-shadow: 0 0 16px var(--frame-soft); transition: background .2s; }
+.earth-orbit-link small { font: 8px/1.4 var(--font-code,monospace); letter-spacing: .8px; }
+.earth-orbit-link:hover > span { background: var(--surface-note); }
+.orbit-email { --orbit-x: 22.42%; --orbit-y: 22.42%; }
+.orbit-github { --orbit-x: 85.35%; --orbit-y: 33.52%; }
+.orbit-linkedin { --orbit-x: 50%; --orbit-y: 89%; }
+@media (max-width: 650px) { .earth-orbit-link { transform: translate(-50%, -22px); } .earth-orbit-link > span { width: 44px; height: 44px; font-size: 18px; } }
+
 /* Match the enhanced layout before deferred navigation initializes. */
 html[data-initial-section] body { min-height: 100svh; display: flex; flex-direction: column; }
 html[data-initial-section] main { flex: 1; }

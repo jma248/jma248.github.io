@@ -1,0 +1,689 @@
+{
+  "browser": "Chrome/157.0.8103.39",
+  "base": "http://127.0.0.1:9341/",
+  "date": "2026-11-07",
+  "results": [
+    {
+      "file": "index.html",
+      "width": 390,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [
+        {
+          "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects.html",
+      "width": 390,
+      "theme": "light",
+      "images": [
+        {
+          "src": "assets/viam-palletizer.png",
+          "complete": true,
+          "width": 1420,
+          "height": 892,
+          "box": {
+            "width": 341.21875,
+            "height": 214.328125
+          }
+        },
+        {
+          "src": "assets/canva-donut-poster.jpeg",
+          "complete": true,
+          "width": 1170,
+          "height": 1444,
+          "box": {
+            "width": 297.21875,
+            "height": 340
+          }
+        }
+      ],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "skills.html",
+      "width": 390,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "experience.html",
+      "width": 390,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects/python-practice.html",
+      "width": 390,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [
+        {
+          "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [
+        {
+          "src": "assets/viam-palletizer.png",
+          "complete": true,
+          "width": 1420,
+          "height": 892,
+          "box": {
+            "width": 341.21875,
+            "height": 214.32818603515625
+          }
+        },
+        {
+          "src": "assets/canva-donut-poster.jpeg",
+          "complete": true,
+          "width": 1170,
+          "height": 1444,
+          "box": {
+            "width": 297.21875,
+            "height": 340
+          }
+        }
+      ],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "skills.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "experience.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects/python-practice.html",
+      "width": 390,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [
+        {
+          "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [
+        {
+          "src": "assets/viam-palletizer.png",
+          "complete": true,
+          "width": 1420,
+          "height": 892,
+          "box": {
+            "width": 694.5625,
+            "height": 436.2969055175781
+          }
+        },
+        {
+          "src": "assets/canva-donut-poster.jpeg",
+          "complete": true,
+          "width": 1170,
+          "height": 1444,
+          "box": {
+            "width": 650.5625,
+            "height": 540.0000610351562
+          }
+        }
+      ],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "skills.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "experience.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects/python-practice.html",
+      "width": 1440,
+      "theme": "light",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [
+        {
+          "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [
+        {
+          "src": "assets/viam-palletizer.png",
+          "complete": true,
+          "width": 1420,
+          "height": 892,
+          "box": {
+            "width": 694.5625,
+            "height": 436.296875
+          }
+        },
+        {
+          "src": "assets/canva-donut-poster.jpeg",
+          "complete": true,
+          "width": 1170,
+          "height": 1444,
+          "box": {
+            "width": 650.5625,
+            "height": 540
+          }
+        }
+      ],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "skills.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "experience.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    },
+    {
+      "file": "projects/python-practice.html",
+      "width": 1440,
+      "theme": "dark",
+      "images": [],
+      "backgrounds": [],
+      "status": "Pass"
+    }
+  ],
+  "quality": [
+    {
+      "name": "viam-palletizer.png",
+      "width": 1420,
+      "height": 892,
+      "changedChannels": 0,
+      "meanAbsoluteError": 0,
+      "PSNR": null,
+      "pixelsIdentical": true
+    },
+    {
+      "name": "canva-donut-poster.jpeg",
+      "width": 1170,
+      "height": 1444,
+      "changedChannels": 2480153,
+      "meanAbsoluteError": 0.7029377875638263,
+      "PSNR": 47.102377098701496,
+      "pixelsIdentical": false
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/viam-palletizer.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/canva-donut-poster.jpeg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/viam-palletizer.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/canva-donut-poster.jpeg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/viam-palletizer.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/canva-donut-poster.jpeg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/burgundy-lilies.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/viam-palletizer.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/canva-donut-poster.jpeg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:9341/favicon.ico",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "images": [
+    {
+      "file": "assets/viam-palletizer.png",
+      "beforeBytes": 569399,
+      "afterBytes": 403980,
+      "dimensions": [
+        1420,
+        892
+      ],
+      "originalSHA256": "4279799a5829dd14ad879ca5615a0a187b88ad4aaa37ae94ce8dc698f8f697cd",
+      "currentSHA256": "640ee9877b39e5e45caf2d29d2954d2f47728b91a32fc922fa10ad6e5088cdb0",
+      "optimized": true
+    },
+    {
+      "file": "assets/canva-donut-poster.jpeg",
+      "beforeBytes": 1171468,
+      "afterBytes": 428214,
+      "dimensions": [
+        1170,
+        1444
+      ],
+      "originalSHA256": "501fb89efea9bdc26a06c350197fc8b347bcc4bb9247f64fa1dfe63d312eb2b7",
+      "currentSHA256": "a68eb9c6e1f7685d9998edba16eb4350adb1f65d828fe26340c8a262ac37ea93",
+      "optimized": true
+    },
+    {
+      "file": "assets/home-eye-source.png",
+      "beforeBytes": 2377681,
+      "afterBytes": 2377681,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "originalSHA256": "fdc4c6a3d67d13c195ee541aada2684205b59d4c7a0299d3c3bbec87e138266a",
+      "currentSHA256": "fdc4c6a3d67d13c195ee541aada2684205b59d4c7a0299d3c3bbec87e138266a",
+      "optimized": false
+    }
+  ],
+  "referencedImages": {
+    "assets/burgundy-lilies.jpg": 72700,
+    "assets/canva-donut-poster.jpeg": 428214,
+    "assets/viam-palletizer.png": 403980,
+    "favicon.ico": 4075,
+    "favicon.svg": 273
+  },
+  "originalBackupDirectory": "/Users/janashoueeb/Documents/Projects/Portfolio/image-originals-2026-11-07",
+  "unusedEye": "No HTML/CSS/JavaScript references; appears only in documentation/manifests. Original remains in assets pending archive/keep preference; no original deleted.",
+  "layoutToleranceCSSPixels": 0.01,
+  "notes": [
+    "Palletizer PNG IDAT recompressed losslessly with zlib, preserving decompressed pixel/filter data and color metadata. Obsolete Apple iDOT offsets removed.",
+    "Poster re-encoded with native high-quality JPEG setting 95; dimensions unchanged; small lossy differences measured and visual quality reviewed.",
+    "No code, fonts, layout, theme, animation, prototype or historical Lighthouse changes.",
+    "Python Practice retains its existing single-theme appearance.",
+    "All five statically referenced website image files are below 500,000 bytes; the unreferenced source remains oversized."
+  ]
+}

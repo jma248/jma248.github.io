@@ -4,11 +4,13 @@
   const ctx=canvas?.getContext('2d');if(!ctx)return;
   const toggle=document.querySelector('.butterfly-toggle');
   const home=document.querySelector('#home');
+  const onHome=()=>!!home&&!home.hidden;
   const reduce=matchMedia('(prefers-reduced-motion: reduce)');
-  let width=1,height=1,elapsed=0,previous=null,frame=0,lastDraw=-Infinity,paused=false;
+  let width=1,height=1,elapsed=window.portfolioState?.getAmbient('butterfliesElapsed',0)??0,previous=null,frame=0,lastDraw=-Infinity,paused=window.portfolioState?.getAmbient('butterfliesPaused',false)??false;
+  window.portfolioState?.onSave(()=>window.portfolioState.setAmbient('butterfliesElapsed',elapsed));
   const perches=[];
   let candidates=[],lastSearch=-Infinity;
-  const running=()=>home.hidden&&!paused&&!reduce.matches&&!document.hidden;
+  const running=()=>!onHome()&&!paused&&!reduce.matches&&!document.hidden;
   const clamp=x=>Math.max(0,Math.min(1,x));
   const palettes={
     light:{base:[88,6,29],edge:[112,13,37],shine:[170,54,87],halo:'rgba(112,13,37,.12)',glow:'#700d25',body:'#49091d'},
@@ -117,16 +119,16 @@
   function draw(now){
     frame=0;const animate=running();if(animate&&previous!==null)elapsed+=Math.min(now-previous,80);previous=animate?now:null;
     if(animate&&now-lastDraw<32){frame=requestAnimationFrame(draw);return;}lastDraw=now;
-    ctx.clearRect(0,0,width,height);if(!home.hidden)return;
+    ctx.clearRect(0,0,width,height);if(onHome())return;
     refreshPerches(elapsed/1000);
     const palette=palettes[document.documentElement.dataset.theme==='light'?'light':'dark'];
     for(let i=0;i<(width<650?2:3);i++)butterfly(elapsed/1000,i,palette);
     if(animate)frame=requestAnimationFrame(draw);
   }
-  function sync(){cancelAnimationFrame(frame);previous=null;lastDraw=-Infinity;toggle.hidden=!home.hidden;toggle.disabled=reduce.matches;toggle.textContent=paused||reduce.matches?'Resume butterflies':'Pause butterflies';toggle.setAttribute('aria-pressed',String(paused||reduce.matches));draw(performance.now());}
+  function sync(){cancelAnimationFrame(frame);previous=null;lastDraw=-Infinity;toggle.hidden=onHome();toggle.disabled=reduce.matches;toggle.textContent=paused||reduce.matches?'Resume butterflies':'Pause butterflies';toggle.setAttribute('aria-pressed',String(paused||reduce.matches));draw(performance.now());}
   function resize(){width=window.innerWidth;height=window.innerHeight;const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);sync();}
-  toggle.addEventListener('click',()=>{paused=!paused;sync();});reduce.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);
-  new MutationObserver(sync).observe(home,{attributes:true,attributeFilter:['hidden']});
+  toggle.addEventListener('click',()=>{paused=!paused;window.portfolioState?.setAmbient('butterfliesPaused',paused);sync();});reduce.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);
+  if(home)new MutationObserver(sync).observe(home,{attributes:true,attributeFilter:['hidden']});
   new MutationObserver(sync).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
   window.addEventListener('scroll',()=>{lastSearch=-Infinity;},{passive:true});
   window.addEventListener('resize',resize);resize();

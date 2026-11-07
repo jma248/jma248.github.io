@@ -1,0 +1,247 @@
+{
+  "normalization": "Both versions use reduced motion, hidden canvases, no focus outline, loaded images and matching browser scrollbar state only during capture; no website source styling changed.",
+  "identical": 48,
+  "total": 48,
+  "captures": [
+    {
+      "scenario": "home-390-dark-default.jpg",
+      "baselineSHA256": "c0c64871a992bc1d0c9ccb4a4d7693181124b64c8804e409d00a47d247657896",
+      "migratedSHA256": "c0c64871a992bc1d0c9ccb4a4d7693181124b64c8804e409d00a47d247657896"
+    },
+    {
+      "scenario": "home-390-light-default.jpg",
+      "baselineSHA256": "c4fd1ff5a95d26fba87171aaaa3c3844ab20e4f919ebb15e2d26c38e8d06e24b",
+      "migratedSHA256": "c4fd1ff5a95d26fba87171aaaa3c3844ab20e4f919ebb15e2d26c38e8d06e24b"
+    },
+    {
+      "scenario": "about-390-dark-default.jpg",
+      "baselineSHA256": "2685c743afccfef9207288e53a880604f3c0f3db8e1ab43b8052b0c96a2221b9",
+      "migratedSHA256": "2685c743afccfef9207288e53a880604f3c0f3db8e1ab43b8052b0c96a2221b9"
+    },
+    {
+      "scenario": "about-390-light-default.jpg",
+      "baselineSHA256": "8950e30cf3efb88f7b701b54ffbe3d046ca1f9b317e3732482497512e5706907",
+      "migratedSHA256": "8950e30cf3efb88f7b701b54ffbe3d046ca1f9b317e3732482497512e5706907"
+    },
+    {
+      "scenario": "projects-390-dark-default.jpg",
+      "baselineSHA256": "7ba0c41d9eb706fb4d52d535e3a698f3d14a84896cdfc5b9c3de448fa2757e89",
+      "migratedSHA256": "7ba0c41d9eb706fb4d52d535e3a698f3d14a84896cdfc5b9c3de448fa2757e89"
+    },
+    {
+      "scenario": "projects-390-dark-expanded.jpg",
+      "baselineSHA256": "948727d9d09461f799d10fe0c97e0d58205e6838234a495ac25b40f7ca091faf",
+      "migratedSHA256": "948727d9d09461f799d10fe0c97e0d58205e6838234a495ac25b40f7ca091faf"
+    },
+    {
+      "scenario": "projects-390-light-default.jpg",
+      "baselineSHA256": "7a730fd57cb9e4fa0a26903b25d209df68bfba5c420cd58974016dd1b219691e",
+      "migratedSHA256": "7a730fd57cb9e4fa0a26903b25d209df68bfba5c420cd58974016dd1b219691e"
+    },
+    {
+      "scenario": "projects-390-light-expanded.jpg",
+      "baselineSHA256": "b0864b52880175a3ccc9b3510f3c6f0d308cf0357c8898882048a9d93fbfb269",
+      "migratedSHA256": "b0864b52880175a3ccc9b3510f3c6f0d308cf0357c8898882048a9d93fbfb269"
+    },
+    {
+      "scenario": "skills-390-dark-default.jpg",
+      "baselineSHA256": "ab654b83e9aeb9715227106f994f5565e9b4b76f2ee17bc96bcae53a3c4f2443",
+      "migratedSHA256": "ab654b83e9aeb9715227106f994f5565e9b4b76f2ee17bc96bcae53a3c4f2443"
+    },
+    {
+      "scenario": "skills-390-light-default.jpg",
+      "baselineSHA256": "4c86084baa683b9cd0fc74453d3ec7ca442b97c0a68d5f0031ea399cdc6ecba8",
+      "migratedSHA256": "4c86084baa683b9cd0fc74453d3ec7ca442b97c0a68d5f0031ea399cdc6ecba8"
+    },
+    {
+      "scenario": "experience-390-dark-default.jpg",
+      "baselineSHA256": "70f38f5be59fc84eb453a9ff256df8f51b4cf6e96f6fd2bff497ac6ca849f058",
+      "migratedSHA256": "70f38f5be59fc84eb453a9ff256df8f51b4cf6e96f6fd2bff497ac6ca849f058"
+    },
+    {
+      "scenario": "experience-390-light-default.jpg",
+      "baselineSHA256": "7de9fe450be52cd80fc36f037937d362baf048d3afc596109a9f4fbedea93dda",
+      "migratedSHA256": "7de9fe450be52cd80fc36f037937d362baf048d3afc596109a9f4fbedea93dda"
+    },
+    {
+      "scenario": "contact-390-dark-default.jpg",
+      "baselineSHA256": "f6571119393f6c5e8984877ad27e968dec6f80b31c1ab3c85bb5b456888f942c",
+      "migratedSHA256": "f6571119393f6c5e8984877ad27e968dec6f80b31c1ab3c85bb5b456888f942c"
+    },
+    {
+      "scenario": "contact-390-light-default.jpg",
+      "baselineSHA256": "768c4cff9005219c3d6b8b7285ef9a7fb5718b3d08ace83e1eed3d5503ef0df1",
+      "migratedSHA256": "768c4cff9005219c3d6b8b7285ef9a7fb5718b3d08ace83e1eed3d5503ef0df1"
+    },
+    {
+      "scenario": "python-390-default-default.jpg",
+      "baselineSHA256": "eda642bd3191aa9fa06129518a9fda57adffd4e45d93ae399c8d9d2590dbf5c2",
+      "migratedSHA256": "eda642bd3191aa9fa06129518a9fda57adffd4e45d93ae399c8d9d2590dbf5c2"
+    },
+    {
+      "scenario": "python-390-default-expanded.jpg",
+      "baselineSHA256": "80724d11826653f1c227291e6b906aaf1db1cea51f00ea50e29eec76347287b3",
+      "migratedSHA256": "80724d11826653f1c227291e6b906aaf1db1cea51f00ea50e29eec76347287b3"
+    },
+    {
+      "scenario": "home-320-dark-default.jpg",
+      "baselineSHA256": "1a274de83b96102d9d7aa404aea5c92bf85a578c9185c84e0571b07cd619bae6",
+      "migratedSHA256": "1a274de83b96102d9d7aa404aea5c92bf85a578c9185c84e0571b07cd619bae6"
+    },
+    {
+      "scenario": "home-320-light-default.jpg",
+      "baselineSHA256": "ee710a5693e3676ba7292f42316b3d219244006f8952dc345dabfa00088d1fa2",
+      "migratedSHA256": "ee710a5693e3676ba7292f42316b3d219244006f8952dc345dabfa00088d1fa2"
+    },
+    {
+      "scenario": "about-320-dark-default.jpg",
+      "baselineSHA256": "5bc486fe25be7939a7bf22b907e1f99a860dc6fc05d7568801166328992cad11",
+      "migratedSHA256": "5bc486fe25be7939a7bf22b907e1f99a860dc6fc05d7568801166328992cad11"
+    },
+    {
+      "scenario": "about-320-light-default.jpg",
+      "baselineSHA256": "088d1e5baa8fc1f12814559bb4857450023de6208408f07b099f6682dbc99980",
+      "migratedSHA256": "088d1e5baa8fc1f12814559bb4857450023de6208408f07b099f6682dbc99980"
+    },
+    {
+      "scenario": "projects-320-dark-default.jpg",
+      "baselineSHA256": "067713bd5f87e8b868df530096454c556e93f392de2f52d451a148b0a2fb8951",
+      "migratedSHA256": "067713bd5f87e8b868df530096454c556e93f392de2f52d451a148b0a2fb8951"
+    },
+    {
+      "scenario": "projects-320-dark-expanded.jpg",
+      "baselineSHA256": "1b930937f6a96af2e0d5b2b9fd9af67186d1fefbd440f4472ef5d97241a1057f",
+      "migratedSHA256": "1b930937f6a96af2e0d5b2b9fd9af67186d1fefbd440f4472ef5d97241a1057f"
+    },
+    {
+      "scenario": "projects-320-light-default.jpg",
+      "baselineSHA256": "515f66543df7ea7b2d202f00a6856f7fd2e4501bbd75d56363ed0653f24ddfad",
+      "migratedSHA256": "515f66543df7ea7b2d202f00a6856f7fd2e4501bbd75d56363ed0653f24ddfad"
+    },
+    {
+      "scenario": "projects-320-light-expanded.jpg",
+      "baselineSHA256": "0c5d59a3912901366a5ffd54039bc59324942870891d4b55760acdfde91108e5",
+      "migratedSHA256": "0c5d59a3912901366a5ffd54039bc59324942870891d4b55760acdfde91108e5"
+    },
+    {
+      "scenario": "skills-320-dark-default.jpg",
+      "baselineSHA256": "98274d1a7119e43d973364c2b37a5671a6199dc547a5118e7f9285836b652646",
+      "migratedSHA256": "98274d1a7119e43d973364c2b37a5671a6199dc547a5118e7f9285836b652646"
+    },
+    {
+      "scenario": "skills-320-light-default.jpg",
+      "baselineSHA256": "7a43bbbd6fc51af8735ba08259686be0a6e2bd86152188438a3bc2bd30436890",
+      "migratedSHA256": "7a43bbbd6fc51af8735ba08259686be0a6e2bd86152188438a3bc2bd30436890"
+    },
+    {
+      "scenario": "experience-320-dark-default.jpg",
+      "baselineSHA256": "9e7990c8d289e3bba9ff667d5857cca53a19cc996451484989f8812b481074b4",
+      "migratedSHA256": "9e7990c8d289e3bba9ff667d5857cca53a19cc996451484989f8812b481074b4"
+    },
+    {
+      "scenario": "experience-320-light-default.jpg",
+      "baselineSHA256": "32fd64732f7730e8f2e489384f60d5e9c53b1a09758b4906690ed7b1b30d9cb0",
+      "migratedSHA256": "32fd64732f7730e8f2e489384f60d5e9c53b1a09758b4906690ed7b1b30d9cb0"
+    },
+    {
+      "scenario": "contact-320-dark-default.jpg",
+      "baselineSHA256": "e47e7d7d90daa7d12304a7d4b23ec1257bb66f0b0cf31aff6affda2af4d6454c",
+      "migratedSHA256": "e47e7d7d90daa7d12304a7d4b23ec1257bb66f0b0cf31aff6affda2af4d6454c"
+    },
+    {
+      "scenario": "contact-320-light-default.jpg",
+      "baselineSHA256": "116da8641326117617ba431053c1dcc808313c11178edbdae23067f2d22cff4a",
+      "migratedSHA256": "116da8641326117617ba431053c1dcc808313c11178edbdae23067f2d22cff4a"
+    },
+    {
+      "scenario": "python-320-default-default.jpg",
+      "baselineSHA256": "090570f70687606b90bae7868abe43318fbf9fb6a860cd2cf3bbd10c0b391f6c",
+      "migratedSHA256": "090570f70687606b90bae7868abe43318fbf9fb6a860cd2cf3bbd10c0b391f6c"
+    },
+    {
+      "scenario": "python-320-default-expanded.jpg",
+      "baselineSHA256": "14a74c0990da4497b6082ee73ae9c0096ab84b122f89597d95e983796f360383",
+      "migratedSHA256": "14a74c0990da4497b6082ee73ae9c0096ab84b122f89597d95e983796f360383"
+    },
+    {
+      "scenario": "home-1440-dark-default.jpg",
+      "baselineSHA256": "60bf51b3b4a41150ec7928b1c094fc22c0dec1e2461a3ad01584cf9ec6b00fab",
+      "migratedSHA256": "60bf51b3b4a41150ec7928b1c094fc22c0dec1e2461a3ad01584cf9ec6b00fab"
+    },
+    {
+      "scenario": "home-1440-light-default.jpg",
+      "baselineSHA256": "943d5e8a846168e3d96bb7ca5c0417569b8aa9185704f03d7c6f662649f64dff",
+      "migratedSHA256": "943d5e8a846168e3d96bb7ca5c0417569b8aa9185704f03d7c6f662649f64dff"
+    },
+    {
+      "scenario": "about-1440-dark-default.jpg",
+      "baselineSHA256": "dc48d2e40bf17f7aac1ef5fb2de8de9c7476c444a338a3fc212bb79110ee81bf",
+      "migratedSHA256": "dc48d2e40bf17f7aac1ef5fb2de8de9c7476c444a338a3fc212bb79110ee81bf"
+    },
+    {
+      "scenario": "about-1440-light-default.jpg",
+      "baselineSHA256": "394f22735199197a1a6ad455f2ff2c31f151435644fdc3f5904ac8e0ede59a1d",
+      "migratedSHA256": "394f22735199197a1a6ad455f2ff2c31f151435644fdc3f5904ac8e0ede59a1d"
+    },
+    {
+      "scenario": "projects-1440-dark-default.jpg",
+      "baselineSHA256": "6c06a886e2e574a3a21fd4d5e31eebe76b4d04b0462f8067c1d580b8c16815d3",
+      "migratedSHA256": "6c06a886e2e574a3a21fd4d5e31eebe76b4d04b0462f8067c1d580b8c16815d3"
+    },
+    {
+      "scenario": "projects-1440-dark-expanded.jpg",
+      "baselineSHA256": "4d688c26c96332fb121ad5de8b26dda86626deb93af544c9eff5f9c92de8b4e2",
+      "migratedSHA256": "4d688c26c96332fb121ad5de8b26dda86626deb93af544c9eff5f9c92de8b4e2"
+    },
+    {
+      "scenario": "projects-1440-light-default.jpg",
+      "baselineSHA256": "c8b877a8ead41296d73f3bc6d926e0285274cceb1f9980908a5a0a441bb9e25c",
+      "migratedSHA256": "c8b877a8ead41296d73f3bc6d926e0285274cceb1f9980908a5a0a441bb9e25c"
+    },
+    {
+      "scenario": "projects-1440-light-expanded.jpg",
+      "baselineSHA256": "e4c057d29650cae9034cb56324fb4081f96e936be42649a7f411200ac3c834c4",
+      "migratedSHA256": "e4c057d29650cae9034cb56324fb4081f96e936be42649a7f411200ac3c834c4"
+    },
+    {
+      "scenario": "skills-1440-dark-default.jpg",
+      "baselineSHA256": "2191af559627c7a882a853f8694f7d59f0cc1408ce81710817890f5683420844",
+      "migratedSHA256": "2191af559627c7a882a853f8694f7d59f0cc1408ce81710817890f5683420844"
+    },
+    {
+      "scenario": "skills-1440-light-default.jpg",
+      "baselineSHA256": "63559d593e33c2e62f0c9efcbc29a4df17a3d37a4830484200365dcddbcc62fe",
+      "migratedSHA256": "63559d593e33c2e62f0c9efcbc29a4df17a3d37a4830484200365dcddbcc62fe"
+    },
+    {
+      "scenario": "experience-1440-dark-default.jpg",
+      "baselineSHA256": "0a630042d20e9a3c46049493473d0afdc41d3aade45a9dd2df115e1c586c7ef2",
+      "migratedSHA256": "0a630042d20e9a3c46049493473d0afdc41d3aade45a9dd2df115e1c586c7ef2"
+    },
+    {
+      "scenario": "experience-1440-light-default.jpg",
+      "baselineSHA256": "0d8a0a2bee23694a211cd7a5ac2e51f3a1c8611c47a63c0e6b9ef8b7de0f3899",
+      "migratedSHA256": "0d8a0a2bee23694a211cd7a5ac2e51f3a1c8611c47a63c0e6b9ef8b7de0f3899"
+    },
+    {
+      "scenario": "contact-1440-dark-default.jpg",
+      "baselineSHA256": "36971d238cac0d90ffa470b20f7ec38897f4f2c4b1c55091d079adf6000b77e7",
+      "migratedSHA256": "36971d238cac0d90ffa470b20f7ec38897f4f2c4b1c55091d079adf6000b77e7"
+    },
+    {
+      "scenario": "contact-1440-light-default.jpg",
+      "baselineSHA256": "a13345b7a449c713497bc60db1815900f0f0d3702f0a06879a97e272c38da176",
+      "migratedSHA256": "a13345b7a449c713497bc60db1815900f0f0d3702f0a06879a97e272c38da176"
+    },
+    {
+      "scenario": "python-1440-default-default.jpg",
+      "baselineSHA256": "cfde0a59f004b14702381c469ab7546591499392f6f96325c5249c4d6dfcc77f",
+      "migratedSHA256": "cfde0a59f004b14702381c469ab7546591499392f6f96325c5249c4d6dfcc77f"
+    },
+    {
+      "scenario": "python-1440-default-expanded.jpg",
+      "baselineSHA256": "eae09e742aabb0ec99ae5c29f8ee5434240c8109de1547c9260a88a8b0a552fb",
+      "migratedSHA256": "eae09e742aabb0ec99ae5c29f8ee5434240c8109de1547c9260a88a8b0a552fb"
+    }
+  ]
+}

@@ -1,0 +1,6122 @@
+{
+  "date": "2026-11-07",
+  "browser": "Chrome/157.0.8103.39",
+  "base": "http://127.0.0.1:9341/",
+  "results": [
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "forward": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.5,
+            "y": 17,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 222.40625,
+            "y": 20,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Light",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 295.1875,
+            "y": 20,
+            "width": 75.3125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 418.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 506.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 594.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 694.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 78.328125,
+            "y": 830.3125,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 294.3125,
+            "y": 830.421875,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 172.59375,
+            "y": 779.828125,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 156.140625,
+            "y": 839.59375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.5,
+            "y": 810.59375,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 283.453125,
+            "y": 826.59375,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        }
+      ],
+      "reverse": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 283.453125,
+            "y": 790.59375,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.5,
+            "y": 774.59375,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 156.140625,
+            "y": 650.59375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 172.59375,
+            "y": 581.828125,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 294.3125,
+            "y": 391.421875,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 78.328125,
+            "y": 353.3125,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 210.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 110.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": 22.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 23.390625,
+            "y": -65.625,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Light",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 295.1875,
+            "y": -33,
+            "width": 75.3125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 222.40625,
+            "y": -33,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.5,
+            "y": -36,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        }
+      ],
+      "browserBoundary": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "section-navigation",
+        "href": null,
+        "text": "Skip to content\nJ\nA\nMenu \u2630\n\u25d0 Light\n\n05 / CONTACT\n\nLet\u2019s\n\nConnect.\n\nHave a question or want to work together? Email me or connect with me below.\n\nEMAIL\njma248@njit.edu\n\u2197\nGITHUB\n@jma248\n\u2197\nLINKEDIN\nJana Abo Shoueeb\n\u2197\nDownload my r\u00e9sum\u00e9\n\u2193\n@\nEMAIL\n</>\nGITHUB\nin\nLINKEDIN\nPause Earth\n\u00a9 2026 Jana Abo Shoueeb\nPause butterflies\nBACK TO HOME \u2197",
+        "focusVisible": false,
+        "outlineWidth": 3,
+        "outlineStyle": "none",
+        "outlineColor": "rgb(25, 21, 22)",
+        "box": {
+          "x": 0,
+          "y": -454,
+          "width": 390,
+          "height": 1337.59375
+        },
+        "inViewport": true
+      },
+      "controls": {
+        "skip": "Pass: active section focused, URL hash/history unchanged",
+        "menu": "Pass: Enter opens, links reachable, Escape closes/returns focus",
+        "theme": "Pass: Enter switches and restores theme",
+        ".earth-pause": "Pass: Enter pauses/resumes and updates aria-pressed",
+        ".butterfly-toggle": "Pass: Enter pauses/resumes and updates aria-pressed"
+      },
+      "mailto": [
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "EMAIL\njma248@njit.edu\n\u2197"
+        },
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "Email Jana at jma248@njit.edu"
+        }
+      ],
+      "fullActivation": false,
+      "activated": [],
+      "status": "Pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "forward": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.5,
+            "y": 17,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 224.875,
+            "y": 20,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Dark",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 297.65625,
+            "y": 20,
+            "width": 72.84375,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 418.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 506.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 594.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 694.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 78.328125,
+            "y": 830.3125,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 294.3125,
+            "y": 830.421875,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 172.59375,
+            "y": 779.828125,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 156.140625,
+            "y": 839.59375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.5,
+            "y": 810.59375,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 283.453125,
+            "y": 826.59375,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        }
+      ],
+      "reverse": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 283.453125,
+            "y": 803.59375,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.5,
+            "y": 774.59375,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 156.140625,
+            "y": 650.59375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 172.59375,
+            "y": 590.828125,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 294.3125,
+            "y": 400.421875,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 78.328125,
+            "y": 362.3125,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 216.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 116.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": 28.375,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 23.390625,
+            "y": -59.625,
+            "width": 343.21875,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Dark",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 297.65625,
+            "y": -47,
+            "width": 72.84375,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 224.875,
+            "y": -47,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.5,
+            "y": -35,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        }
+      ],
+      "browserBoundary": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "section-navigation",
+        "href": null,
+        "text": "Skip to content\nJ\nA\nMenu \u2630\n\u25d0 Dark\n\n05 / CONTACT\n\nLet\u2019s\n\nConnect.\n\nHave a question or want to work together? Email me or connect with me below.\n\nEMAIL\njma248@njit.edu\n\u2197\nGITHUB\n@jma248\n\u2197\nLINKEDIN\nJana Abo Shoueeb\n\u2197\nDownload my r\u00e9sum\u00e9\n\u2193\n@\nEMAIL\n</>\nGITHUB\nin\nLINKEDIN\nPause Earth\n\u00a9 2026 Jana Abo Shoueeb\nPause butterflies\nBACK TO HOME \u2197",
+        "focusVisible": false,
+        "outlineWidth": 3,
+        "outlineStyle": "none",
+        "outlineColor": "rgb(243, 231, 215)",
+        "box": {
+          "x": 0,
+          "y": -455,
+          "width": 390,
+          "height": 1337.59375
+        },
+        "inViewport": true
+      },
+      "controls": {
+        "skip": "Pass: active section focused, URL hash/history unchanged",
+        "menu": "Pass: Enter opens, links reachable, Escape closes/returns focus",
+        "theme": "Pass: Enter switches and restores theme",
+        ".earth-pause": "Pass: Enter pauses/resumes and updates aria-pressed",
+        ".butterfly-toggle": "Pass: Enter pauses/resumes and updates aria-pressed",
+        "mailClicks": [
+          {
+            "href": "mailto:jma248@njit.edu",
+            "trusted": true,
+            "defaultPrevented": false,
+            "classes": "contact-link"
+          },
+          {
+            "href": "mailto:jma248@njit.edu",
+            "trusted": true,
+            "defaultPrevented": false,
+            "classes": "earth-orbit-link orbit-email"
+          }
+        ]
+      },
+      "mailto": [
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "EMAIL\njma248@njit.edu\n\u2197"
+        },
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "Email Jana at jma248@njit.edu"
+        }
+      ],
+      "fullActivation": true,
+      "activated": [
+        {
+          "selector": "nav a[href=\"index.html\"]",
+          "url": "http://127.0.0.1:9341/index.html"
+        },
+        {
+          "selector": "nav a[href=\"about.html\"]",
+          "url": "http://127.0.0.1:9341/about.html"
+        },
+        {
+          "selector": "nav a[href=\"skills.html\"]",
+          "url": "http://127.0.0.1:9341/skills.html"
+        },
+        {
+          "selector": "nav a[href=\"projects.html\"]",
+          "url": "http://127.0.0.1:9341/projects.html"
+        },
+        {
+          "selector": "nav a[href=\"experience.html\"]",
+          "url": "http://127.0.0.1:9341/experience.html"
+        },
+        {
+          "selector": "nav a[href=\"contact.html\"]",
+          "url": "http://127.0.0.1:9341/contact.html"
+        },
+        {
+          "selector": "a.monogram",
+          "url": "http://127.0.0.1:9341/index.html"
+        },
+        {
+          "selector": ".site-footer a",
+          "url": "http://127.0.0.1:9341/index.html"
+        },
+        {
+          "selector": ".contact-link[href^=\"mailto:\"]",
+          "protocolAttempt": "mailto:jma248@njit.edu",
+          "method": "trusted keyboard-generated click"
+        },
+        {
+          "selector": ".orbit-email",
+          "protocolAttempt": "mailto:jma248@njit.edu",
+          "method": "trusted keyboard-generated click"
+        },
+        {
+          "selector": ".contact-link[href^=\"https://github.com\"]",
+          "url": "https://github.com/jma248"
+        },
+        {
+          "selector": ".contact-link[href^=\"https://www.linkedin.com\"]",
+          "url": "https://www.linkedin.com/in/jana-shoueeb/"
+        },
+        {
+          "selector": ".orbit-github",
+          "url": "https://github.com/jma248"
+        },
+        {
+          "selector": ".orbit-linkedin",
+          "url": "https://www.linkedin.com/in/jana-shoueeb/"
+        },
+        {
+          "selector": ".contact-resume",
+          "download": "Jana-Abo-Shoueeb-Resume.pdf",
+          "bytes": 79111,
+          "PDFVerified": true
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "width": 320,
+      "height": 823,
+      "theme": "light",
+      "forward": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 16,
+            "y": 17,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 155.90625,
+            "y": 20,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Light",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 228.6875,
+            "y": 20,
+            "width": 75.3125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 418.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 506.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 594.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 694.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 60.3125,
+            "y": 816.5,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 237.546875,
+            "y": 821.765625,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 137.59375,
+            "y": 800.015625,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 121.140625,
+            "y": 783,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 16,
+            "y": 805,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 216.953125,
+            "y": 821,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        }
+      ],
+      "reverse": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 216.953125,
+            "y": 809,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 16,
+            "y": 795,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 121.140625,
+            "y": 671,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 137.59375,
+            "y": 618.015625,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 237.546875,
+            "y": 461.765625,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 60.3125,
+            "y": 423.5,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 301.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 194.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 106.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 19.1875,
+            "y": 18.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Light",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 228.6875,
+            "y": -36,
+            "width": 75.3125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 155.90625,
+            "y": -36,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 16,
+            "y": -25,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        }
+      ],
+      "browserBoundary": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "section-navigation",
+        "href": null,
+        "text": "Skip to content\nJ\nA\nMenu \u2630\n\u25d0 Light\n\n05 / CONTACT\n\nLet\u2019s\n\nConnect.\n\nHave a question or want to work together? Email me or connect with me below.\n\nEMAIL\njma248@njit.edu\n\u2197\nGITHUB\n@jma248\n\u2197\nLINKEDIN\nJana Abo Shoueeb\n\u2197\nDownload my r\u00e9sum\u00e9\n\u2193\n@\nEMAIL\n</>\nGITHUB\nin\nLINKEDIN\nPause Earth\n\u00a9 2026 Jana Abo Shoueeb\nPause butterflies\nBACK TO HOME \u2197",
+        "focusVisible": false,
+        "outlineWidth": 3,
+        "outlineStyle": "none",
+        "outlineColor": "rgb(25, 21, 22)",
+        "box": {
+          "x": 0,
+          "y": -394,
+          "width": 320,
+          "height": 1276
+        },
+        "inViewport": true
+      },
+      "controls": {
+        "skip": "Pass: active section focused, URL hash/history unchanged",
+        "menu": "Pass: Enter opens, links reachable, Escape closes/returns focus",
+        "theme": "Pass: Enter switches and restores theme",
+        ".earth-pause": "Pass: Enter pauses/resumes and updates aria-pressed",
+        ".butterfly-toggle": "Pass: Enter pauses/resumes and updates aria-pressed"
+      },
+      "mailto": [
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "EMAIL\njma248@njit.edu\n\u2197"
+        },
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "Email Jana at jma248@njit.edu"
+        }
+      ],
+      "fullActivation": false,
+      "activated": [],
+      "status": "Pass"
+    },
+    {
+      "width": 320,
+      "height": 823,
+      "theme": "dark",
+      "forward": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 16,
+            "y": 17,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 158.375,
+            "y": 20,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Dark",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 231.15625,
+            "y": 20,
+            "width": 72.84375,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 418.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 506.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 594.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 694.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 60.3125,
+            "y": 816.5,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 237.546875,
+            "y": 805.765625,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 137.59375,
+            "y": 792.015625,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 121.140625,
+            "y": 777,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 16,
+            "y": 802,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 216.953125,
+            "y": 818,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        }
+      ],
+      "reverse": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 216.953125,
+            "y": 807,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 16,
+            "y": 791,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 121.140625,
+            "y": 667,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 137.59375,
+            "y": 614.015625,
+            "width": 44.8125,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 237.546875,
+            "y": 457.765625,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 60.3125,
+            "y": 429.5,
+            "width": 44,
+            "height": 61.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 307.375,
+            "width": 166.78125,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 200.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 112.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 19.1875,
+            "y": 24.375,
+            "width": 281.625,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Dark",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 231.15625,
+            "y": -35,
+            "width": 72.84375,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "menu-toggle",
+          "href": null,
+          "text": "Menu \u2630",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 158.375,
+            "y": -35,
+            "width": 64.78125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 16,
+            "y": -25,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        }
+      ],
+      "browserBoundary": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "section-navigation",
+        "href": null,
+        "text": "Skip to content\nJ\nA\nMenu \u2630\n\u25d0 Dark\n\n05 / CONTACT\n\nLet\u2019s\n\nConnect.\n\nHave a question or want to work together? Email me or connect with me below.\n\nEMAIL\njma248@njit.edu\n\u2197\nGITHUB\n@jma248\n\u2197\nLINKEDIN\nJana Abo Shoueeb\n\u2197\nDownload my r\u00e9sum\u00e9\n\u2193\n@\nEMAIL\n</>\nGITHUB\nin\nLINKEDIN\nPause Earth\n\u00a9 2026 Jana Abo Shoueeb\nPause butterflies\nBACK TO HOME \u2197",
+        "focusVisible": false,
+        "outlineWidth": 3,
+        "outlineStyle": "none",
+        "outlineColor": "rgb(243, 231, 215)",
+        "box": {
+          "x": 0,
+          "y": -379,
+          "width": 320,
+          "height": 1276
+        },
+        "inViewport": true
+      },
+      "controls": {
+        "skip": "Pass: active section focused, URL hash/history unchanged",
+        "menu": "Pass: Enter opens, links reachable, Escape closes/returns focus",
+        "theme": "Pass: Enter switches and restores theme",
+        ".earth-pause": "Pass: Enter pauses/resumes and updates aria-pressed",
+        ".butterfly-toggle": "Pass: Enter pauses/resumes and updates aria-pressed"
+      },
+      "mailto": [
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "EMAIL\njma248@njit.edu\n\u2197"
+        },
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "Email Jana at jma248@njit.edu"
+        }
+      ],
+      "fullActivation": false,
+      "activated": [],
+      "status": "Pass"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "forward": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 72,
+            "y": 20,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Light",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1277.6875,
+            "y": 23,
+            "width": 75.3125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "Home",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 508.390625,
+            "y": 27.5,
+            "width": 30.703125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "about.html",
+          "text": "About",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 569.09375,
+            "y": 27.5,
+            "width": 32.046875,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "skills.html",
+          "text": "Skills",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 631.140625,
+            "y": 27.5,
+            "width": 27.484375,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "projects.html",
+          "text": "Projects",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 688.625,
+            "y": 27.5,
+            "width": 44.125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "experience.html",
+          "text": "Experience",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 762.75,
+            "y": 27.5,
+            "width": 58.53125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "contact.html",
+          "text": "Contact",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 851.28125,
+            "y": 27.5,
+            "width": 44.015625,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 514.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 602.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 690.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 790.875,
+            "width": 199.65625,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 894.953125,
+            "y": 314.53125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1209.609375,
+            "y": 370.03125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1032.859375,
+            "y": 647.4375,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1018,
+            "y": 726.4375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 673.0625,
+            "y": 882.875,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1265.953125,
+            "y": 898.875,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        }
+      ],
+      "reverse": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1265.953125,
+            "y": 898.875,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 673.0625,
+            "y": 882.875,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1018,
+            "y": 667.4375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1032.859375,
+            "y": 566.4375,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1209.609375,
+            "y": 289.03125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 894.953125,
+            "y": 229.53125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 705.875,
+            "width": 199.65625,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 605.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 516.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 86.390625,
+            "y": 428.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "contact.html",
+          "text": "Contact",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 851.28125,
+            "y": -35.5,
+            "width": 44.015625,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "experience.html",
+          "text": "Experience",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 762.75,
+            "y": -35.5,
+            "width": 58.53125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "projects.html",
+          "text": "Projects",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 688.625,
+            "y": -35.5,
+            "width": 44.125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "skills.html",
+          "text": "Skills",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 631.140625,
+            "y": -35.5,
+            "width": 27.484375,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "about.html",
+          "text": "About",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 569.09375,
+            "y": -35.5,
+            "width": 32.046875,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "Home",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 508.390625,
+            "y": -35.5,
+            "width": 30.703125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Light",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 1277.6875,
+            "y": -40,
+            "width": 75.3125,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 72,
+            "y": -12,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(112, 13, 37)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        }
+      ],
+      "browserBoundary": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "section-navigation",
+        "href": null,
+        "text": "Skip to content\nJ\nA\n\u25d0 Light\nHome\nAbout\nSkills\nProjects\nExperience\nContact\n\n05 / CONTACT\n\nLet\u2019s\n\nConnect.\n\nHave a question or want to work together? Email me or connect with me below.\n\nEMAIL\njma248@njit.edu\n\u2197\nGITHUB\n@jma248\n\u2197\nLINKEDIN\nJana Abo Shoueeb\n\u2197\nDownload my r\u00e9sum\u00e9\n\u2193\n@\nEMAIL\n</>\nGITHUB\nin\nLINKEDIN\nPause Earth\n\u00a9 2026 Jana Abo Shoueeb\nPause butterflies\nBACK TO HOME \u2197",
+        "focusVisible": false,
+        "outlineWidth": 3,
+        "outlineStyle": "none",
+        "outlineColor": "rgb(25, 21, 22)",
+        "box": {
+          "x": 0,
+          "y": -59,
+          "width": 1425,
+          "height": 1009.875
+        },
+        "inViewport": true
+      },
+      "controls": {
+        "skip": "Pass: active section focused, URL hash/history unchanged",
+        "menu": "Not applicable: desktop navigation is always visible",
+        "theme": "Pass: Enter switches and restores theme",
+        ".earth-pause": "Pass: Enter pauses/resumes and updates aria-pressed",
+        ".butterfly-toggle": "Pass: Enter pauses/resumes and updates aria-pressed",
+        "mailClicks": [
+          {
+            "href": "mailto:jma248@njit.edu",
+            "trusted": true,
+            "defaultPrevented": false,
+            "classes": "contact-link"
+          },
+          {
+            "href": "mailto:jma248@njit.edu",
+            "trusted": true,
+            "defaultPrevented": false,
+            "classes": "earth-orbit-link orbit-email"
+          }
+        ]
+      },
+      "mailto": [
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "EMAIL\njma248@njit.edu\n\u2197"
+        },
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "Email Jana at jma248@njit.edu"
+        }
+      ],
+      "fullActivation": true,
+      "activated": [
+        {
+          "selector": "nav a[href=\"index.html\"]",
+          "url": "http://127.0.0.1:9341/index.html"
+        },
+        {
+          "selector": "nav a[href=\"about.html\"]",
+          "url": "http://127.0.0.1:9341/about.html"
+        },
+        {
+          "selector": "nav a[href=\"skills.html\"]",
+          "url": "http://127.0.0.1:9341/skills.html"
+        },
+        {
+          "selector": "nav a[href=\"projects.html\"]",
+          "url": "http://127.0.0.1:9341/projects.html"
+        },
+        {
+          "selector": "nav a[href=\"experience.html\"]",
+          "url": "http://127.0.0.1:9341/experience.html"
+        },
+        {
+          "selector": "nav a[href=\"contact.html\"]",
+          "url": "http://127.0.0.1:9341/contact.html"
+        },
+        {
+          "selector": "a.monogram",
+          "url": "http://127.0.0.1:9341/index.html"
+        },
+        {
+          "selector": ".site-footer a",
+          "url": "http://127.0.0.1:9341/index.html"
+        },
+        {
+          "selector": ".contact-link[href^=\"mailto:\"]",
+          "protocolAttempt": "mailto:jma248@njit.edu",
+          "method": "trusted keyboard-generated click"
+        },
+        {
+          "selector": ".orbit-email",
+          "protocolAttempt": "mailto:jma248@njit.edu",
+          "method": "trusted keyboard-generated click"
+        },
+        {
+          "selector": ".contact-link[href^=\"https://github.com\"]",
+          "url": "https://github.com/jma248"
+        },
+        {
+          "selector": ".contact-link[href^=\"https://www.linkedin.com\"]",
+          "url": "https://www.linkedin.com/in/jana-shoueeb/"
+        },
+        {
+          "selector": ".orbit-github",
+          "url": "https://github.com/jma248"
+        },
+        {
+          "selector": ".orbit-linkedin",
+          "url": "https://www.linkedin.com/in/jana-shoueeb/"
+        },
+        {
+          "selector": ".contact-resume",
+          "download": "Jana-Abo-Shoueeb-Resume.pdf",
+          "bytes": 79111,
+          "PDFVerified": true
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "forward": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 72,
+            "y": 20,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Dark",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1280.15625,
+            "y": 23,
+            "width": 72.84375,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "Home",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 509.625,
+            "y": 27.5,
+            "width": 30.703125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "about.html",
+          "text": "About",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 570.328125,
+            "y": 27.5,
+            "width": 32.046875,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "skills.html",
+          "text": "Skills",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 632.375,
+            "y": 27.5,
+            "width": 27.484375,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "projects.html",
+          "text": "Projects",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 689.859375,
+            "y": 27.5,
+            "width": 44.125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "experience.html",
+          "text": "Experience",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 763.984375,
+            "y": 27.5,
+            "width": 58.53125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "contact.html",
+          "text": "Contact",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 852.515625,
+            "y": 27.5,
+            "width": 44.015625,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 514.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 602.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 690.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 790.875,
+            "width": 199.65625,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 894.953125,
+            "y": 314.53125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1209.609375,
+            "y": 370.03125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1032.859375,
+            "y": 647.4375,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1018,
+            "y": 726.4375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 673.0625,
+            "y": 882.875,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1265.953125,
+            "y": 898.875,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        }
+      ],
+      "reverse": [
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "BACK TO HOME \u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1265.953125,
+            "y": 898.875,
+            "width": 87.046875,
+            "height": 12
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "butterfly-toggle",
+          "href": null,
+          "text": "Pause butterflies",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 673.0625,
+            "y": 860.875,
+            "width": 100.921875,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "earth-pause",
+          "href": null,
+          "text": "Pause Earth",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1018,
+            "y": 641.4375,
+            "width": 77.703125,
+            "height": 44
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-linkedin",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "in\nLINKEDIN",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1032.859375,
+            "y": 562.4375,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-github",
+          "href": "https://github.com/jma248",
+          "text": "</>\nGITHUB",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1209.609375,
+            "y": 285.03125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "earth-orbit-link orbit-email",
+          "href": "mailto:jma248@njit.edu",
+          "text": "@\nEMAIL",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 894.953125,
+            "y": 229.53125,
+            "width": 48,
+            "height": 65.1875
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "button button-primary contact-resume",
+          "href": "assets/jana-abo-shoueeb-resume.pdf",
+          "text": "Download my r\u00e9sum\u00e9\n\u2193",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 704.875,
+            "width": 199.65625,
+            "height": 46
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://www.linkedin.com/in/jana-shoueeb/",
+          "text": "LINKEDIN\nJana Abo Shoueeb\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 604.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "https://github.com/jma248",
+          "text": "GITHUB\n@jma248\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 516.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "contact-link",
+          "href": "mailto:jma248@njit.edu",
+          "text": "EMAIL\njma248@njit.edu\n\u2197",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 86.390625,
+            "y": 428.875,
+            "width": 420,
+            "height": 76
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "contact.html",
+          "text": "Contact",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 852.515625,
+            "y": -35.5,
+            "width": 44.015625,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "experience.html",
+          "text": "Experience",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 763.984375,
+            "y": -35.5,
+            "width": 58.53125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "projects.html",
+          "text": "Projects",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 689.859375,
+            "y": -4.5,
+            "width": 44.125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "skills.html",
+          "text": "Skills",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 632.375,
+            "y": -4.5,
+            "width": 27.484375,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "about.html",
+          "text": "About",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 570.328125,
+            "y": -4.5,
+            "width": 32.046875,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "",
+          "href": "index.html",
+          "text": "Home",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 509.625,
+            "y": -4.5,
+            "width": 30.703125,
+            "height": 39
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "theme-toggle",
+          "href": null,
+          "text": "\u25d0 Dark",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 1280.15625,
+            "y": -9,
+            "width": 72.84375,
+            "height": 48
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "monogram",
+          "href": "index.html",
+          "text": "J\nA",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 72,
+            "y": 3,
+            "width": 54,
+            "height": 54
+          },
+          "inViewport": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "cls": "skip-link",
+          "href": "#main",
+          "text": "Skip to content",
+          "focusVisible": true,
+          "outlineWidth": 2,
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(228, 207, 184)",
+          "box": {
+            "x": 20,
+            "y": 20,
+            "width": 141.671875,
+            "height": 52
+          },
+          "inViewport": true
+        }
+      ],
+      "browserBoundary": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "section-navigation",
+        "href": null,
+        "text": "Skip to content\nJ\nA\n\u25d0 Dark\nHome\nAbout\nSkills\nProjects\nExperience\nContact\n\n05 / CONTACT\n\nLet\u2019s\n\nConnect.\n\nHave a question or want to work together? Email me or connect with me below.\n\nEMAIL\njma248@njit.edu\n\u2197\nGITHUB\n@jma248\n\u2197\nLINKEDIN\nJana Abo Shoueeb\n\u2197\nDownload my r\u00e9sum\u00e9\n\u2193\n@\nEMAIL\n</>\nGITHUB\nin\nLINKEDIN\nPause Earth\n\u00a9 2026 Jana Abo Shoueeb\nPause butterflies\nBACK TO HOME \u2197",
+        "focusVisible": false,
+        "outlineWidth": 3,
+        "outlineStyle": "none",
+        "outlineColor": "rgb(243, 231, 215)",
+        "box": {
+          "x": 0,
+          "y": -59,
+          "width": 1425,
+          "height": 1009.875
+        },
+        "inViewport": true
+      },
+      "controls": {
+        "skip": "Pass: active section focused, URL hash/history unchanged",
+        "menu": "Not applicable: desktop navigation is always visible",
+        "theme": "Pass: Enter switches and restores theme",
+        ".earth-pause": "Pass: Enter pauses/resumes and updates aria-pressed",
+        ".butterfly-toggle": "Pass: Enter pauses/resumes and updates aria-pressed"
+      },
+      "mailto": [
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "EMAIL\njma248@njit.edu\n\u2197"
+        },
+        {
+          "href": "mailto:jma248@njit.edu",
+          "label": "Email Jana at jma248@njit.edu"
+        }
+      ],
+      "fullActivation": false,
+      "activated": [],
+      "status": "Pass"
+    }
+  ],
+  "mailEvents": [
+    {
+      "width": 390,
+      "theme": "dark",
+      "event": "Page.frameScheduledNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "event": "Page.frameRequestedNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu",
+      "disposition": "currentTab"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "event": "Page.frameStartedNavigating",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "event": "Page.frameScheduledNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "event": "Page.frameRequestedNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu",
+      "disposition": "currentTab"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "event": "Page.frameStartedNavigating",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "event": "Page.frameScheduledNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "event": "Page.frameRequestedNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu",
+      "disposition": "currentTab"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "event": "Page.frameStartedNavigating",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "event": "Page.frameScheduledNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "event": "Page.frameRequestedNavigation",
+      "reason": "anchorClick",
+      "url": "mailto:jma248@njit.edu",
+      "disposition": "currentTab"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "event": "Page.frameStartedNavigating",
+      "url": "mailto:jma248@njit.edu"
+    }
+  ],
+  "consoleMessages": [
+    {
+      "width": 390,
+      "theme": "dark",
+      "type": "info",
+      "text": "Launched external handler for 'mailto:jma248@njit.edu'."
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "type": "info",
+      "text": "Launched external handler for 'mailto:jma248@njit.edu'."
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "type": "info",
+      "text": "Launched external handler for 'mailto:jma248@njit.edu'."
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "type": "info",
+      "text": "Launched external handler for 'mailto:jma248@njit.edu'."
+    }
+  ],
+  "external": [
+    {
+      "width": 390,
+      "theme": "dark",
+      "selector": ".contact-link[href^=\"https://github.com\"]",
+      "requestedURL": "https://github.com/jma248",
+      "openedURL": "https://github.com/jma248",
+      "title": "jma248 \u00b7 GitHub",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "selector": ".contact-link[href^=\"https://www.linkedin.com\"]",
+      "requestedURL": "https://www.linkedin.com/in/jana-shoueeb/",
+      "openedURL": "https://www.linkedin.com/authwall",
+      "title": "Sign Up | LinkedIn",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified",
+      "note": "LinkedIn sign-in/authwall; original sessionRedirect targeted the requested profile. Tracking parameters omitted."
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "selector": ".orbit-github",
+      "requestedURL": "https://github.com/jma248",
+      "openedURL": "https://github.com/jma248",
+      "title": "jma248 \u00b7 GitHub",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "selector": ".orbit-linkedin",
+      "requestedURL": "https://www.linkedin.com/in/jana-shoueeb/",
+      "openedURL": "https://www.linkedin.com/authwall",
+      "title": "Sign Up | LinkedIn",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified",
+      "note": "LinkedIn sign-in/authwall; original sessionRedirect targeted the requested profile. Tracking parameters omitted."
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "selector": ".contact-link[href^=\"https://github.com\"]",
+      "requestedURL": "https://github.com/jma248",
+      "openedURL": "https://github.com/jma248",
+      "title": "jma248 \u00b7 GitHub",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "selector": ".contact-link[href^=\"https://www.linkedin.com\"]",
+      "requestedURL": "https://www.linkedin.com/in/jana-shoueeb/",
+      "openedURL": "https://www.linkedin.com/authwall",
+      "title": "Sign Up | LinkedIn",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified",
+      "note": "LinkedIn sign-in/authwall; original sessionRedirect targeted the requested profile. Tracking parameters omitted."
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "selector": ".orbit-github",
+      "requestedURL": "https://github.com/jma248",
+      "openedURL": "https://github.com/jma248",
+      "title": "jma248 \u00b7 GitHub",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "selector": ".orbit-linkedin",
+      "requestedURL": "https://www.linkedin.com/in/jana-shoueeb/",
+      "openedURL": "https://www.linkedin.com/authwall",
+      "title": "Sign Up | LinkedIn",
+      "result": "Pass: Enter opens expected external destination; profile content not independently certified",
+      "note": "LinkedIn sign-in/authwall; original sessionRedirect targeted the requested profile. Tracking parameters omitted."
+    }
+  ],
+  "downloads": [
+    {
+      "url": "http://127.0.0.1:9341/assets/jana-abo-shoueeb-resume.pdf",
+      "suggestedFilename": "Jana-Abo-Shoueeb-Resume.pdf",
+      "bytes": 79111,
+      "SHA256": "a79f72c977df7a1ade7ed5b85f712b8ae9de0de67d2eb8109b7bd0b9f2838c37",
+      "verifiedPDF": true
+    },
+    {
+      "url": "http://127.0.0.1:9341/assets/jana-abo-shoueeb-resume.pdf",
+      "suggestedFilename": "Jana-Abo-Shoueeb-Resume.pdf",
+      "bytes": 79111,
+      "SHA256": "a79f72c977df7a1ade7ed5b85f712b8ae9de0de67d2eb8109b7bd0b9f2838c37",
+      "verifiedPDF": true
+    }
+  ],
+  "errors": [],
+  "manualRemaining": "Native email app compose window/To recipient is not browser-observable. No email was sent.",
+  "focusAfterNaturalScrolling": [
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "forward": [
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 17,
+            "right": 73.5,
+            "bottom": 71
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 222.40625,
+            "top": 20,
+            "right": 287.1875,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 295.1875,
+            "top": 20,
+            "right": 370.5,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 418.375,
+            "right": 366.609375,
+            "bottom": 494.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 506.375,
+            "right": 366.609375,
+            "bottom": 582.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 594.375,
+            "right": 366.609375,
+            "bottom": 670.375
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 694.375,
+            "right": 190.171875,
+            "bottom": 740.375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 78.328125,
+            "top": 782.3125,
+            "right": 122.328125,
+            "bottom": 843.5
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 294.3125,
+            "top": 782.421875,
+            "right": 338.3125,
+            "bottom": 843.609375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 172.59375,
+            "top": 741.828125,
+            "right": 217.40625,
+            "bottom": 803.015625
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 156.140625,
+            "top": 755.59375,
+            "right": 233.84375,
+            "bottom": 799.59375
+          }
+        },
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 792.59375,
+            "right": 120.421875,
+            "bottom": 836.59375
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 283.453125,
+            "top": 808.59375,
+            "right": 370.5,
+            "bottom": 820.59375
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 792.59375,
+            "right": 120.421875,
+            "bottom": 836.59375
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 156.140625,
+            "top": 668.59375,
+            "right": 233.84375,
+            "bottom": 712.59375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 172.59375,
+            "top": 608.828125,
+            "right": 217.40625,
+            "bottom": 670.015625
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 294.3125,
+            "top": 418.421875,
+            "right": 338.3125,
+            "bottom": 479.609375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 78.328125,
+            "top": 380.3125,
+            "right": 122.328125,
+            "bottom": 441.5
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 227.375,
+            "right": 190.171875,
+            "bottom": 273.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 127.375,
+            "right": 366.609375,
+            "bottom": 203.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 39.375,
+            "right": 366.609375,
+            "bottom": 115.375
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 8.375,
+            "right": 366.609375,
+            "bottom": 84.375
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 295.1875,
+            "top": 4,
+            "right": 370.5,
+            "bottom": 52
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 222.40625,
+            "top": 4,
+            "right": 287.1875,
+            "bottom": 52
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 1,
+            "right": 73.5,
+            "bottom": 55
+          }
+        },
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        }
+      ],
+      "status": "Pass",
+      "note": "All focused controls fully within viewport after natural smooth scrolling; no forced scroll."
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "forward": [
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 17,
+            "right": 73.5,
+            "bottom": 71
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 224.875,
+            "top": 20,
+            "right": 289.65625,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 297.65625,
+            "top": 20,
+            "right": 370.5,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 418.375,
+            "right": 366.609375,
+            "bottom": 494.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 506.375,
+            "right": 366.609375,
+            "bottom": 582.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 594.375,
+            "right": 366.609375,
+            "bottom": 670.375
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 694.375,
+            "right": 190.171875,
+            "bottom": 740.375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 78.328125,
+            "top": 782.3125,
+            "right": 122.328125,
+            "bottom": 843.5
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 294.3125,
+            "top": 782.421875,
+            "right": 338.3125,
+            "bottom": 843.609375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 172.59375,
+            "top": 741.828125,
+            "right": 217.40625,
+            "bottom": 803.015625
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 156.140625,
+            "top": 755.59375,
+            "right": 233.84375,
+            "bottom": 799.59375
+          }
+        },
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 792.59375,
+            "right": 120.421875,
+            "bottom": 836.59375
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 283.453125,
+            "top": 808.59375,
+            "right": 370.5,
+            "bottom": 820.59375
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 792.59375,
+            "right": 120.421875,
+            "bottom": 836.59375
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 156.140625,
+            "top": 668.59375,
+            "right": 233.84375,
+            "bottom": 712.59375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 172.59375,
+            "top": 608.828125,
+            "right": 217.40625,
+            "bottom": 670.015625
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 294.3125,
+            "top": 418.421875,
+            "right": 338.3125,
+            "bottom": 479.609375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 78.328125,
+            "top": 363.3125,
+            "right": 122.328125,
+            "bottom": 424.5
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 227.375,
+            "right": 190.171875,
+            "bottom": 273.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 127.375,
+            "right": 366.609375,
+            "bottom": 203.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 29.375,
+            "right": 366.609375,
+            "bottom": 105.375
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 23.390625,
+            "top": 8.375,
+            "right": 366.609375,
+            "bottom": 84.375
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 297.65625,
+            "top": 3,
+            "right": 370.5,
+            "bottom": 51
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 224.875,
+            "top": 3,
+            "right": 289.65625,
+            "bottom": 51
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.5,
+            "top": 0,
+            "right": 73.5,
+            "bottom": 54
+          }
+        },
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        }
+      ],
+      "status": "Pass",
+      "note": "All focused controls fully within viewport after natural smooth scrolling; no forced scroll."
+    },
+    {
+      "width": 320,
+      "height": 823,
+      "theme": "light",
+      "forward": [
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 17,
+            "right": 70,
+            "bottom": 71
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 155.90625,
+            "top": 20,
+            "right": 220.6875,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 228.6875,
+            "top": 20,
+            "right": 304,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 418.375,
+            "right": 300.8125,
+            "bottom": 494.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 506.375,
+            "right": 300.8125,
+            "bottom": 582.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 594.375,
+            "right": 300.8125,
+            "bottom": 670.375
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 694.375,
+            "right": 185.96875,
+            "bottom": 740.375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 60.3125,
+            "top": 761.5,
+            "right": 104.3125,
+            "bottom": 822.6875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 237.546875,
+            "top": 761.765625,
+            "right": 281.546875,
+            "bottom": 822.953125
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 137.59375,
+            "top": 753.015625,
+            "right": 182.40625,
+            "bottom": 814.203125
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 121.140625,
+            "top": 748,
+            "right": 198.84375,
+            "bottom": 792
+          }
+        },
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 761,
+            "right": 116.921875,
+            "bottom": 805
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 216.953125,
+            "top": 777,
+            "right": 304,
+            "bottom": 789
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 761,
+            "right": 116.921875,
+            "bottom": 805
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 121.140625,
+            "top": 625,
+            "right": 198.84375,
+            "bottom": 669
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 137.59375,
+            "top": 572.015625,
+            "right": 182.40625,
+            "bottom": 633.203125
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 237.546875,
+            "top": 415.765625,
+            "right": 281.546875,
+            "bottom": 476.953125
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 60.3125,
+            "top": 384.5,
+            "right": 104.3125,
+            "bottom": 445.6875
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 254.375,
+            "right": 185.96875,
+            "bottom": 300.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 154.375,
+            "right": 300.8125,
+            "bottom": 230.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 66.375,
+            "right": 300.8125,
+            "bottom": 142.375
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 13.375,
+            "right": 300.8125,
+            "bottom": 89.375
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 228.6875,
+            "top": 5,
+            "right": 304,
+            "bottom": 53
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 155.90625,
+            "top": 5,
+            "right": 220.6875,
+            "bottom": 53
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 2,
+            "right": 70,
+            "bottom": 56
+          }
+        },
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        }
+      ],
+      "status": "Pass",
+      "note": "All focused controls fully within viewport after natural smooth scrolling; no forced scroll."
+    },
+    {
+      "width": 320,
+      "height": 823,
+      "theme": "dark",
+      "forward": [
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 17,
+            "right": 70,
+            "bottom": 71
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 158.375,
+            "top": 20,
+            "right": 223.15625,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 231.15625,
+            "top": 20,
+            "right": 304,
+            "bottom": 68
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 418.375,
+            "right": 300.8125,
+            "bottom": 494.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 506.375,
+            "right": 300.8125,
+            "bottom": 582.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 594.375,
+            "right": 300.8125,
+            "bottom": 670.375
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 694.375,
+            "right": 185.96875,
+            "bottom": 740.375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 60.3125,
+            "top": 761.5,
+            "right": 104.3125,
+            "bottom": 822.6875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 237.546875,
+            "top": 761.765625,
+            "right": 281.546875,
+            "bottom": 822.953125
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 137.59375,
+            "top": 753.015625,
+            "right": 182.40625,
+            "bottom": 814.203125
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 121.140625,
+            "top": 748,
+            "right": 198.84375,
+            "bottom": 792
+          }
+        },
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 761,
+            "right": 116.921875,
+            "bottom": 805
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 216.953125,
+            "top": 777,
+            "right": 304,
+            "bottom": 789
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 761,
+            "right": 116.921875,
+            "bottom": 805
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 121.140625,
+            "top": 625,
+            "right": 198.84375,
+            "bottom": 669
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 137.59375,
+            "top": 572.015625,
+            "right": 182.40625,
+            "bottom": 633.203125
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 237.546875,
+            "top": 415.765625,
+            "right": 281.546875,
+            "bottom": 476.953125
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 60.3125,
+            "top": 384.5,
+            "right": 104.3125,
+            "bottom": 445.6875
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 262.375,
+            "right": 185.96875,
+            "bottom": 308.375
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 162.375,
+            "right": 300.8125,
+            "bottom": 238.375
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 74.375,
+            "right": 300.8125,
+            "bottom": 150.375
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 19.1875,
+            "top": 13.375,
+            "right": 300.8125,
+            "bottom": 89.375
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 231.15625,
+            "top": 5,
+            "right": 304,
+            "bottom": 53
+          }
+        },
+        {
+          "key": "BUTTON menu-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 158.375,
+            "top": 5,
+            "right": 223.15625,
+            "bottom": 53
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 16,
+            "top": 2,
+            "right": 70,
+            "bottom": 56
+          }
+        },
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        }
+      ],
+      "status": "Pass",
+      "note": "All focused controls fully within viewport after natural smooth scrolling; no forced scroll."
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "forward": [
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 72,
+            "top": 20,
+            "right": 126,
+            "bottom": 74
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1277.6875,
+            "top": 23,
+            "right": 1353,
+            "bottom": 71
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 508.390625,
+            "top": 27.5,
+            "right": 539.09375,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  about.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 569.09375,
+            "top": 27.5,
+            "right": 601.140625,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  skills.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 631.140625,
+            "top": 27.5,
+            "right": 658.625,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  projects.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 688.625,
+            "top": 27.5,
+            "right": 732.75,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  experience.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 762.75,
+            "top": 27.5,
+            "right": 821.28125,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  contact.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 851.28125,
+            "top": 27.5,
+            "right": 895.296875,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 514.875,
+            "right": 506.390625,
+            "bottom": 590.875
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 602.875,
+            "right": 506.390625,
+            "bottom": 678.875
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 690.875,
+            "right": 506.390625,
+            "bottom": 766.875
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 790.875,
+            "right": 286.046875,
+            "bottom": 836.875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 894.953125,
+            "top": 314.53125,
+            "right": 942.953125,
+            "bottom": 379.71875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1209.609375,
+            "top": 370.03125,
+            "right": 1257.609375,
+            "bottom": 435.21875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1032.859375,
+            "top": 647.4375,
+            "right": 1080.859375,
+            "bottom": 712.625
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1018,
+            "top": 726.4375,
+            "right": 1095.703125,
+            "bottom": 770.4375
+          }
+        },
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 673.0625,
+            "top": 848.875,
+            "right": 773.984375,
+            "bottom": 892.875
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1265.953125,
+            "top": 864.875,
+            "right": 1353,
+            "bottom": 876.875
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 673.0625,
+            "top": 848.875,
+            "right": 773.984375,
+            "bottom": 892.875
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1018,
+            "top": 633.4375,
+            "right": 1095.703125,
+            "bottom": 677.4375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1032.859375,
+            "top": 554.4375,
+            "right": 1080.859375,
+            "bottom": 619.625
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1209.609375,
+            "top": 270.03125,
+            "right": 1257.609375,
+            "bottom": 335.21875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 894.953125,
+            "top": 214.53125,
+            "right": 942.953125,
+            "bottom": 279.71875
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 690.875,
+            "right": 286.046875,
+            "bottom": 736.875
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 590.875,
+            "right": 506.390625,
+            "bottom": 666.875
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 502.875,
+            "right": 506.390625,
+            "bottom": 578.875
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 414.875,
+            "right": 506.390625,
+            "bottom": 490.875
+          }
+        },
+        {
+          "key": "A  contact.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 851.28125,
+            "top": 1.5,
+            "right": 895.296875,
+            "bottom": 40.5
+          }
+        },
+        {
+          "key": "A  experience.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 762.75,
+            "top": 1.5,
+            "right": 821.28125,
+            "bottom": 40.5
+          }
+        },
+        {
+          "key": "A  projects.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 688.625,
+            "top": 1.5,
+            "right": 732.75,
+            "bottom": 40.5
+          }
+        },
+        {
+          "key": "A  skills.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 631.140625,
+            "top": 1.5,
+            "right": 658.625,
+            "bottom": 40.5
+          }
+        },
+        {
+          "key": "A  about.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 569.09375,
+            "top": 1.5,
+            "right": 601.140625,
+            "bottom": 40.5
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 508.390625,
+            "top": 11.5,
+            "right": 539.09375,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1277.6875,
+            "top": 7,
+            "right": 1353,
+            "bottom": 55
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 72,
+            "top": 4,
+            "right": 126,
+            "bottom": 58
+          }
+        },
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        }
+      ],
+      "status": "Pass",
+      "note": "All focused controls fully within viewport after natural smooth scrolling; no forced scroll."
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "forward": [
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 72,
+            "top": 20,
+            "right": 126,
+            "bottom": 74
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1280.15625,
+            "top": 23,
+            "right": 1353,
+            "bottom": 71
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 509.625,
+            "top": 27.5,
+            "right": 540.328125,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  about.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 570.328125,
+            "top": 27.5,
+            "right": 602.375,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  skills.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 632.375,
+            "top": 27.5,
+            "right": 659.859375,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  projects.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 689.859375,
+            "top": 27.5,
+            "right": 733.984375,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  experience.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 763.984375,
+            "top": 27.5,
+            "right": 822.515625,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A  contact.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 852.515625,
+            "top": 27.5,
+            "right": 896.53125,
+            "bottom": 66.5
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 514.875,
+            "right": 506.390625,
+            "bottom": 590.875
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 602.875,
+            "right": 506.390625,
+            "bottom": 678.875
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 690.875,
+            "right": 506.390625,
+            "bottom": 766.875
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 790.875,
+            "right": 286.046875,
+            "bottom": 836.875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 894.953125,
+            "top": 314.53125,
+            "right": 942.953125,
+            "bottom": 379.71875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1209.609375,
+            "top": 370.03125,
+            "right": 1257.609375,
+            "bottom": 435.21875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1032.859375,
+            "top": 647.4375,
+            "right": 1080.859375,
+            "bottom": 712.625
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1018,
+            "top": 726.4375,
+            "right": 1095.703125,
+            "bottom": 770.4375
+          }
+        },
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 673.0625,
+            "top": 848.875,
+            "right": 773.984375,
+            "bottom": 892.875
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1265.953125,
+            "top": 864.875,
+            "right": 1353,
+            "bottom": 876.875
+          }
+        }
+      ],
+      "reverse": [
+        {
+          "key": "BUTTON butterfly-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 673.0625,
+            "top": 848.875,
+            "right": 773.984375,
+            "bottom": 892.875
+          }
+        },
+        {
+          "key": "BUTTON earth-pause null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1018,
+            "top": 633.4375,
+            "right": 1095.703125,
+            "bottom": 677.4375
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-linkedin https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1032.859375,
+            "top": 554.4375,
+            "right": 1080.859375,
+            "bottom": 619.625
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-github https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 1209.609375,
+            "top": 277.03125,
+            "right": 1257.609375,
+            "bottom": 342.21875
+          }
+        },
+        {
+          "key": "A earth-orbit-link orbit-email mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 894.953125,
+            "top": 214.53125,
+            "right": 942.953125,
+            "bottom": 279.71875
+          }
+        },
+        {
+          "key": "A button button-primary contact-resume assets/jana-abo-shoueeb-resume.pdf",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 690.875,
+            "right": 286.046875,
+            "bottom": 736.875
+          }
+        },
+        {
+          "key": "A contact-link https://www.linkedin.com/in/jana-shoueeb/",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 590.875,
+            "right": 506.390625,
+            "bottom": 666.875
+          }
+        },
+        {
+          "key": "A contact-link https://github.com/jma248",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 502.875,
+            "right": 506.390625,
+            "bottom": 578.875
+          }
+        },
+        {
+          "key": "A contact-link mailto:jma248@njit.edu",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 86.390625,
+            "top": 409.875,
+            "right": 506.390625,
+            "bottom": 485.875
+          }
+        },
+        {
+          "key": "A  contact.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 852.515625,
+            "top": 11.5,
+            "right": 896.53125,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "A  experience.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 763.984375,
+            "top": 11.5,
+            "right": 822.515625,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "A  projects.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 689.859375,
+            "top": 11.5,
+            "right": 733.984375,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "A  skills.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 632.375,
+            "top": 11.5,
+            "right": 659.859375,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "A  about.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 570.328125,
+            "top": 11.5,
+            "right": 602.375,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "A  index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 509.625,
+            "top": 11.5,
+            "right": 540.328125,
+            "bottom": 50.5
+          }
+        },
+        {
+          "key": "BUTTON theme-toggle null",
+          "tag": "BUTTON",
+          "visible": true,
+          "box": {
+            "left": 1280.15625,
+            "top": 14,
+            "right": 1353,
+            "bottom": 62
+          }
+        },
+        {
+          "key": "A monogram index.html",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 72,
+            "top": 11,
+            "right": 126,
+            "bottom": 65
+          }
+        },
+        {
+          "key": "A skip-link #main",
+          "tag": "A",
+          "visible": true,
+          "box": {
+            "left": 20,
+            "top": 20,
+            "right": 161.671875,
+            "bottom": 72
+          }
+        }
+      ],
+      "status": "Pass",
+      "note": "All focused controls fully within viewport after natural smooth scrolling; no forced scroll."
+    }
+  ],
+  "testResults": {
+    "T27": "Pass",
+    "T33": "Not Tested: browser handoff verified, native compose window/recipient confirmation outstanding"
+  },
+  "scopeNotes": [
+    "Tab and Shift+Tab focus checks: 390x844, 320x823 and 1440x900 in light and dark themes.",
+    "Complete navigation/social/email/resume activation suites: 390x844 dark and 1440x900 light. Menu, skip-link, theme and motion-button activation checked in all six scenarios.",
+    "Contact has no checkbox, disclosure or dialog; those generic test steps are not applicable.",
+    "No forced scrolling or website code changes; focus checks wait for existing smooth scrolling to settle naturally.",
+    "Chrome logged external-handler launch; native mail-app UI and recipient are not confirmed. No emails were sent.",
+    "GitHub profile loaded; LinkedIn required sign-in. Its complete profile content was not reverified; existing owner-reported T84 evidence remains unchanged.",
+    "Local migrated site only; these results do not certify deployment."
+  ]
+}

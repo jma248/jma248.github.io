@@ -14,10 +14,11 @@
   function inside(x,y,points){let result=false;for(let i=0,j=points.length-1;i<points.length;j=i++){const a=points[i],b=points[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])result=!result;}return result;}
   const random=n=>{const v=Math.sin(n*127.1)*43758.5453;return v-Math.floor(v);};
   const ease=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t);};
-  let width=1,height=360,radius=140,cells=[],visible=false,paused=false,frame=0,previous=null,elapsed=0,buildTime=0,lastDraw=-Infinity,rotation=-.9;
+  let width=1,height=360,radius=140,cells=[],visible=false,paused=window.portfolioState?.get('earthPaused',false)??false,frame=0,previous=null,elapsed=window.portfolioState?.get('earthElapsed',0)??0,buildTime=window.portfolioState?.get('earthBuildTime',0)??0,lastDraw=-Infinity,rotation=window.portfolioState?.get('earthRotation',-.9)??-.9;
+  window.portfolioState?.onSave(()=>{window.portfolioState.set('earthElapsed',elapsed);window.portfolioState.set('earthBuildTime',buildTime);window.portfolioState.set('earthRotation',rotation)});
   const running=()=>visible&&!section.hidden&&!document.hidden&&!paused&&!reduce.matches;
   function prepare(){
-    const b=canvas.getBoundingClientRect();if(!b.width)return;width=b.width;height=b.height;radius=Math.min(width*.4,height*.4);
+    const b=canvas.getBoundingClientRect();if(!b.width)return;width=b.width;height=b.height;radius=scene.classList.contains('earth-contact')?Math.min(width*.31,height*.32):Math.min(width*.4,height*.4);
     const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
     cells=[];let seed=0;
     for(let y=-radius;y<=radius;y+=7)for(let x=-radius;x<=radius;x+=5){
@@ -28,7 +29,7 @@
   }
   function draw(now){
     frame=0;const moving=running();const dt=moving&&previous!==null?Math.min(now-previous,80):0;previous=moving?now:null;
-    elapsed+=dt;buildTime+=dt;if(moving)rotation+=dt*.000065;
+    elapsed+=dt;buildTime+=dt;if(moving)rotation+=dt*.00005;
     if(moving&&now-lastDraw<40){frame=requestAnimationFrame(draw);return;}lastDraw=now;
     ctx.clearRect(0,0,width,height);ctx.textAlign='center';ctx.textBaseline='middle';ctx.font='8px "Courier New",monospace';
     const light=document.documentElement.dataset.theme==='light',t=elapsed/1000;
@@ -41,7 +42,7 @@
       const angle=random(p.seed+3000)*Math.PI*2;
       const scatter=radius*(1.2+random(p.seed+5000));
       const x=width/2+p.x*build+Math.cos(angle)*scatter*(1-build),y=height/2+p.y*build+Math.sin(angle)*scatter*.65*(1-build);
-      const alpha=(.2+p.shade*.78)*(.25+.75*build);
+      const alpha=(.12+p.shade*.86)*(.25+.75*build);
       const glyph=land?'01{}#'[p.seed%5]:'.:~'[Math.floor(p.shade*2.9)];
       const color=light?(land?'112,13,37':'73,111,118'):(land?'228,204,159':'112,167,175');
       ctx.fillStyle=`rgba(${color},${alpha})`;ctx.fillText(glyph,x,y);
@@ -50,7 +51,7 @@
   }
   function sync(){cancelAnimationFrame(frame);previous=null;lastDraw=-Infinity;pause.textContent=paused?'Resume Earth':'Pause Earth';pause.setAttribute('aria-pressed',String(paused));draw(performance.now());}
   function resize(){prepare();sync();}
-  pause.addEventListener('click',()=>{paused=!paused;sync();});
+  pause.addEventListener('click',()=>{paused=!paused;window.portfolioState?.set('earthPaused',paused);sync();});
   reduce.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);
   new MutationObserver(sync).observe(section,{attributes:true,attributeFilter:['hidden']});new MutationObserver(sync).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
   if('IntersectionObserver'in window)new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;sync();}).observe(scene);else visible=true;

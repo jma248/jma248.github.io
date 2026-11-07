@@ -48,94 +48,68 @@ document.querySelector('#year').textContent = new Date().getFullYear();
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const homeMotionButton = document.querySelector('.home-motion-toggle');
 if (homeMotionButton) {
+  const savedPause = window.portfolioState.get('homePaused', false);
+  document.querySelector('#home').classList.toggle('home-motion-paused', savedPause);
+  homeMotionButton.setAttribute('aria-pressed', String(savedPause));
+  homeMotionButton.textContent = savedPause ? 'Resume motion' : 'Pause motion';
   const syncMotionControl = () => { homeMotionButton.hidden = reducedMotion.matches; };
   syncMotionControl();
   reducedMotion.addEventListener('change', syncMotionControl);
   homeMotionButton.addEventListener('click', () => {
     const paused = document.querySelector('#home').classList.toggle('home-motion-paused');
+    window.portfolioState.set('homePaused', paused);
     homeMotionButton.setAttribute('aria-pressed', String(paused));
     homeMotionButton.textContent = paused ? 'Resume motion' : 'Pause motion';
   });
 }
 if ('IntersectionObserver' in window) {
+  const revealTargets = Array.from(document.querySelectorAll('.about-grid, .skill-card, .project-card, .timeline-item'));
+  const revealed = new Set(window.portfolioState.get('revealed', []));
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
+        revealed.add(revealTargets.indexOf(entry.target));
+        window.portfolioState.set('revealed', Array.from(revealed));
         if (!reducedMotion.matches) entry.target.classList.add('is-revealed');
         revealObserver.unobserve(entry.target);
       }
     });
   }, { threshold: 0.08 });
-  document.querySelectorAll('.about-grid, .skill-card, .project-card, .timeline-item').forEach((element) => {
-    revealObserver.observe(element);
+  revealTargets.forEach((element, index) => {
+    if (!revealed.has(index)) revealObserver.observe(element);
   });
 }
 
-// Show one section at a time while keeping shareable URLs and browser history.
-const sections = Array.from(document.querySelectorAll('main > section'));
-const sectionLinks = document.querySelectorAll('a[href^="#"]');
-const originalTitle = document.title;
-
-function sectionFromHash() {
-  return sections.find((section) => '#' + section.id === window.location.hash) || sections[0];
-}
-
-function showSection(section, moveFocus = false) {
-  sections.forEach((item) => {
-    item.hidden = item !== section;
-  });
-  navigation.querySelectorAll('a').forEach((link) => {
-    if (link.getAttribute('href') === '#' + section.id) {
-      link.setAttribute('aria-current', 'page');
-    } else {
-      link.removeAttribute('aria-current');
-    }
-  });
-  const currentLink = navigation.querySelector('[aria-current="page"]');
-  document.title = section.id === 'home' ? originalTitle : currentLink.textContent.trim() + ' — Jana Abo Shoueeb';
-  if (mobileScreen.matches) closeMenu();
-  if (moveFocus) {
-    section.setAttribute('tabindex', '-1');
-    section.focus({ preventScroll: true });
-    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-  }
-}
-
-// Skip within the visible section without triggering hash-based navigation.
+// Each document owns one page; normal links retain native browser navigation.
+const activeSection = document.querySelector('main > section');
 document.querySelector('.skip-link').addEventListener('click', (event) => {
   if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
-  const section = sections.find((item) => !item.hidden);
-  if (!section) return;
+  if (!activeSection) return;
   event.preventDefault();
-  section.setAttribute('tabindex', '-1');
-  section.focus({ preventScroll: true });
-  section.scrollIntoView({ behavior: 'instant', block: 'start' });
+  activeSection.setAttribute('tabindex', '-1');
+  activeSection.focus({ preventScroll: true });
+  activeSection.scrollIntoView({ behavior: 'instant', block: 'start' });
 });
-
-sectionLinks.forEach((link) => {
-  link.addEventListener('click', (event) => {
-    const section = sections.find((item) => '#' + item.id === link.getAttribute('href'));
-    // Keep non-section anchors and modified clicks (such as open in new tab) native.
-    if (!section || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
-    event.preventDefault();
-    if (window.location.hash !== '#' + section.id) {
-      window.history.pushState(null, '', '#' + section.id);
-    }
-    showSection(section, true);
-  });
-});
-
-window.addEventListener('popstate', () => showSection(sectionFromHash(), true));
-window.addEventListener('hashchange', () => showSection(sectionFromHash(), true));
-document.body.classList.add('section-navigation');
-showSection(sectionFromHash());
-// The regular navigation now owns the state established before first paint.
 delete document.documentElement.dataset.initialSection;
+
+// Restore choices that previously remained in the single document between visits.
+const pageState = window.portfolioState;
+const pauseChoices = ['.hands-pause', '.computer-pause input', '.journey-motion input'];
+pauseChoices.forEach((selector) => {
+  const input = document.querySelector(selector);
+  if (!input) return;
+  input.checked = pageState.get(selector, false);
+  input.addEventListener('change', () => pageState.set(selector, input.checked));
+});
+const collection = document.querySelector('.create-collection');
+if (collection) {
+  collection.open = pageState.get('collectionOpen', false);
+  collection.addEventListener('toggle', () => pageState.set('collectionOpen', collection.open));
+}
 
 // Filter portfolio projects without changing page navigation.
 const projectCards = Array.from(document.querySelectorAll('.project-card[data-category]'));
-document.querySelectorAll('[data-filter]').forEach((button) => {
-  button.addEventListener('click', () => {
+function filterProjects(button) {
     const filter = button.dataset.filter;
     document.querySelectorAll('[data-filter]').forEach((item) => {
       item.setAttribute('aria-pressed', String(item === button));
@@ -149,7 +123,13 @@ document.querySelectorAll('[data-filter]').forEach((button) => {
     const empty = document.querySelector('.project-empty');
     if (empty) {
       empty.hidden = count !== 0;
-      empty.textContent = 'No projects added under “' + button.textContent.trim() + '” yet. More work coming soon.';
+      empty.textContent = 'No projects in “' + button.textContent.trim() + '” yet.';
     }
-  });
+    pageState.set('projectFilter', filter);
+}
+document.querySelectorAll('[data-filter]').forEach((button) => {
+  button.addEventListener('click', () => filterProjects(button));
 });
+const savedFilter = pageState.get('projectFilter', 'all');
+const filterButton = Array.from(document.querySelectorAll('[data-filter]')).find((button) => button.dataset.filter === savedFilter);
+if (filterButton) filterProjects(filterButton);

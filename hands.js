@@ -97,7 +97,7 @@
   let visible = false;
   let frame = 0;
   let last = null;
-  let elapsed = 0;
+  let elapsed = window.portfolioState?.get('handsElapsed', 0) ?? 0;
   const folder = section.querySelector('.create-folder');
   const leftEdge = Math.max(...points.filter(point => point.side === 'left').map(point => point.x));
   const rightEdge = Math.min(...points.filter(point => point.side === 'right').map(point => point.x));
@@ -111,6 +111,7 @@
     leftOffset = Math.min(0, 500 - clearance - leftEdge);
     rightOffset = Math.max(0, 500 + clearance - rightEdge);
   }
+  window.portfolioState?.onSave(() => window.portfolioState.set('handsElapsed', elapsed));
   const running = () => visible && !section.hidden && !document.hidden && !pause.checked && !reduce.matches;
   function draw(now) {
     frame = 0;

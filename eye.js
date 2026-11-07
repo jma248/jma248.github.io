@@ -9,14 +9,21 @@
   const section = panel.closest('section');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   let visible = false;
-  let paused = false;
+  let paused = window.portfolioState?.get('eyePaused', false) ?? false;
   let frame = 0;
   let previous = 0;
-  let clock = 0;
-  let blinkStart = -10;
-  let nextBlink = 3.8;
-  let gazeX = 0;
-  let gazeY = 0;
+  let clock = window.portfolioState?.get('eyeClock', 0) ?? 0;
+  let blinkStart = window.portfolioState?.get('eyeBlinkStart', -10) ?? -10;
+  let nextBlink = window.portfolioState?.get('eyeNextBlink', 3.8) ?? 3.8;
+  let gazeX = window.portfolioState?.get('eyeGazeX', 0) ?? 0;
+  let gazeY = window.portfolioState?.get('eyeGazeY', 0) ?? 0;
+  window.portfolioState?.onSave(() => {
+    window.portfolioState.set('eyeClock', clock);
+    window.portfolioState.set('eyeGazeX', gazeX);
+    window.portfolioState.set('eyeGazeY', gazeY);
+    window.portfolioState.set('eyeBlinkStart', blinkStart);
+    window.portfolioState.set('eyeNextBlink', nextBlink);
+  });
   const pointer = { active: false, x: 0, y: 0 };
   const symbols = '01{}[]<>/=+;:constletreturn';
   const running = () => visible && !section.hidden && !document.hidden && !paused && !reduce.matches;
@@ -110,8 +117,11 @@
   stage.addEventListener('pointerleave', () => { pointer.active = false; });
   stage.addEventListener('click', () => { if (running()) blinkStart = clock; });
   pause.hidden = false;
+  pause.setAttribute('aria-pressed', String(paused));
+  pause.textContent = paused ? 'Resume eye' : 'Pause eye';
   pause.addEventListener('click', () => {
     paused = !paused;
+    window.portfolioState?.set('eyePaused', paused);
     pause.setAttribute('aria-pressed', String(paused));
     pause.textContent = paused ? 'Resume eye' : 'Pause eye';
     sync();

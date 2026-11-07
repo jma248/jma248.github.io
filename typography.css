@@ -1,0 +1,48 @@
+/* A shared type hierarchy for the portfolio and notebook pages. */
+:root {
+  --font-display: 'Italiana', Georgia, serif;
+  --font-editorial: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', Arial, sans-serif;
+  --font-code: 'IBM Plex Mono', Menlo, monospace;
+}
+body { font-family: var(--font-body); font-weight: 400; }
+strong, b { font-weight: 700; }
+h2 { font-family: var(--font-display); font-weight: 400; letter-spacing: -.035em; }
+h2 em { font-family: var(--font-editorial); font-style: italic; font-weight: 500; font-size: 1.08em; line-height: 1; letter-spacing: -.025em; margin-top: 6px; }
+h3, h4 { font-family: var(--font-editorial); font-weight: 600; }
+.hero.home-minimal h1.hero-name { font-family: var(--font-display); }
+.hero.home-minimal h1.hero-name em { font-family: inherit; font-style: normal; font-weight: 400; }
+.eyebrow { font-family: var(--font-code); font-size: 9px; font-weight: 500; letter-spacing: 1.5px; }
+nav a { font-weight: 600; }
+nav a[aria-current] { font-weight: 700; }
+.button, .project-filters button, .journey-stop, .contact-resume { font-family: var(--font-body); font-weight: 600; }
+.tags span, .tag { font-family: var(--font-body); font-weight: 500; }
+.about-minimal-intro h3 { font-family: var(--font-editorial); font-weight: 500; }
+.about-minimal-intro h3 em { font-weight: 500; }
+.about-minimal-intro > p, .contact-copy > p:not(.eyebrow) { font-size: 14px; line-height: 1.9; }
+.skills-card-grid .skill-card h3 { font-family: var(--font-editorial); font-weight: 600; font-size: 33px; }
+.skills-card-grid .skill-card p { font-size: 14px; line-height: 1.85; }
+.project-featured .project-caption h3 { font-family: var(--font-editorial); font-weight: 600; letter-spacing: -.025em; }
+.project-featured .project-caption > p:not(.project-context) { font-size: 14px; line-height: 1.85; }
+.project-featured .project-context { font-family: var(--font-code); font-weight: 500; letter-spacing: 1.1px; }
+.project-image-link, .experience-project-link, .about-simple-link { font-weight: 600; }
+.timeline-item h3 { font-family: var(--font-editorial); font-weight: 600; font-size: 32px; }
+.timeline-item > p { font-size: 14px; line-height: 1.85; }
+.timeline-item > p:not(.muted) { font-weight: 600; }
+.journey-readout h3, .curiosity h3 { font-family: var(--font-editorial); font-weight: 500; }
+.journey-readout-copy { font-size: 13px; line-height: 1.85; }
+.journey-console-bar, .journey-command, .journey-readout-tags, .notebook-bar, .notebook-footer, .notebook-window pre, code, pre { font-family: var(--font-code); }
+.contact-link small { font-family: var(--font-code); font-weight: 500; font-size: 9px; letter-spacing: 1.3px; }
+.contact-link strong { font-family: var(--font-body); font-weight: 600; }
+.demo-heading h2 em { font-family: var(--font-editorial); font-weight: 500; }
+.notebook-page h1 { font-family: var(--font-display); font-weight: 400; letter-spacing: -.025em; }
+.notebook-page h2 { font-family: var(--font-editorial); font-weight: 600; letter-spacing: -.02em; }
+.notebook-page h3, .notebook-page summary { font-family: var(--font-body); font-weight: 600; }
+.notebook-page header > p { font-size: 14px; }
+.notebook-page .playground h3 { font-family: var(--font-editorial); font-size: 29px; font-weight: 600; }
+.notebook-page .playground label { font-weight: 500; }
+.notebook-page .playground input, .notebook-page .playground textarea { font-family: var(--font-code); }
+@media (max-width: 650px) {
+  .skills-card-grid .skill-card h3 { font-size: 30px; }
+  .timeline-item h3 { font-size: 29px; }
+}

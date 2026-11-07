@@ -1,0 +1,829 @@
+{
+  "recordedUTC": "2026-11-06T06:59:30.182451+00:00",
+  "base": "http://127.0.0.1:9335/",
+  "browser": "Chrome/157.0.8103.39",
+  "functionalGroups": [
+    {
+      "id": "M01-navigation",
+      "status": "Pass",
+      "evidence": {
+        "activations": 96,
+        "viewports": [
+          "390\u00d7844",
+          "1440\u00d7900"
+        ],
+        "checks": "All six header links, logo and footer from each page; selected page and native URL match."
+      }
+    },
+    {
+      "id": "M02-skip-keyboard",
+      "status": "Pass",
+      "evidence": [
+        {
+          "page": "home",
+          "viewport": "390\u00d7844",
+          "focus": "home",
+          "url": "http://127.0.0.1:9335/index.html"
+        },
+        {
+          "page": "about",
+          "viewport": "390\u00d7844",
+          "focus": "about",
+          "url": "http://127.0.0.1:9335/about.html"
+        },
+        {
+          "page": "skills",
+          "viewport": "390\u00d7844",
+          "focus": "skills",
+          "url": "http://127.0.0.1:9335/skills.html"
+        },
+        {
+          "page": "projects",
+          "viewport": "390\u00d7844",
+          "focus": "projects",
+          "url": "http://127.0.0.1:9335/projects.html"
+        },
+        {
+          "page": "experience",
+          "viewport": "390\u00d7844",
+          "focus": "experience",
+          "url": "http://127.0.0.1:9335/experience.html"
+        },
+        {
+          "page": "contact",
+          "viewport": "390\u00d7844",
+          "focus": "contact",
+          "url": "http://127.0.0.1:9335/contact.html"
+        },
+        {
+          "page": "home",
+          "viewport": "320\u00d7823",
+          "focus": "home",
+          "url": "http://127.0.0.1:9335/index.html"
+        },
+        {
+          "page": "about",
+          "viewport": "320\u00d7823",
+          "focus": "about",
+          "url": "http://127.0.0.1:9335/about.html"
+        },
+        {
+          "page": "skills",
+          "viewport": "320\u00d7823",
+          "focus": "skills",
+          "url": "http://127.0.0.1:9335/skills.html"
+        },
+        {
+          "page": "projects",
+          "viewport": "320\u00d7823",
+          "focus": "projects",
+          "url": "http://127.0.0.1:9335/projects.html"
+        },
+        {
+          "page": "experience",
+          "viewport": "320\u00d7823",
+          "focus": "experience",
+          "url": "http://127.0.0.1:9335/experience.html"
+        },
+        {
+          "page": "contact",
+          "viewport": "320\u00d7823",
+          "focus": "contact",
+          "url": "http://127.0.0.1:9335/contact.html"
+        },
+        {
+          "page": "home",
+          "viewport": "1440\u00d7900",
+          "focus": "home",
+          "url": "http://127.0.0.1:9335/index.html"
+        },
+        {
+          "page": "about",
+          "viewport": "1440\u00d7900",
+          "focus": "about",
+          "url": "http://127.0.0.1:9335/about.html"
+        },
+        {
+          "page": "skills",
+          "viewport": "1440\u00d7900",
+          "focus": "skills",
+          "url": "http://127.0.0.1:9335/skills.html"
+        },
+        {
+          "page": "projects",
+          "viewport": "1440\u00d7900",
+          "focus": "projects",
+          "url": "http://127.0.0.1:9335/projects.html"
+        },
+        {
+          "page": "experience",
+          "viewport": "1440\u00d7900",
+          "focus": "experience",
+          "url": "http://127.0.0.1:9335/experience.html"
+        },
+        {
+          "page": "contact",
+          "viewport": "1440\u00d7900",
+          "focus": "contact",
+          "url": "http://127.0.0.1:9335/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "M03-menu-theme",
+      "status": "Pass",
+      "evidence": "All six pages: Enter/Escape, resize focus recovery, both themes persist across reload."
+    },
+    {
+      "id": "M04-legacy-history",
+      "status": "Pass",
+      "evidence": "All legacy section hashes resolve correctly; native Back and Forward work."
+    },
+    {
+      "id": "M05-projects",
+      "status": "Pass"
+    },
+    {
+      "id": "M06-page-state",
+      "status": "Pass",
+      "evidence": "Collection/filter/hands pause survive internal navigation; global butterfly pause reaches another page; reload restores fresh-page defaults."
+    },
+    {
+      "id": "M07-home",
+      "status": "Pass",
+      "evidence": "Opening reveals name, pause/resume freezes/restores animation, returning Home does not replay the completed intro; Skip works after reload."
+    },
+    {
+      "id": "M08-eye",
+      "status": "Pass",
+      "evidence": [
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "before": 104510,
+          "min": 48220,
+          "after": 101568,
+          "samples": 29
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "before": 91805,
+          "min": 30122,
+          "after": 106068,
+          "samples": 50
+        }
+      ]
+    },
+    {
+      "id": "M09-skills-experience-contact",
+      "status": "Pass"
+    },
+    {
+      "id": "M10-python",
+      "status": "Pass",
+      "evidence": "New project/Back links, six calculations, keyboard form entry and Run/Reset/required validation, eight code disclosures passed."
+    },
+    {
+      "id": "M11-downloads-links",
+      "status": "Pass",
+      "evidence": "Valid PDF and notebook downloads; three project image links each created a new tab at its intended URL. Email compose not invoked."
+    },
+    {
+      "id": "M12-reduced-motion",
+      "status": "Pass",
+      "evidence": "All five canvases stay stable under reduced motion; Experience selection remains usable."
+    },
+    {
+      "id": "M13-no-javascript",
+      "status": "Pass",
+      "evidence": "All six separate documents render and expose native navigation without JS."
+    },
+    {
+      "id": "M14-page-errors",
+      "status": "Pass",
+      "evidence": {
+        "javascriptErrors": 0,
+        "httpErrors": 0,
+        "unexpectedFailedRequests": 0
+      }
+    },
+    {
+      "id": "M15-animation-state",
+      "status": "Pass",
+      "evidence": [
+        {
+          "page": "home",
+          "key": "homeElapsed",
+          "saved": 2264.89999999851
+        },
+        {
+          "page": "about",
+          "key": "eyeClock",
+          "saved": 2.0947999999985076
+        },
+        {
+          "page": "projects",
+          "key": "handsElapsed",
+          "saved": 3120.5000000029804
+        },
+        {
+          "page": "skills",
+          "key": "computerElapsed",
+          "saved": 900.4000000014901
+        },
+        {
+          "page": "contact",
+          "key": "earthElapsed",
+          "saved": 998.0000000007451
+        }
+      ]
+    },
+    {
+      "id": "M16-final-errors",
+      "status": "Pass",
+      "evidence": "No JavaScript exceptions or HTTP failures during final feature/state checks."
+    },
+    {
+      "id": "M17-contextual-links",
+      "status": "Pass",
+      "evidence": "All three project calls to action and both standalone Python anchors work with Enter."
+    },
+    {
+      "id": "M18-header-keyboard",
+      "status": "Pass",
+      "evidence": {
+        "keyboardNavigations": 96,
+        "viewports": [
+          "390\u00d7844",
+          "1440\u00d7900"
+        ]
+      }
+    },
+    {
+      "id": "M19-keyboard-motion-controls",
+      "status": "Pass",
+      "evidence": "Both sizes: Home Skip by Enter, every non-Home butterfly pause/resume by Enter, Experience motion checkbox by Space and CSS animation pause."
+    },
+    {
+      "id": "M20-python-laptop",
+      "status": "Pass",
+      "evidence": "New project/Back links, six calculations, keyboard form entry and Run/Reset/required validation, eight code disclosures passed."
+    },
+    {
+      "id": "M21-reduced-motion-laptop",
+      "status": "Pass",
+      "evidence": "All five canvases stay stable under reduced motion; Experience selection remains usable."
+    },
+    {
+      "id": "M22-no-console-errors",
+      "status": "Pass",
+      "evidence": "No JS exceptions or HTTP errors in final keyboard, link, Python and reduced-motion checks."
+    }
+  ],
+  "staticAppearance": {
+    "identical": 48,
+    "total": 48,
+    "evidence": "visual-comparison.json"
+  },
+  "lighthouse": [
+    {
+      "name": "home",
+      "file": "index.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/index.html",
+        "page": "home",
+        "heading": "JANA\nABO SHOUEEB"
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:36:54.630Z",
+      "accessibility": 100,
+      "performance": 47,
+      "CLS": 0,
+      "failures": [
+        {
+          "id": "label-content-name-mismatch",
+          "weight": 0,
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                  "selector": "body.section-navigation > header.site-header > a.monogram",
+                  "boundingRect": {
+                    "top": 17,
+                    "bottom": 71,
+                    "left": 21,
+                    "right": 75,
+                    "width": 54,
+                    "height": 54
+                  },
+                  "snippet": "<a class=\"monogram\" href=\"index.html\" aria-label=\"Jana Abo Shoueeb, home\">",
+                  "nodeLabel": "J\nA",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "RGAAv4",
+                "RGAA-6.1.5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "file": "about.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/about.html",
+        "page": "about",
+        "heading": "About\nMe."
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:37:18.547Z",
+      "accessibility": 100,
+      "performance": null,
+      "failures": [
+        {
+          "id": "label-content-name-mismatch",
+          "weight": 0,
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                  "selector": "body.section-navigation > header.site-header > a.monogram",
+                  "boundingRect": {
+                    "top": 17,
+                    "bottom": 71,
+                    "left": 21,
+                    "right": 75,
+                    "width": 54,
+                    "height": 54
+                  },
+                  "snippet": "<a class=\"monogram\" href=\"index.html\" aria-label=\"Jana Abo Shoueeb, home\">",
+                  "nodeLabel": "J\nA",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "RGAAv4",
+                "RGAA-6.1.5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "projects",
+      "file": "projects.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/projects.html",
+        "page": "projects",
+        "heading": "Projects \u2726"
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:37:44.164Z",
+      "accessibility": 100,
+      "performance": null,
+      "failures": [
+        {
+          "id": "label-content-name-mismatch",
+          "weight": 0,
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                  "selector": "body.section-navigation > header.site-header > a.monogram",
+                  "boundingRect": {
+                    "top": 17,
+                    "bottom": 71,
+                    "left": 21,
+                    "right": 75,
+                    "width": 54,
+                    "height": 54
+                  },
+                  "snippet": "<a class=\"monogram\" href=\"index.html\" aria-label=\"Jana Abo Shoueeb, home\">",
+                  "nodeLabel": "J\nA",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-1-SUMMARY",
+                  "path": "1,HTML,1,BODY,2,MAIN,0,SECTION,3,DETAILS,0,SUMMARY",
+                  "selector": "main#main > section#projects > details.create-collection > summary.create-scene",
+                  "boundingRect": {
+                    "top": 377,
+                    "bottom": 602,
+                    "left": 25,
+                    "right": 387,
+                    "width": 363,
+                    "height": 225
+                  },
+                  "snippet": "<summary class=\"create-scene\" aria-label=\"Open or close my project collection\">",
+                  "nodeLabel": "create\nOpen collection \u2197",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "RGAAv4",
+                "RGAA-6.1.5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "skills",
+      "file": "skills.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/skills.html",
+        "page": "skills",
+        "heading": "My\nSkills."
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:38:00.811Z",
+      "accessibility": 100,
+      "performance": null,
+      "failures": [
+        {
+          "id": "label-content-name-mismatch",
+          "weight": 0,
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                  "selector": "body.section-navigation > header.site-header > a.monogram",
+                  "boundingRect": {
+                    "top": 17,
+                    "bottom": 71,
+                    "left": 21,
+                    "right": 75,
+                    "width": 54,
+                    "height": 54
+                  },
+                  "snippet": "<a class=\"monogram\" href=\"index.html\" aria-label=\"Jana Abo Shoueeb, home\">",
+                  "nodeLabel": "J\nA",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "RGAAv4",
+                "RGAA-6.1.5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "experience",
+      "file": "experience.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/experience.html",
+        "page": "experience",
+        "heading": "What I\u2019m\nlearning\nand doing."
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:38:17.390Z",
+      "accessibility": 100,
+      "performance": null,
+      "failures": [
+        {
+          "id": "label-content-name-mismatch",
+          "weight": 0,
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                  "selector": "body.section-navigation > header.site-header > a.monogram",
+                  "boundingRect": {
+                    "top": 17,
+                    "bottom": 71,
+                    "left": 21,
+                    "right": 75,
+                    "width": 54,
+                    "height": 54
+                  },
+                  "snippet": "<a class=\"monogram\" href=\"index.html\" aria-label=\"Jana Abo Shoueeb, home\">",
+                  "nodeLabel": "J\nA",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "RGAAv4",
+                "RGAA-6.1.5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "file": "contact.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/contact.html",
+        "page": "contact",
+        "heading": "Let\u2019s\n\nConnect."
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:38:31.637Z",
+      "accessibility": 100,
+      "performance": null,
+      "failures": [
+        {
+          "id": "label-content-name-mismatch",
+          "weight": 0,
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                  "selector": "body.section-navigation > header.site-header > a.monogram",
+                  "boundingRect": {
+                    "top": 17,
+                    "bottom": 71,
+                    "left": 21,
+                    "right": 75,
+                    "width": 54,
+                    "height": 54
+                  },
+                  "snippet": "<a class=\"monogram\" href=\"index.html\" aria-label=\"Jana Abo Shoueeb, home\">",
+                  "nodeLabel": "J\nA",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-1-A",
+                  "path": "1,HTML,1,BODY,2,MAIN,0,SECTION,0,DIV,1,ASIDE,0,DIV,4,A",
+                  "selector": "div.contact-grid > aside.earth-scene > div.earth-orbit-stage > a.earth-orbit-link",
+                  "boundingRect": {
+                    "top": 1076,
+                    "bottom": 1137,
+                    "left": 184,
+                    "right": 228,
+                    "width": 45,
+                    "height": 61
+                  },
+                  "snippet": "<a class=\"earth-orbit-link orbit-linkedin\" href=\"https://www.linkedin.com/in/jana-shoueeb/\" target=\"_blank\" rel=\"noopener\" aria-label=\"Visit Jana\u2019s LinkedIn\">",
+                  "nodeLabel": "in\nLINKEDIN",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "RGAAv4",
+                "RGAA-6.1.5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "python-practice",
+      "file": "projects/python-practice.html",
+      "before": {
+        "url": "http://127.0.0.1:9335/projects/python-practice.html",
+        "heading": "Python Practice"
+      },
+      "version": "13.6.0",
+      "fetchTime": "2026-11-06T06:38:47.931Z",
+      "accessibility": 100,
+      "performance": null,
+      "failures": []
+    }
+  ],
+  "baselineHome": {
+    "name": "home",
+    "file": "index.html",
+    "before": {
+      "url": "http://127.0.0.1:9334/index.html",
+      "heading": "JANA\nABO SHOUEEB"
+    },
+    "version": "13.6.0",
+    "fetchTime": "2026-11-06T06:27:20.215Z",
+    "accessibility": 100,
+    "performance": 43,
+    "CLS": 0,
+    "failures": [
+      {
+        "id": "label-content-name-mismatch",
+        "weight": 0,
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,1,HEADER,0,A",
+                "selector": "body.section-navigation > header.site-header > a.monogram",
+                "boundingRect": {
+                  "top": 17,
+                  "bottom": 71,
+                  "left": 21,
+                  "right": 75,
+                  "width": 54,
+                  "height": 54
+                },
+                "snippet": "<a class=\"monogram\" href=\"#home\" aria-label=\"Jana Abo Shoueeb, home\">",
+                "nodeLabel": "J\nA",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Local-only; not deployed.",
+    "Email compose and full Contact keyboard/external-app behavior remain manual.",
+    "Home Performance is below the existing 90-point TESTING.md target, also present in the approved local baseline.",
+    "Unweighted accessible-name findings remain."
+  ]
+}
